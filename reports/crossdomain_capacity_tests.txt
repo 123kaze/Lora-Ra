@@ -1,0 +1,5 @@
+Observed command: E:\envs\LangChain_agent\python.exe -m unittest discover -s tests -v
+PYTHONPATH=E:\Projects\Lora\src
+23 tests passed; test runner reported 2.253 seconds.
+Exit code 0.
+This is a concise record of the observed test output; raw experimental logs are separate.

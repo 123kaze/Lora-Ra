@@ -1,0 +1,41 @@
+{
+  "status": "capacity_screen_only",
+  "pass": true,
+  "specification": {
+    "step": 600,
+    "low_rank": 1,
+    "high_rank": 4,
+    "minimum_mean_loss_reduction": 0.01,
+    "require_all_adapter_pairs_positive": true,
+    "require_both_width_profiles": true
+  },
+  "outcomes": [
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "paired_rank1_minus_rank4": [
+        0.10408192127943039,
+        0.07938072085380554,
+        0.08788509666919708
+      ],
+      "mean": 0.09044924626747768,
+      "sample_std": 0.012548644268943724,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "paired_rank1_minus_rank4": [
+        0.057216472923755646,
+        0.05718187242746353,
+        0.058686383068561554
+      ],
+      "mean": 0.057694909473260246,
+      "sample_std": 0.0008588155891812252,
+      "pass": true
+    }
+  ],
+  "independent_base_seeds_per_profile": 1,
+  "method_advantage_tested": false,
+  "test_split_used": false
+}

@@ -1,0 +1,12 @@
+{
+  "blocks.7.attn.q_proj": {
+    "G": "m0_G",
+    "Hin": "m0_Hin",
+    "Hout": "m0_Hout"
+  },
+  "blocks.7.attn.v_proj": {
+    "G": "m1_G",
+    "Hin": "m1_Hin",
+    "Hout": "m1_Hout"
+  }
+}

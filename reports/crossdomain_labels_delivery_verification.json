@@ -1,0 +1,30 @@
+{
+  "clean_checkout_without_runs": true,
+  "torch_required": false,
+  "verification": [
+    {
+      "files_verified": 99,
+      "trajectories": 24,
+      "validation_rows_recomputed": 72,
+      "raw_validation_logs_matched": 72,
+      "paired_traces_match": true,
+      "capacity_gate": true,
+      "independent_checkpoint_audit_pass": true,
+      "requires_torch": false,
+      "pass": true
+    },
+    {
+      "files_verified": 364,
+      "trajectories": 84,
+      "validation_rows_and_raw_logs_matched": 168,
+      "prefix_utilities_recomputed": 1152,
+      "max_numpy_spectrum_error": 8.881784197001252e-15,
+      "exact_allocations_recomputed": 36,
+      "base_level_summaries_and_gates_recomputed": true,
+      "requires_torch": false,
+      "pass": true
+    }
+  ],
+  "modified_summary_with_updated_manifest_rejected": true,
+  "pass": true
+}

@@ -1,0 +1,1824 @@
+{
+  "files": [
+    {
+      "path": "configs/crossdomain_labels.json",
+      "bytes": 592,
+      "sha256": "3ecd4d688ef044210d617d7f02d0bbcff92c7caa503e10100ed6206f974d2e62"
+    },
+    {
+      "path": "figures/crossdomain_labels/plot_labels.py",
+      "bytes": 4171,
+      "sha256": "8d8fa5f7c12179f4035caeb26a55bce1e6819acf4c88a602a57f2990f9158ae6"
+    },
+    {
+      "path": "figures/crossdomain_labels_20261122_01/comparison.png",
+      "bytes": 166987,
+      "sha256": "df320b4d1754b02d9942c78005e728b69a2c748c7500bbb23b36ceb452c5222f"
+    },
+    {
+      "path": "figures/crossdomain_labels_20261122_01/comparison.svg",
+      "bytes": 21359,
+      "sha256": "c3aaf94b6d76fc5e1c4c997d333b7ec2ae93f2c957a2eb43c9ba3b69ff0c7954"
+    },
+    {
+      "path": "figures/crossdomain_labels_20261122_01/paired_differences.png",
+      "bytes": 188144,
+      "sha256": "0d725dd6963310d74aa1278853d7c7866d3f3b717a483b683efb6f541f34de8b"
+    },
+    {
+      "path": "figures/crossdomain_labels_20261122_01/paired_differences.svg",
+      "bytes": 17880,
+      "sha256": "a042ea7e6fd8cf0bee146221e6df7c2dc75e89f23fc1019fccdf611214f0e287"
+    },
+    {
+      "path": "plan/crossdomain-label-protocol.md",
+      "bytes": 3294,
+      "sha256": "4f3ad8764138465873082eb5bca04db72b004bfaad1943e0dbbff5c011112e56"
+    },
+    {
+      "path": "reports/crossdomain_labels_20261122.md",
+      "bytes": 5901,
+      "sha256": "4356d7059d7fea222b90949e18144054b9fc26c62125feec405ee02a52b3ef55"
+    },
+    {
+      "path": "reports/crossdomain_labels_tests.txt",
+      "bytes": 3237,
+      "sha256": "3396867ca1e0bd258a9491752ed32d94802279cfc524cd598dde98518ae6af02"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/allocation_summary.csv",
+      "bytes": 1683,
+      "sha256": "865d420efef92b856492bf7d24c028ec4f56f1db245a858964c234729935e513"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/base_comparisons.csv",
+      "bytes": 1269,
+      "sha256": "6a186c44dadb4ab15457639f389bca38d1d78fb27f946dbd7bf3fff20065a392"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/by_base_summary.csv",
+      "bytes": 5762,
+      "sha256": "ff5feff85451f2f999090b4307e2d009176978542bbd5bab98e2d6851724f289"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/checkpoint_audit.json",
+      "bytes": 34463,
+      "sha256": "4ddf4754d23ed4e4598d18168a1f8c453faf5d2e19a031a56c7efcc3c491ae27"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/completion.json",
+      "bytes": 122,
+      "sha256": "d95a5c162fe7a1a5c8421f3909998c2746a6cdb8687a1ab9d858b9daaa6f42b0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/config.json",
+      "bytes": 819,
+      "sha256": "0dedd07e2c3f0948cbb36390e11f52a3f2258fd79098331cc6774ecd1aba5aa7"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/data_manifest.json",
+      "bytes": 2928,
+      "sha256": "5f5ae6c6e28d731b94a9127c902d2e40862f68bd094a44d8ff129a698a346417"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/identity.json",
+      "bytes": 7466,
+      "sha256": "3c818ef6155997f788c9b40512029c2504234eebaea3f0739414b598fb373e6d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/allocations.json",
+      "bytes": 1926,
+      "sha256": "435a143b46f90b0c7695399c6b669afe0dd020a745f7a1c04f3b074c715d0b5a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/baseline.json",
+      "bytes": 309,
+      "sha256": "e88d9991355a144932282dba5dbba2942aaec38b3c6213ce27899da465379593"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/calibration_arrays.npz",
+      "bytes": 187912,
+      "sha256": "82d5cb452f32303300adcb453423c1c30e0944233253a48a26cf6707a9dd6bed"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/config.json",
+      "bytes": 1326,
+      "sha256": "8d37b6497cefe5e9ef6f80fec174bf18834ac5e7b77401567ae6a38f21ba2f10"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5672,
+      "sha256": "c07e86321b358339857a5f379ffcc74d79794975186a989835abfb7b67dce704"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1143,
+      "sha256": "9ee9fb6b0fa72e5666a2ed4949ad983b0a2b11315852965f599455224a880ec7"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5667,
+      "sha256": "d4293d3d064e02f7f0dc7ce389dfd0f223cbbc8795b898020874cce4690efd7b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1144,
+      "sha256": "596cb8eeb29af7bead11e9d70914dda982aea6ce75bbb3998cc68a6e08a6a3bd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5671,
+      "sha256": "3027648ac74c9e5b395d72f4dd3924fb90718112d4f1121b66bb22d86811098f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1146,
+      "sha256": "eb51c8855266d1879f63c8f7098e3c0d3dbe67c8f8e26192c044adc445be322d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "6f8c97dbd77d94ff01bad3d3fbd4208dae105975f73674a392c33e17e420f859"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1145,
+      "sha256": "79398d655ae6d862007f4080734104ff027acec4952062d39e1401c30b840abf"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5668,
+      "sha256": "0f85b3a7ca33eba06cee527c279f8d93d8696653c791c47a6ddb200778bb974f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1142,
+      "sha256": "4117719b18ba83872eede90cb5cd6198885789788fc1ccb6599898b6d7ca3982"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5668,
+      "sha256": "737ecba3401a75bccc8a1ef2ffc1de455519affbacfc1802c2d14f078dd69709"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1147,
+      "sha256": "0c1bab5ea226f2c76decacd9e72233497299e9128e5969abca9b779cb47a35de"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5660,
+      "sha256": "c8c162677a03cf97bf6def9d5dea24d57612146680cb5d5f00045bacb9a97b65"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1146,
+      "sha256": "48629683f212a8b5ee9fd0be142485b1e0a39a431d5cc850d6f2aa5ed42731bd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "010a23a57924319af5eb252da2c87099baeb80e8aff2525b9a0a0bcd43877ba4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1142,
+      "sha256": "4b8f7f337931b331422997f17e9490000aba0b08cc40832d6ffc54a943749e9a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "ecb2988f5285035fdbfe8828da7579710e1501e35b677cfec5dbbce1020e8967"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1143,
+      "sha256": "260c4352e5cb6ab567a494d8193ca3cd5b4dfdb32b2dd6b9ee97ac1a039de38e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5671,
+      "sha256": "cc83a4edb43a724a6229ee2783e30ee77e079b070f32a1907e84dc46d81a3f81"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1144,
+      "sha256": "f6ede0cf24d776191e224cf9a85137bfc7a030b86fc276153c82a83cba67b608"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5661,
+      "sha256": "e3d7be163a432b94a0e65191b929c45b52749ca9688fe950837271f7a1d99731"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1097,
+      "sha256": "95229d14e09a0cfafb7db519652b8c3705cb0c8cbddb08843a4acad36a1a9fc5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5659,
+      "sha256": "82b3a5716cd4982627f3e03bd58ab3f972beee73eb485bd29efe06846ba2b4ba"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1098,
+      "sha256": "5564b6e66ebdc1450070856d63e8ae899c217574d0fcddc90a17475a09ac9a0a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "d000dceb49779bba3130cb3cbde450d0ad73e6d7cd2414c150cf3f51a59f9d76"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1137,
+      "sha256": "73eb9bebd762fca6c2f42054010944937ed46e9949bab78e2c57659f66ac321a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5669,
+      "sha256": "d9d78340b69c943ac02e29a6f5ba5c5dc96915f12352b70e1db209b5b87e0ac2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1138,
+      "sha256": "930004dc553cd0ab5eccf7d9a60733e93361738c862051a5d4fa601fb147b898"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_11_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "6d32f474e943241f6592809f7b48f110350db6828c8751ad2dd329ecadf3654f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_11_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2424,
+      "sha256": "bafabdb08fc19e84d689a547bd8ce36a18489ec0a8b936448ebd7d68845ca93e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_22_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "2623921066432303cd129d8fd6f27f82473626ad50a605a7087e4c1ed0274942"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_22_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "1a5b9fd5f55ddd0e0da3e06e00f6896441eb61898ccab08970e41fe4e69fa1e0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_33_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2427,
+      "sha256": "8f746b08551caee7a0793cfb6d6008daa0b4f186d8a934b55e686a0ebbc090b5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_33_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2423,
+      "sha256": "fecbd03ea32b93802e65dc346bb95ea39917d93166fbe0e6a65e08717b466328"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_44_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2418,
+      "sha256": "893fba46b865b8c7ea288f468b6f91187afda2a02355e1c88265c71e0fdc8cd5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_44_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "e773e4027c62218a44830e550e650ce5101eaff51e46c4ea7ed0bc741492968c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_55_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "eeaca4dc4b1447e2068b25b3a7197dc165de583f3d8ef339bce3231f5f5df46b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_shuffle_55_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "ba45c587e2d272c0887e57edde803b7c0317e4c48078e8a71f3761dda7f337cb"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_true_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2385,
+      "sha256": "c75bcdd4de1f316c2cf1369d79cdf1387db9ccaaa10750d363fcf08aed17a058"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_true_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2384,
+      "sha256": "6f4cce6b15a1eac83f74fbe2c22d127456b0ed851f6e54dfbafcfb4fe4897faf"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_VBalanced_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2420,
+      "sha256": "7a867ac6b118e9e9e92368a35544fd3c4bb0c11d7a52366a35d71041f0804307"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/logs/labels_VBalanced_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2419,
+      "sha256": "36c1f09bc08182d7ef168d26c234ae2fd4d6d57142dba6cb8424c02817b5eed6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/parent_checkpoint.json",
+      "bytes": 191,
+      "sha256": "faace184404d4a66769499f49cc099788734e62db21f8061a5accd32acb108b6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/pretrain.json",
+      "bytes": 939,
+      "sha256": "0b70787a61f2c9054039fe890b19f561ee280793d5ba33f82892c195fcf54fc6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/spectra.csv",
+      "bytes": 14165,
+      "sha256": "cfa133a53712609aa1d555e848b2d75cead233bf8de7a5d8330dbcf043b01839"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/structure.json",
+      "bytes": 9308,
+      "sha256": "e1dc63f4975694ba740549dd3c598299aea722ed8f98993632af3715502508ac"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/allocations.json",
+      "bytes": 1932,
+      "sha256": "a22b648f91500f68a4bb05ec050a20488b449cc81c9bdff35059c9be6b4042b9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/baseline.json",
+      "bytes": 311,
+      "sha256": "2a41e1a2afc85913e3ce8f55a630cd3751934e0488f3e85301fced784798e670"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/calibration_arrays.npz",
+      "bytes": 187762,
+      "sha256": "6735cb04c3dec178d6aa96c4219f28db6363cd56db0656d5e41e4a6558ec9bf4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/config.json",
+      "bytes": 1326,
+      "sha256": "92e1cec154dfa9618c485bb598f7a62953c40fda80138ba44f44c487610a2d9e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5671,
+      "sha256": "61cabdaf2e09744967fd64610d620dcc56c1237f6ea6621eb448625e253ca877"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1143,
+      "sha256": "1139ee03484e2adf9233e0d279fdb2783050c3d016f947ef4cf1a4a909372037"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5667,
+      "sha256": "df89f52309ada585ef523f8da8fa5bd267ea6080e6c6d694864a2cc42325c2b5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1144,
+      "sha256": "dec6009f805689c26c64a82b6e6a865e49534740e595acaf814bf7ee19c2eeea"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5672,
+      "sha256": "e0a84e9c1e1c49cb55110ec21cd374117ab11a3800b39933519dbafa2c097fc7"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1143,
+      "sha256": "27821e77d640011748e9007af52a001ec830c6cd420900af9b6881cbaf5b7bb6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "d802af047b067a13fcf75c66645622eb1f2d09a4ebdb757af242aef03924c54c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1145,
+      "sha256": "dcca818544fc86531064ea0cf8fa5079bfa7cc00020e700146fc78670e5d34f9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "27d5a2cf289309e50097dd46a5666d37d80f6a63b5c30feccbc0b701df40db85"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1142,
+      "sha256": "a3ec2edec8dba59fa1e10ecefb8f4402fe145c21724da9b4bec9977a084a1c39"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5676,
+      "sha256": "ce3b416ea0b2a3d170feb5881a6ae092a974d853d639b10e00d2c3873fc1718b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1146,
+      "sha256": "abb1dcb23234c2c590ef6043211808f368a725d66e0f9835be342c8027609590"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "73ea5d196bdb1b3886aab69fa4dee123a906feae292526c9563ed2b9ca7d9c04"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1147,
+      "sha256": "ed34d244ede97f2d64bd3dd39c31fce75f4107ad08db9b341a1b92743203043c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5671,
+      "sha256": "7a68c1a9d784b681733f46e9d0203b643fa2aed07b2d27e1101b85fe385a6ddd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1145,
+      "sha256": "4db79ef34f5f227181a1637228d063a3cf1fca8029093a3626043aad9ddaa268"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5667,
+      "sha256": "ee5aa451260bebae56d96447c669517bc7398e0110dbae5703cd0e161c27d0c9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1144,
+      "sha256": "8a04b25b269e781bca4d01e51a1fa16b6e94aebc2f90a184db68143533380666"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5668,
+      "sha256": "13379b5aa890742f482ba735d24f5776f8bd7859e0743c6fde1c905898cacf5f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1144,
+      "sha256": "c7152615b3adb7795173d1f8e599a611e76c4260f4c970bca389d4af1c130029"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5656,
+      "sha256": "ec6d8be2f24d0fc096a5291fb401be0cb55f12de5bf86e005ab9022ae33a6995"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1098,
+      "sha256": "ab417e9f45dedc69400b6f2c9a447e933ffc0190eb8bca14510c926adc4965fc"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5657,
+      "sha256": "beed6cd894bdb7e64ef9ce16c951f1719b1b583daf4058ca927ab3f579c7a3b1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1092,
+      "sha256": "c00d41c6e41e9a3b14aebd43b19f433fd2fadb77f21900645e2d7bfa1ab98cbc"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5667,
+      "sha256": "bb07132b580e16b502e8aaf888804eddc31a417d32048c4bd48ef593c5be45c2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1138,
+      "sha256": "0242b35c35b219170ad4b5dd752d8ca07eb6f225f679524a0cd5e511293af8c5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5666,
+      "sha256": "c68c85a8f19a354b54834892ba53beedfe1815f4b288d6bd33c1670750f66234"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1132,
+      "sha256": "c11cd2b41388e206b22b9875bd74c29697d89d917c45b2bb40d7dcf7c8e38576"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_11_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "fc3b4cb1cb349bb2c3c186b2be61271240d5b176b8c83a7ab4c31d7c5c5cca0f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_11_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "659934952379a66226acc88a64b8ac78597c886a70ab8e8ca91f2a3de76074d9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_22_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "07814d5cba5e6e84d34e418f926501fb296028ade6fbbcab1d7905fa59c4d4df"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_22_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2429,
+      "sha256": "c4dac049d293fffcbd9349f969cb863b247cbf5d829f6fe50299dd729eb32bf3"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_33_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2423,
+      "sha256": "75d964301a6007a557a0ca958cf6ace56772531c223493ae8ffe290f51b0367b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_33_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2431,
+      "sha256": "f78fe4ab8e7abcc02cfe921f22ce3943ab51c29e3b7dba0cfcf53e9faaa850c8"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_44_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "f73bf70254d9666a9e1fb927e433bf5836e50f85830bb5df7919d3e7b83a01e1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_44_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "8ed4f45bad3bd854769116d8311733df8deb3273ff0c0d276e55793b7489a71c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_55_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "b123c76dc223ec78256047c42d44c2019afe8e0735c2c237a541a58b0d229c10"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_shuffle_55_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "2a3cd1030d43138bbc7bfea5b29ac1b3c1674bed415c0139a53401ddd6da634d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_true_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2385,
+      "sha256": "b1c4c636559ff54712b32990d6d1be3a79bf91dbe70c3caf4d6a46e95f9f005e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_true_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2384,
+      "sha256": "361c188b2717b9b83083f388f090ceb311099da9cd9c7911a092677c8a4ebc33"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_VBalanced_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2420,
+      "sha256": "b85bd59991a6abb1359030e6908b69e42dcea868cd34c211871b4b3c59bea3a4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/labels_VBalanced_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2419,
+      "sha256": "a640a839fa4c37cd1b6d63b28190437797d8b17a910a7118dcc1ceaed4eeec19"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/logs/pretrain/attempt_000.jsonl",
+      "bytes": 3870,
+      "sha256": "86e564ff60117a39647b4649c91c383886f164d90a7fa8e870680d07a84069e1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/pretrain.json",
+      "bytes": 945,
+      "sha256": "c9a1414e04ff73c8494f719606e89363068dcb63cbc77e01cce1456d03dc4d14"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/spectra.csv",
+      "bytes": 14157,
+      "sha256": "48883866848b7b7633f28ef926b9ae816e310ae20b4efcc427c5c2c038a00784"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/structure.json",
+      "bytes": 9308,
+      "sha256": "e1dc63f4975694ba740549dd3c598299aea722ed8f98993632af3715502508ac"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/allocations.json",
+      "bytes": 1932,
+      "sha256": "81ccd8007dcdf92799cc860f10926bcc7943eb2ccd9651222afbc8ad355a0cca"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/baseline.json",
+      "bytes": 313,
+      "sha256": "1622e296b150b7a8c2b66d1789c838ec1f8ea665c38f10f0c7e79a33868121b5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/calibration_arrays.npz",
+      "bytes": 187609,
+      "sha256": "e0ae5fae6c80d96b3a293e0d0df12d02ed86d0554250500df018c33223fc80ce"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/config.json",
+      "bytes": 1326,
+      "sha256": "27cf9eae4af1a54270bdc5d0922aa9782f79490934a0c1c619984ceb9109247f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5669,
+      "sha256": "320bc6e646187ab27c42050944aa9403c9b6eb22601962dbabfe491bef4752db"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "6af9ce399e914b793bc48d19b3d700158b6c6a9fcf9385dd9cd3eb911108edad"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "11676311b153d905a241aca5ed48891742379d8968d7227d6ce8478fdca7ba79"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1144,
+      "sha256": "5d476359a205838046b656aa3dfbc0c459cc1926200b91b07680a15b03207b3f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5664,
+      "sha256": "99fa8e34195e4c44967340696945870108e6c2d30ad827a7464ab209e3e335ea"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "ac66b952e3247d89bf7a189a2f8b766cb7eb94a48316196c0ec7cf0e859d14c5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "379e40b85b64ec260d819de8f8969dfae3e377c862a2de970624202c43f23f92"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1142,
+      "sha256": "8020592636a5bd3a6e5c791b93bdb188ff9b7120536b1d0e342d27af01048a6f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5671,
+      "sha256": "159db1ffb31c8908afa2bdb3a375fb205a9765556d542487b9c3949dade02293"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1141,
+      "sha256": "f1cfcc35e5430ca1ee851031c259eb32d04a163006a60048a554a7c96711525a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5668,
+      "sha256": "3b70604ba8e6aa8edea1f634697db763bb53797db89ee6b7a30af0d71702874b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1143,
+      "sha256": "c43be7a0326a903f0cde33916512bc4e2981960cc53dc0adf7680639d7a499e3"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5671,
+      "sha256": "dd7681d601f0d11925cc1532017dee8385143f327183e21ac806344e62bcb72f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1146,
+      "sha256": "da146a3f8de462aa7f792d4dc77fad686ad0822c2ab67ea709afc5e5a7b485aa"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5665,
+      "sha256": "6a9a7d0df64882b25be034a166bef298f48d5b96b3375ab6252157dfd144e69a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1144,
+      "sha256": "82eb21dcac4c91ce07fd7783c5f4173f76a0c094c64a961ddb1a23237eac3512"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5671,
+      "sha256": "c7b2ef675bdb904ee725ce1af485919d3aa5f3bbe07b84cc8635a4d13b855990"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1140,
+      "sha256": "c455e087555ed279f5f3b4b759fe656c498a80ecf568e64b9bf66c2ad180e542"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5672,
+      "sha256": "748226d060c4c1fc2abfa614a00c2eba91100b8ec6c606e7eacd4c8f2ce72b87"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1146,
+      "sha256": "7c87c233c1c428594a35e6a9cec1a9c2e64088920961e19e29f87903e1d3a926"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5660,
+      "sha256": "e2e57679af6a081e3c584f92a3c101f9c4db92d3b11b0d7cdb4b7ab32d22da16"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1093,
+      "sha256": "35ba3bacff41b1ce5302c89ad1b4437bfa45765f043cd069a903a57dfdc4a249"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5657,
+      "sha256": "03081fb7c99391e9156f359d8511de97b54fba0d44beb144532b61f5a8eee29b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1099,
+      "sha256": "61a49f766383e8848d6cd44f4f7cb6bc12ce492607972036712c7e9d7ee68176"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5669,
+      "sha256": "885a96b6887397d9e50a1ce0cdd451dc8f0f1fadb5c05c128a62632a5b85a8b9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1133,
+      "sha256": "aafa0d03fa1fb88c065289c7580a6eddcb030aaac4006dc40c0260cdfcf3a3a0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5667,
+      "sha256": "2f259de624f082c891e1864508d2d843648c5cb3aaf49e63c9bd28df12341279"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1139,
+      "sha256": "fdfc6dfcae9066b386d677ea2fa6658f520e995937268e8dc7fcbc51f39398ae"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_11_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2427,
+      "sha256": "ae791fd512763b3bf506dfe0fbafada17b77c83da3aa18f4bb128fc195a69aec"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_11_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2427,
+      "sha256": "c0e75ae9c87084e98ec4c314e1b434358e2d4241a4c11589bae075ba32f4ecb6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_22_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2421,
+      "sha256": "5a0543bd2e6e650047de601d2076ebcf0d1506f754ed14a85a6ddd16e7c10e63"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_22_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "a15b845063374d597a906e24126435536dc69e2bff4c2ff54ee626935e1ae167"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_33_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "e9f8b91593d8caf1324b43518ba2669c29b90ce610fde93ade2f540ce2f32c2a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_33_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2424,
+      "sha256": "249a295fc1f38e68eb6baab19940417bf03769432287abf194a784a51e02d907"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_44_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2429,
+      "sha256": "e0690a50944a10baa8ec0f61a4a94d85e2e078be7db3e78f8742b4e07f0f5c1c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_44_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2422,
+      "sha256": "a318cdad69a08cc51e037c93a75404803870db1ad4ba6de8aa36da5613cd6df6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_55_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "d9ea9c896e20202defee38b8e4ab40bcdfc70dd7b4d360098d44aaa0c7534f54"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_shuffle_55_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2427,
+      "sha256": "d2f9bd868bd6db500ce91b0b69fc9d0f8be019a81cc49f852e542232b4410fcb"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_true_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2386,
+      "sha256": "0c235945279d7f391e7ec373414ca84a831e18f00ce1abc22acbadf5694dee55"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_true_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2383,
+      "sha256": "3ac453a207b7c325300410b77bd333bfb4c42755688cd90103f8fafc9bc63f92"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_VBalanced_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2421,
+      "sha256": "eba2063b00ea2b9178fa916701d30bc8dae2530296cf9f97dbd7a08d860747c3"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/labels_VBalanced_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2418,
+      "sha256": "08fe8f0a25df8d51d1568ae98be0b680b98956ff8b1f6022829fc292271c1686"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/logs/pretrain/attempt_000.jsonl",
+      "bytes": 3881,
+      "sha256": "784592b6b74cfa1f162931e7cd92229baf77acd294ed245c2e1c408c2def6a1d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/pretrain.json",
+      "bytes": 946,
+      "sha256": "7c8467730870664651bde166e6aa6a87d65cfae844336c37def04f9881d75717"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/spectra.csv",
+      "bytes": 14143,
+      "sha256": "f7c62cbfa43505a1a67644ac8e802e45ca0f177e0b0674a8a8e6df48fe4e3157"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/structure.json",
+      "bytes": 9308,
+      "sha256": "e1dc63f4975694ba740549dd3c598299aea722ed8f98993632af3715502508ac"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/main.csv",
+      "bytes": 44468,
+      "sha256": "318120ca208b115ea1013915751d31e443fd2f495236f2f3479b63b4174f4efa"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/protocol.md",
+      "bytes": 3294,
+      "sha256": "4f3ad8764138465873082eb5bca04db72b004bfaad1943e0dbbff5c011112e56"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/README.md",
+      "bytes": 1012,
+      "sha256": "e19534399ee9f145325c61c0b6f00bc4bd0599786b948d8f92b2dce1466ad6b5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/report.md",
+      "bytes": 5942,
+      "sha256": "e859062f184c28b9bee4b3db50ddf1d20eb8b128fc4e941c8086f13d8be330de"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/allocations.json",
+      "bytes": 1929,
+      "sha256": "e92908f01fc077a3631492b7940653a0b8d206abd8078124bf302ec7f48e79eb"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/baseline.json",
+      "bytes": 311,
+      "sha256": "4175ce10458262a0eb457aaf25e9fabd54c144abd512ddab30727091d2212314"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/calibration_arrays.npz",
+      "bytes": 188234,
+      "sha256": "cf0c33eda777845882a58073aaf02885779cb03b5dccdde8e86f20424b9f8b9e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/config.json",
+      "bytes": 1327,
+      "sha256": "78ffb52f4ad3a27bd50a650543bd0dee1e0c31c776c71784457d03bf59ac8b5e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5669,
+      "sha256": "bca619980ca9cca1dc2f18a70e59ac94095110f377dbb580532cef90be46ce60"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1143,
+      "sha256": "7a640af3f1f5b0434ca11680c1f6373ba1da305f552008f955515b8939b84691"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "87d783c675332a020c7aa4227b7e63a07d4a00d0684ff143051557c015d9020e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1147,
+      "sha256": "3d9dbad799074f63967c6920d15a0ba30ae8b1ebf5cece43698d6d54ffef8768"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5673,
+      "sha256": "73a59522b0da266825f5c93ff82507eeee9f499a6dc6c00b94a9d7e0c8cdd379"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1146,
+      "sha256": "4c92b4c1ee0ed5c0445b1605693f672882481de0655d427f885594b14a4b4b7a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5669,
+      "sha256": "98443cd4c696bebb3129d07e6be5690115c3c9f6522ec93b81b197d4a7550aee"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1143,
+      "sha256": "8b61da093c13b90504ab0064789779135c13bdd9a67a11618eb356999d0fe1ac"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "ea334f9c803c794424d2cb7070412f4d26709ae1f21536b19eede2ce88b6008d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1141,
+      "sha256": "40b7f525716b156eab5427b782006853b17f5540444c1972b66995ac9dfd7414"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5673,
+      "sha256": "7571f1c35addeb6fb0a8e3f3b6d791085adbc44139b73ebf7b3374f0fabc47b5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1142,
+      "sha256": "68228ea0f1e4861a93b48ea446b210fddc025192edf30259f8d6c6d53171c0e5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5674,
+      "sha256": "f7a31a030277a40d4828a40ffcb6b09bca86a96585131198d9ccfd300ec41d19"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1140,
+      "sha256": "688d0b6e58e993bf74d5b63e8d1fc5468293b42dff938b4c953b896529fd5a13"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5676,
+      "sha256": "27859661926a80acb026d1535a3425234ea5e2cd358492ee147a81b7c014d2c3"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1143,
+      "sha256": "d5a2346d6d399928efadf6853271fceab0f104bfe786235bfda74c8905f94992"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "f0328df0c11843a3443eaf8a3a74e4e46416d22bf3065c8057ce47ad4f9cf6e2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "8e1b3f4a95038f2b8b5957f36fa8c877f038dbf796ce53cd6ccba4288bcc3f4f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "831924950059e78413d404ec14b871ca87760f24188c5933fcfd7f81333f945d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1143,
+      "sha256": "509e8f13e22375914d2472f727fe461e4f12279d8108ddddd33752aeca2aedd9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5659,
+      "sha256": "ed04c70fc5e3ac31e5ce39c513be08262b0acaedc270a1dc835e97e98fcb5825"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1097,
+      "sha256": "35846875f285424d5e22cd7249c0102d5021072848934f76a9013cd1e58b7e3b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5658,
+      "sha256": "53aae9d78b6268c46b94e02c71c363c53fcfb36f71ae2249325f06ce9516c8e9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1099,
+      "sha256": "80e4a5020d85caab01d4b344f8c330e32df677a9391c87108f6ac6eecfb2516a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5669,
+      "sha256": "b7d2364faf9cc93063c1b4131d8dc8d7ea169115bc11a07a68a8bd5afbb3f248"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1137,
+      "sha256": "8c8654fed27e08853b6c1a18cfec2f46710d28fdb2751f9901de6adf09ddded3"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5668,
+      "sha256": "9e92794459a0bcef92995697e78ce33c02905ad3bb24fbf7894fceb8bd961b43"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1139,
+      "sha256": "b7d0b3e8d226def216f09e0862bac1cf1ab11e637c54a699bcf7c954c7f17cdd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_11_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "a3f9d8fce4f9845047549ab68cbacd76ea275d4254e1e9f645e56d83aea7dda9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_11_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "afe9061082119964ab14d2d43e2c02ae74cb272aa4917f22587fd1a639668b83"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_22_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2429,
+      "sha256": "54bcc132510b02aa8758e8c6a687530fd9eebaa0108e98c091b4998ac6b0f761"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_22_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "d1ab18404f2925575389573917a62b625f71041e7c4f8ca33c12fea78b9de820"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_33_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "d7e8031bb8bcfc38906c16e07f8a3d3aaf3c2b996c5d9e3a402c3731b2627e77"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_33_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2429,
+      "sha256": "5cfdcdf4d7a71b20841706e35549b54fe6049079f7da12940198f81b1dfc6b0c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_44_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2431,
+      "sha256": "13a88d6fe4703f1a60556cdeebec9d784bb84c2e77c1ee82a86ec0b7db09b343"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_44_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "6db8b4323cc9b1088b1ab6b75e9135c0a1120b500be5fdbabb6d5b81cf2b0a19"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_55_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "f46dea581367dbcdeee0c0815b16c9ded9e7bafd02518d2d7b15bc3df4b106dc"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_shuffle_55_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "70732c8475ecd53a9289237806c522af56ff5e3e148bd61ec1e2a85980cd79db"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_true_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2386,
+      "sha256": "428481e81f35c66398fd1fb440db9bf33d14e520182677210e10d973b2aecdf7"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_true_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2383,
+      "sha256": "7aa88ea16cce7c95d1ee6fd5ae9a4f15c29a1220a5da4989bc305a6bf75268c6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_VBalanced_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2421,
+      "sha256": "c63ccd5ada23bef43ad7159274cf4fb32325dc1935c53cb9daa769625d4caf0b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/logs/labels_VBalanced_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2418,
+      "sha256": "6ca9e2fa43770672a5742b3a42e0349cf452520cac4377b74feb6a7c963a75d8"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/parent_checkpoint.json",
+      "bytes": 192,
+      "sha256": "a5f79e509b65a8285373ebe7d712962a3b65255489740f2205994cbc2e69b890"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/pretrain.json",
+      "bytes": 937,
+      "sha256": "5be9c7d4169b1fe967543b14303a1f53853b51507036ce5bf12ae45ce7aa2ab6"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/spectra.csv",
+      "bytes": 14170,
+      "sha256": "537c6471bf0c246863dba012d1a502dd550c848b8959f0c0889c9223a33c1efe"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/structure.json",
+      "bytes": 9958,
+      "sha256": "424ff12e6f5273af7714c055c17ee04948fd5986d6c89d587d6808ad97ec3ded"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/allocations.json",
+      "bytes": 1932,
+      "sha256": "9fe0a670c77774f9113f3d546519ce7fe8aedbd515f1708d0ded05c28b561e18"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/baseline.json",
+      "bytes": 308,
+      "sha256": "c07126cb987d7b7a052c7497e0320e85652e335a24f709602316d82c111d5d4c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/calibration_arrays.npz",
+      "bytes": 187810,
+      "sha256": "d5cccd1a9c0da05845bf19b59750e609c1001940379081746186bdc8b95ba137"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/config.json",
+      "bytes": 1327,
+      "sha256": "29e577af286aa683adaee21bf419dbf56d2c2bd3aff21a6146529fd5bf734824"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "bf4e59102c9e476c23436da505a912cfdc26c099e8d83cce73dbd922323f452e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1147,
+      "sha256": "a29357f5fbcb74337e63767c483a5e707982f401b0723bd3c4980cddffbe692d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5667,
+      "sha256": "c0cab182cfbef2d2ed64cf5dad53d8659104d8558e070c983f5b00bd59448cac"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1146,
+      "sha256": "454536f07448ceca1c3774b45b31bd48089534af40ddd51b3f327d280761d09e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5667,
+      "sha256": "cd991a6e521823c51e61cdaeeaefad55e27c64746c2a5fdafbfb7299af4d0a03"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1144,
+      "sha256": "1f5fd7e8b3d0bbb2fab3d4ce2784abbbd80199d402cca70f49cf415fb63cf5db"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5665,
+      "sha256": "d9003acaf04d518636933351b0b7ec3f9309635f468b1b3ba9cc061c0d203dff"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1148,
+      "sha256": "a53b174032a740a16e57904370eb588ea0d8b56db12e5572e93cc255c74043b9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5666,
+      "sha256": "c46a2ce9768466c9b4b75ebbff165e646fba6a376f8bea2e90d45d25eb69c288"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1143,
+      "sha256": "1b6a342593816e59ba421454b105909816bdfe0d1696e27150cd163d634719fa"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5660,
+      "sha256": "92a187eb0df4e0f696d355da96dc2a19a4ee6bf39c7991b63cc0155032dce719"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1145,
+      "sha256": "054ad4046eadf173c73bba4444efacc0d29f0932daca57a9a45be40aab68e1cc"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5667,
+      "sha256": "0a5586107187c6bbf3742ed5328550087fcf29b58adf5851f5b69d85bcc15afd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "9b00ff8f53b366ac3e021106bf1be4f30a2432ab8a7d0b46d32b622bc51dfabd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5669,
+      "sha256": "5f013ae910c7448f08c2e66865191509591435bb606696f2bd54394db6ef49a4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1142,
+      "sha256": "62ad584784bbaa65d3b93b739f894e6fbefc457fab123f22cf8197a3f1c86d67"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5667,
+      "sha256": "40ea5455577188be07ffc03f0b55eb88083e405d50d104fec0f28e4ee704a29d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1149,
+      "sha256": "1d11ffb9f98cfadbf2abab0f037337ed7c503816c45c278343f5105c8adfcc9a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5669,
+      "sha256": "82a21be619f004277d58b2e89bd52900e317361e796fb9342a9e7a0b60536fa1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1141,
+      "sha256": "5246f786ce11e5ac7c0eb1a3c94a80f594b0b425d020dc5cb049b1643509e668"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5654,
+      "sha256": "65c521e59640ee78362caa6d0e8e8e246e6b150081a901a5d81ac1246178d641"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1098,
+      "sha256": "9ff48ffe28cce9166c3d4887aa605004b1e9e04dee932e0194cb10eb1b0618d4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5660,
+      "sha256": "7658b6d2815966d7a1dd6e8ca9a9480d95d6a10727dd4791f41de3ab7ae015c2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1095,
+      "sha256": "fa90c0cab7f38b51a9d218eb0ddb884c2c823455a52185d0e32d7cf14a3dca03"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5664,
+      "sha256": "d34d0ba5ded5099e4f0cf221975b4457803df9811c919d77326d499a6bd61b44"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1138,
+      "sha256": "84fdc19a217f3886b73daf3480080c92c900a04b0ea49a574128089dd15e6ee5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5661,
+      "sha256": "7907f2dd89c4a0c888f18c358e55b883c888b45ad5a32c747c6e059188d35901"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1135,
+      "sha256": "3021f9a2be19c1d12102753cc68f87407471c812b955a9a046fc6b98ca18a1aa"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_11_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2430,
+      "sha256": "94724762790b00785efe70b85cc3a75a8a4c70ef66bdbc0f4a881c3a371de9b2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_11_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "c04f65b2fc29de219c56a442c13ed48b547624763929939781fee1dc0a41bc8c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_22_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "c831c936b1385436ff5b1a0240a6f30f442bdb78ec4a5bcfd7bc61b22cd47caa"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_22_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2424,
+      "sha256": "39df9e177c688e1b9d37ff2bfd2304a3efd72b94c18bf097f1c42ba46bbd11d7"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_33_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2423,
+      "sha256": "fa2a0977bbe3de4b1db86fa3e6bc588886702c9e2f01f8d986dd3bdce368b477"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_33_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2417,
+      "sha256": "31e5b79cc83392820d09e838a4548da89928b5fb1987631c60aeaea328e80453"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_44_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2424,
+      "sha256": "fab9f792e67aab2cf3d6e552c8b76053f61c511a7eeba0fe1bdf863599fc7a9d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_44_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "546dd882943027fb6678c105c2e7792e7e281d8bd1726a52f84a836638709290"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_55_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2423,
+      "sha256": "139886ac7c93115e5e282134b36df97734c4c6b5324b6eabfea974fd30293ba5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_shuffle_55_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "38252f5eb36243fba2183b56a7c40a2042cfebc256ec75f713cb720f87c8ca23"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_true_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2378,
+      "sha256": "2308edd705dbbcc55d4879b79f7a718b69ba2cd40873b11641fc4cc39b56cb65"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_true_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2385,
+      "sha256": "7dba6deaad5dd73ed7d6f66eaeac9f03e68f5314216544f4e9ab253afa3d9962"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_VBalanced_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2413,
+      "sha256": "d4b64e797d095479394b3e75b0dc814b129ef2ee377d04709fa4cb392620f17a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/labels_VBalanced_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2420,
+      "sha256": "6eabac07cca88291039010c4eda5dfc47a20c1c2ed73c37881b5f48470ce4c09"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/logs/pretrain/attempt_000.jsonl",
+      "bytes": 3878,
+      "sha256": "fc42826ecb6eb5182b4b08acba0de1a8d849e506ffb99256c11f34a8025dbc7f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/pretrain.json",
+      "bytes": 941,
+      "sha256": "551169a8e9c1c58e409db67f0d003b517e439efe15e070fe78d74293c7c30b55"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/spectra.csv",
+      "bytes": 14142,
+      "sha256": "dc83c8c90511d94358b5896be65194b28e8cd5f7c77933e9af670f9ec35e224d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/structure.json",
+      "bytes": 9958,
+      "sha256": "424ff12e6f5273af7714c055c17ee04948fd5986d6c89d587d6808ad97ec3ded"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/allocations.json",
+      "bytes": 1931,
+      "sha256": "848cd7472bdf3892041c9d8c03405f083a6d91a272f269a09c528956a74fbcec"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/baseline.json",
+      "bytes": 310,
+      "sha256": "b3318b244c01d1434fb7140dd903a12bcf60ac294c01a72c3d3f9340ec0a862a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/calibration_arrays.npz",
+      "bytes": 187315,
+      "sha256": "d8b4cd393bd63964dec5d290d3fb944a8000595ec02d22668f324309c2384334"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/config.json",
+      "bytes": 1327,
+      "sha256": "e7be942d4d5e3275380cf73b6fdd9d39f7e6fd9fce97c0432601846a4e67327e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5674,
+      "sha256": "69bcdd8f239f289148d2fb79ab6bc2e747342d4c35d1394511fcf196c6b4589d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1148,
+      "sha256": "e3ac372200b210984454cc247d5bf61e3e90d3ceb740853cd8f4c5118c561e16"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5667,
+      "sha256": "8a77fcd3b186562091a4e2596425d394c96b91a6f9294f06d73e143aa6a609dd"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_11_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1147,
+      "sha256": "ce587b3b95cbb5972c460f1cfef60799314d359a1dc17e1487fa8e07c5990b00"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "1f75290f72b0eb77fb08a81e452727f5f5e11840dc4ae1606b5fdc1ad9243f3a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "5ec2d20806df7a8a38544153070889793d9161b69ed5ea395146d574d5cdabff"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5671,
+      "sha256": "5248e6318d8dd267b502592bf008853487afaf426aad6cacdfabb7149cd2fdfb"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_22_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1143,
+      "sha256": "a0119c152ca491a39ed63de87dd807a82f43cc7733c73a9bcefb3397aaac8d1a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5666,
+      "sha256": "0fb78c4e1ec8882c2cb8fad579cdf991ede987b0500c5eba378d88fcd32fc836"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1147,
+      "sha256": "901fad1a54330755fddb9feb916fb830a2e6113d23f9ff6c10d52bae84f3cce1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5671,
+      "sha256": "a8c6b648e4bfa7b989be2686752237a7d3e785a1ef6f49447c7128f4e7f5aad7"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_33_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1145,
+      "sha256": "f1c17cd72ff321623a9c22109ac58d8ad8ea9b3e94f19602d1ea38d280f32798"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5669,
+      "sha256": "863ec0d2d3e6d75a364c5ab3025a39119a6acb5eac06c7c94dc7d045d3d1336d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "05671e91e0f94138dbb33b2c12ce3bb939e68ee5710b155a0d9f44ad1d9705a3"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5672,
+      "sha256": "ea949e43901910f0911529d86f0542bc2ed9ec160573ddf4a3d6b813422d8020"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_44_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1146,
+      "sha256": "6a8834c081535fe777985ace980ff97586c6ccac316b52079225124dcbe94689"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5670,
+      "sha256": "dcb85440d73f54f63ccba670d757eba822fef494431a07b4136ecab713c81d27"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1145,
+      "sha256": "bf258d4b6ab67c558e84bcd019ea7bb920c5a57ab3e686cb0081753f823f9ba9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5669,
+      "sha256": "92993a1e9c01f8571c81dd13fc2e7821e2a9888d5fde8516041d31e29c9e3ae2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_shuffle_55_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1148,
+      "sha256": "f1d74f40a06ba785ee903c2174057845eb29c886df324e6a1c582373cb2f2174"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5659,
+      "sha256": "019bbd8b1e61bb9c8d5a4436b4ab76140f9d212fb096e6470dd9e952055dc5b1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1096,
+      "sha256": "d04ffbb4ea86e9ae0664294b58b85c3c6433eea98fbcc85b6f4c176cb7b8c227"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5661,
+      "sha256": "155fa114e6cef1c3cf7bdb34dcf26f980431a614a5d726f0d59cc7db9edd4446"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_true_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1094,
+      "sha256": "320c15946d1929778cea9929287c63bd5063ea9c5892b7a8d4a9171def10647d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/result.json",
+      "bytes": 5668,
+      "sha256": "79d0dbad49e7d269419ecd00b1fe3712b9d54bd6122a5c8e4a4062d50ad00bd1"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed11/updates.csv",
+      "bytes": 1136,
+      "sha256": "0b0df065cbcded115d08c7ce62030171b6482d69ce4cc6d2dca348768f4766db"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/result.json",
+      "bytes": 5670,
+      "sha256": "902bb008e90e25489d92a95eb417748603c4baa2ac7c03d7376625d093254d7e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/diagnostic_adapters/labels_VBalanced_rs_ref3_lr0.001_seed22/updates.csv",
+      "bytes": 1134,
+      "sha256": "949452315d4584580cfe99584b9f2a1452a7c95ee48806a2d2465c04b1433003"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_11_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "2f52d956dd2f935e4bc7b133730c7f0080eec94e4ba17ce473cced3b88017028"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_11_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2425,
+      "sha256": "02665cbc52a2c07343a372904cff12dd73d93f2f73ca6a456c5e280233ed7a4c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_22_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "0a9bc11996abb2e77f2f816bf35b1a671b3396cbdcb1b76ce4647f5aecd4fd75"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_22_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "3583ca9f09fe9791246838f4f2dde879bb32fb434cbee3d39b8c41749bdc6d11"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_33_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2424,
+      "sha256": "e683999b9d410ba2836e3f810a9cdc06c79fe64058b69fb36e5aec966b55be1b"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_33_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2427,
+      "sha256": "6db058c48ca325c4545afd91cbf50cc4951fa930dfbfc72e6a8c247789afb8fb"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_44_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2423,
+      "sha256": "5b5d7352fe81b8bc01959f68d79318c83b50ebfe27495ed343b3d0c916af3f15"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_44_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2428,
+      "sha256": "7a05f3a6bbc8dbcbd85e9b31d4a460f9eee61aee8b3205640f250ed39e49b1f9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_55_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2427,
+      "sha256": "7e0ba9d4673b2a7618cfea828b50ee0c138bf523dade44aed4f745a0f31e93e5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_shuffle_55_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2426,
+      "sha256": "7f9318d5fdd1512a6888e8c99b8ff42a7901e6bb9636c19163db5db81a7089c8"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_true_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2383,
+      "sha256": "6f97453292bc8fe7d2d20d5465ef0494668c73d1860a3babb46bb83e7b5f7de8"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_true_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2388,
+      "sha256": "c40bbe67f156793252867a1eca22583d5ffa5e4aa4d7c99baca889e670260dcc"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_VBalanced_rs_ref3_lr0.001_seed11/attempt_000.jsonl",
+      "bytes": 2418,
+      "sha256": "8097379baa2bf6cc5f53184a45dc3d65b377be789ec23c255841127311c38dd4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/labels_VBalanced_rs_ref3_lr0.001_seed22/attempt_000.jsonl",
+      "bytes": 2423,
+      "sha256": "6991dd69e3ab6ca50825a0cdc2c22ebe65de75b4affdeb402c3a752b2f57ec4e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/logs/pretrain/attempt_000.jsonl",
+      "bytes": 3865,
+      "sha256": "d287dd593d9f6e61a2986ac899fc80566456077faf5eed1ae6255a0d227b42c8"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/pretrain.json",
+      "bytes": 941,
+      "sha256": "1b30800b211a452340fd38b1770dcdb6f3a1d09f5afd271635361780a740343e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/spectra.csv",
+      "bytes": 14224,
+      "sha256": "26326b3a4da81fe129c876da006dd617fac400d079e314b8cd4c71ce903860e5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/structure.json",
+      "bytes": 9958,
+      "sha256": "424ff12e6f5273af7714c055c17ee04948fd5986d6c89d587d6808ad97ec3ded"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/scripts/calibrate_output_diagonal.py",
+      "bytes": 13797,
+      "sha256": "b668855d1dbcf99612e55ed44cdfe9371007d1ca733534118574da331b2b955d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/scripts/prepare_wikitext.py",
+      "bytes": 2711,
+      "sha256": "2c6ea50dd03532d374ee534c58f73e1d5eae356c58ead9cf1c2d39bf6341a0ae"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/__init__.py",
+      "bytes": 61,
+      "sha256": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/allocation.py",
+      "bytes": 1558,
+      "sha256": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/capacity.py",
+      "bytes": 15796,
+      "sha256": "53685c08247fd24ab7e778316792337a5d9e82878202d00063a4932a447ed268"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/curvature.py",
+      "bytes": 1610,
+      "sha256": "a808ce777a12ac96e12b56fa91b10f7df4f5d75a98fd65abbb3ce77846eea76d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/data.py",
+      "bytes": 2789,
+      "sha256": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/diagnostic.py",
+      "bytes": 16407,
+      "sha256": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/diagnostic_report.py",
+      "bytes": 10001,
+      "sha256": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/diagnostics.py",
+      "bytes": 397,
+      "sha256": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/experiment.py",
+      "bytes": 27098,
+      "sha256": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/labels.py",
+      "bytes": 10428,
+      "sha256": "431c2315b48fc927cbf82f4040a41cdb7ef2e688b70f106532ef68388b580398"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/lora.py",
+      "bytes": 2732,
+      "sha256": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/model.py",
+      "bytes": 4792,
+      "sha256": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/src/carryrank/report.py",
+      "bytes": 10614,
+      "sha256": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/tests/test_capacity.py",
+      "bytes": 2090,
+      "sha256": "75de0318434cc5cd8a75b6170069018f57c0954086f5a4b62b5a399374b2bb58"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/tests/test_correctness.py",
+      "bytes": 6560,
+      "sha256": "1622eede762ff6e405058b985c03719cf883abc614e0ab8e663db8004eb17809"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/tests/test_curvature.py",
+      "bytes": 3310,
+      "sha256": "2d6942a5a48caf26eb11be2d5943575f442f710d8002eec6cb53d0e2317dcc0d"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/tests/test_diagnostic.py",
+      "bytes": 2067,
+      "sha256": "d95118cd6bad31aab54158193245083b8f68e406fcba1e3885f23c87084877bf"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/tests/test_diagnostics.py",
+      "bytes": 1309,
+      "sha256": "6a719d9ed54d8efb67246dd685970fd6e2343a04d1fd56daf26113419b33a762"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/source_snapshot/tests/test_label_protocol.py",
+      "bytes": 934,
+      "sha256": "8aa2194b5e29e050d064b31fe2a43042d49778537cabe1953ab7b11cfe6e4e41"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/summary.csv",
+      "bytes": 2040,
+      "sha256": "e53e2ec014696c3bb8442f0e91abc38ffd73b875e4f4ae3ff06712ec05866750"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/verdict.json",
+      "bytes": 1298,
+      "sha256": "4ff1d2f6af53480f2839cca85eab74140527c6123849c21295e6dff9e11b95d1"
+    },
+    {
+      "path": "scripts/audit_labels.py",
+      "bytes": 5007,
+      "sha256": "8733ab696136ffdc55e83cb8b39b55ddfb03f22c9c1dbb8df90ffd63c1d4e9ad"
+    },
+    {
+      "path": "scripts/export_labels.py",
+      "bytes": 9157,
+      "sha256": "3d6f14e805ac17b36297f89dc7e496990e1a70befe73832ced85b192326a55af"
+    },
+    {
+      "path": "scripts/prepare_wikitext.py",
+      "bytes": 2711,
+      "sha256": "2c6ea50dd03532d374ee534c58f73e1d5eae356c58ead9cf1c2d39bf6341a0ae"
+    },
+    {
+      "path": "scripts/report_labels.py",
+      "bytes": 8569,
+      "sha256": "eb002c96b817de3faded350b563c6aed4d1d501c3e5c62d3bbdfe5196c0fdd1d"
+    },
+    {
+      "path": "scripts/verify_capacity.py",
+      "bytes": 5072,
+      "sha256": "b4dc009382b397b6022c43e5d15f5785d789c99bc66ef4c224549b8e0f91962b"
+    },
+    {
+      "path": "scripts/verify_labels.py",
+      "bytes": 7256,
+      "sha256": "d045d2936246bf794d905727604794aa265a00a322ff8f62359037629b87ce29"
+    },
+    {
+      "path": "scripts/verify_output_diagonal.py",
+      "bytes": 4618,
+      "sha256": "e6e7538929237e81f2b5c5dbca6b4a507c994f80da8249c0e9231cc0db38b630"
+    },
+    {
+      "path": "tables/crossdomain-label-schema.md",
+      "bytes": 1193,
+      "sha256": "57853819ed8d8bc8fd030c52ede6926e80f34722d0ca6e022c3cbb9280c00df1"
+    }
+  ]
+}

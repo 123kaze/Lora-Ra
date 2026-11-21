@@ -1,0 +1,70 @@
+{
+  "reactivation_ages": [
+    {
+      "layer_0based": 3,
+      "width": 128,
+      "R_age_values": [
+        1
+      ]
+    },
+    {
+      "layer_0based": 4,
+      "width": 192,
+      "R_age_values": [
+        3
+      ]
+    }
+  ],
+  "group_costs": [
+    {
+      "id": "blocks.3.attn.q_proj/C",
+      "m": 128,
+      "n": 64,
+      "cost": 192
+    },
+    {
+      "id": "blocks.3.attn.q_proj/R",
+      "m": 128,
+      "n": 64,
+      "cost": 192
+    },
+    {
+      "id": "blocks.3.attn.v_proj/C",
+      "m": 128,
+      "n": 64,
+      "cost": 192
+    },
+    {
+      "id": "blocks.3.attn.v_proj/R",
+      "m": 128,
+      "n": 64,
+      "cost": 192
+    },
+    {
+      "id": "blocks.4.attn.q_proj/C",
+      "m": 192,
+      "n": 128,
+      "cost": 320
+    },
+    {
+      "id": "blocks.4.attn.q_proj/R",
+      "m": 192,
+      "n": 64,
+      "cost": 256
+    },
+    {
+      "id": "blocks.4.attn.v_proj/C",
+      "m": 192,
+      "n": 128,
+      "cost": 320
+    },
+    {
+      "id": "blocks.4.attn.v_proj/R",
+      "m": 192,
+      "n": 64,
+      "cost": 256
+    }
+  ],
+  "minimum_rank_cost": 192,
+  "last_V_C_rank1_cost": 320
+}

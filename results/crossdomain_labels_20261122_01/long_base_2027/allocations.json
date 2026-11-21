@@ -1,0 +1,78 @@
+{
+  "true": {
+    "scheme": "true",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384,
+    "predicted_utility": 12.688141931197901
+  },
+  "shuffle_11": {
+    "scheme": "shuffle_11",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384,
+    "predicted_utility": 12.655521840737642
+  },
+  "shuffle_22": {
+    "scheme": "shuffle_22",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384,
+    "predicted_utility": 12.662444904663374
+  },
+  "shuffle_33": {
+    "scheme": "shuffle_33",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384,
+    "predicted_utility": 12.66471748971927
+  },
+  "shuffle_44": {
+    "scheme": "shuffle_44",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384,
+    "predicted_utility": 12.693442206692115
+  },
+  "shuffle_55": {
+    "scheme": "shuffle_55",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384,
+    "predicted_utility": 12.657989316819044
+  },
+  "VBalanced": {
+    "scheme": "true",
+    "ranks": {
+      "blocks.7.attn.q_proj:C": 0,
+      "blocks.7.attn.q_proj:R": 0,
+      "blocks.7.attn.v_proj:C": 1,
+      "blocks.7.attn.v_proj:R": 1
+    },
+    "spent": 384
+  }
+}

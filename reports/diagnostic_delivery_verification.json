@@ -1,0 +1,11 @@
+{
+  "phase2_public_files_verified": 420,
+  "clean_checkout_without_runs_verified": true,
+  "numpy_spectra_recomputed": true,
+  "verifier_python_has_torch": false,
+  "tampered_csv_rejected": true,
+  "all_report_links_exist": true,
+  "phase1_bundle_unchanged": true,
+  "proposal_unchanged": true,
+  "pass": true
+}

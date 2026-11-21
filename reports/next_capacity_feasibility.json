@@ -1,0 +1,23 @@
+{
+  "status": "design_only_not_executed",
+  "variants": {
+    "long_bypass_widths": {
+      "final_R_ages": [
+        5
+      ],
+      "parameters": 935424,
+      "final_C": 64,
+      "final_R": 64
+    },
+    "short_bypass_widths": {
+      "final_R_ages": [
+        1
+      ],
+      "parameters": 935424,
+      "final_C": 64,
+      "final_R": 64
+    }
+  },
+  "equal_width_multiset": true,
+  "final_per_rank_group_cost": 192
+}

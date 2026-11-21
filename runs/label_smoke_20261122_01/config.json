@@ -1,0 +1,53 @@
+{
+  "name": "crossdomain_label_screen",
+  "capacity_parent": "runs/crossdomain_capacity_20261122_01",
+  "widths": {
+    "long": [
+      128,
+      128,
+      64,
+      64,
+      64,
+      64,
+      64,
+      128
+    ],
+    "short": [
+      128,
+      64,
+      64,
+      64,
+      64,
+      128,
+      64,
+      128
+    ]
+  },
+  "base_seeds": [
+    2026
+  ],
+  "adapter_seeds": [
+    11
+  ],
+  "shuffle_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "budget": 384,
+  "max_rank": 8,
+  "steps": 3,
+  "eval_steps": [
+    3
+  ],
+  "lr": 0.001,
+  "scaling": "rs_ref3",
+  "damping_in": 0.01,
+  "damping_out": 0.01,
+  "primary_step": 600,
+  "minimum_label_advantage": 0.01,
+  "test_split_used": false,
+  "smoke": true
+}

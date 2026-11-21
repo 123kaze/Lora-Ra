@@ -1,0 +1,9 @@
+{
+  "executable": "E:\\envs\\LangChain_agent\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "torch": "2.14.1+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "precision": "BF16 forward / FP32 CE and weights",
+  "bitwise_rerun_guaranteed": false
+}

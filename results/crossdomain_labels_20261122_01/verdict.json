@@ -1,0 +1,55 @@
+{
+  "smoke": false,
+  "primary_step": 600,
+  "threshold": 0.01,
+  "primary_profile": "long",
+  "test_split_used": false,
+  "by_profile": {
+    "long": {
+      "shuffled_minus_true": {
+        "paired_base_differences": [
+          -0.011509431153535754,
+          0.007248520851135254,
+          0.013885530829429449
+        ],
+        "mean": 0.003208206842342983,
+        "sample_std": 0.013170767878005226,
+        "pass": false
+      },
+      "VBalanced_minus_true": {
+        "paired_base_differences": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "pass": false
+      }
+    },
+    "short": {
+      "shuffled_minus_true": {
+        "paired_base_differences": [
+          0.0025073245167730462,
+          -0.0001538693904876709,
+          -0.0005152702331541192
+        ],
+        "mean": 0.0006127282977104187,
+        "sample_std": 0.001650688876570872,
+        "pass": false
+      },
+      "VBalanced_minus_true": {
+        "paired_base_differences": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "pass": false
+      }
+    }
+  },
+  "primary_label_gate_pass": false,
+  "primary_method_gate_pass": false
+}

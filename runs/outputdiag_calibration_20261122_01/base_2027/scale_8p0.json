@@ -1,0 +1,28 @@
+{
+  "modules": {
+    "blocks.3.attn.q_proj": {
+      "G": "G__blocks_3_attn_q_proj",
+      "Hin": "Hin__blocks_3_attn_q_proj",
+      "Hout": "Hout__blocks_3_attn_q_proj"
+    },
+    "blocks.3.attn.v_proj": {
+      "G": "G__blocks_3_attn_v_proj",
+      "Hin": "Hin__blocks_3_attn_v_proj",
+      "Hout": "Hout__blocks_3_attn_v_proj"
+    },
+    "blocks.4.attn.q_proj": {
+      "G": "G__blocks_4_attn_q_proj",
+      "Hin": "Hin__blocks_4_attn_q_proj",
+      "Hout": "Hout__blocks_4_attn_q_proj"
+    },
+    "blocks.4.attn.v_proj": {
+      "G": "G__blocks_4_attn_v_proj",
+      "Hin": "Hin__blocks_4_attn_v_proj",
+      "Hout": "Hout__blocks_4_attn_v_proj"
+    }
+  },
+  "base_sha256": "d9388b25331e99c7ce081d93bd5b70624bc652e8fe30670e98c2889eef713fb7",
+  "q_multiplier": 8.0,
+  "dtype": "float64",
+  "model_weights_included": false
+}

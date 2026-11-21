@@ -1,0 +1,13 @@
+{
+  "status": "design_only_not_executed",
+  "purpose": "Match depth, width multiset, parameter count, final group shape and rank cost while varying bypass history",
+  "long_bypass_widths": [128, 128, 64, 64, 64, 64, 64, 128],
+  "short_bypass_widths": [128, 64, 64, 64, 64, 128, 64, 128],
+  "head_dim": 32,
+  "target_layer_0based": 7,
+  "target_projections": ["q_proj", "v_proj"],
+  "candidate_budgets": [192, 384, 768],
+  "candidate_shuffle_seeds": [11, 22, 33, 44, 55],
+  "gate": "First establish a reproducible capacity response using a separate calibration/validation protocol; choose target dataset before training; do not compare methods on a flat response",
+  "claims_allowed": "Static model counts and bypass ages only; no performance claims"
+}

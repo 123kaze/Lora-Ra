@@ -1,0 +1,251 @@
+{
+  "checkpoints_reloaded": 24,
+  "records": [
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 1,
+      "parameters": 384,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.76837158203125e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 2,
+      "parameters": 768,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.76837158203125e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 4,
+      "parameters": 1536,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.0531158447265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 8,
+      "parameters": 3072,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.337860107421875e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 1,
+      "parameters": 384,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 2,
+      "parameters": 768,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.291534423828125e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 4,
+      "parameters": 1536,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 8,
+      "parameters": 3072,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.291534423828125e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 1,
+      "parameters": 384,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 2,
+      "parameters": 768,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 4,
+      "parameters": 1536,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 8,
+      "parameters": 3072,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 1,
+      "parameters": 384,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.933906555175781e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 2,
+      "parameters": 768,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.172325134277344e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 4,
+      "parameters": 1536,
+      "validation_reload_error": 0.0,
+      "merge_error": 3.814697265625e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "rank": 8,
+      "parameters": 3072,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.291534423828125e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 1,
+      "parameters": 384,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.112720489501953e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 2,
+      "parameters": 768,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.291534423828125e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 4,
+      "parameters": 1536,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.291534423828125e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 22,
+      "rank": 8,
+      "parameters": 3072,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.76837158203125e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 1,
+      "parameters": 384,
+      "validation_reload_error": 0.0,
+      "merge_error": 5.7220458984375e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 2,
+      "parameters": 768,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.76837158203125e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 4,
+      "parameters": 1536,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.5299530029296875e-06,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 33,
+      "rank": 8,
+      "parameters": 3072,
+      "validation_reload_error": 0.0,
+      "merge_error": 4.76837158203125e-06,
+      "pass": true
+    }
+  ],
+  "max_validation_reload_error": 0.0,
+  "max_merge_error": 5.7220458984375e-06,
+  "prior_artifacts_verified": 559,
+  "prior_artifacts_unchanged": true,
+  "test_split_used": false,
+  "pass": true
+}

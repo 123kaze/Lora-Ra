@@ -1,0 +1,34 @@
+{
+  "initial_source_val": {
+    "loss": 5.537764683365822,
+    "bits_per_byte": 7.989305646301912,
+    "accuracy": 0.005859375,
+    "bytes": 65536
+  },
+  "initial_target_val": {
+    "loss": 5.535676136612892,
+    "bits_per_byte": 7.986292510258796,
+    "accuracy": 0.0058441162109375,
+    "bytes": 65536
+  },
+  "source_val": {
+    "loss": 1.587312463670969,
+    "bits_per_byte": 2.29000781967935,
+    "accuracy": 0.531036376953125,
+    "bytes": 65536
+  },
+  "target_val": {
+    "loss": 3.2288184240460396,
+    "bits_per_byte": 4.65820032830214,
+    "accuracy": 0.3464508056640625,
+    "bytes": 65536
+  },
+  "source_improvement": 3.950452219694853,
+  "pretraining_gate": true,
+  "selected_step": 1200,
+  "total_steps": 1200,
+  "time_s": 56.56544639999993,
+  "parameters": 935424,
+  "base_sha256": "37a3cb2f7cbd638e4c982d49f8ded1f8956d13a472444c66b482a58fb0f7e599",
+  "peak_allocated_mb": 185.74169921875
+}

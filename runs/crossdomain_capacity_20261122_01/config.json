@@ -1,0 +1,60 @@
+{
+  "name": "crossdomain_capacity_screen",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "widths": {
+    "long": [
+      128,
+      128,
+      64,
+      64,
+      64,
+      64,
+      64,
+      128
+    ],
+    "short": [
+      128,
+      64,
+      64,
+      64,
+      64,
+      128,
+      64,
+      128
+    ]
+  },
+  "base_seeds": [
+    2026
+  ],
+  "adapter_seeds": [
+    11,
+    22,
+    33
+  ],
+  "ranks": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "steps": 600,
+  "eval_steps": [
+    180,
+    360,
+    600
+  ],
+  "lr": 0.001,
+  "scaling": "1/sqrt(rank)",
+  "target": "final_v_proj_both_C_R_equal_rank",
+  "evaluation_max_blocks": 512,
+  "gate": {
+    "step": 600,
+    "low_rank": 1,
+    "high_rank": 4,
+    "minimum_mean_loss_reduction": 0.01,
+    "require_all_adapter_pairs_positive": true,
+    "require_both_width_profiles": true
+  },
+  "test_split_used": false,
+  "smoke": false
+}

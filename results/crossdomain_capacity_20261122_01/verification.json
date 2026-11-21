@@ -1,0 +1,12 @@
+{
+  "expected_trajectories": 24,
+  "trajectories": 24,
+  "rows": 72,
+  "all_base_frozen": true,
+  "max_zero_initial_error": 0.0,
+  "max_merge_error": 5.7220458984375e-06,
+  "paired_batches_across_profiles_and_ranks": true,
+  "prior_artifact_count": 559,
+  "prior_artifacts_unchanged": true,
+  "pass": true
+}

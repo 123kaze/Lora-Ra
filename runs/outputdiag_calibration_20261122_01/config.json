@@ -1,0 +1,31 @@
+{
+  "base_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "scales": [
+    1.0,
+    0.125,
+    8.0
+  ],
+  "damping_in": 0.01,
+  "damping_out": 0.01,
+  "budgets": [
+    1024,
+    3840
+  ],
+  "max_rank": 16,
+  "schemes": [
+    "true",
+    "shuffled"
+  ],
+  "metrics": [
+    "raw",
+    "diag_input",
+    "diag_both"
+  ],
+  "training_performed": false,
+  "Hout_definition": "E[(N * d(mean_token_loss)/d(projection_output))^2]",
+  "data_split": "target_train only"
+}

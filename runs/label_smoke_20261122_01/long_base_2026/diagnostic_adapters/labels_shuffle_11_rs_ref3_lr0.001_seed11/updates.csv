@@ -1,0 +1,5 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2026,11,labels,shuffle_11,rs_ref3,0.001,1,blocks.7.attn.v_proj,0,1,1.7320508075688772,0.003217768855392933,0.001035599773644082
+2026,11,labels,shuffle_11,rs_ref3,0.001,1,blocks.7.attn.v_proj,1,1,1.7320508075688772,0.003785244422033429,0.0012182348834893731
+2026,11,labels,shuffle_11,rs_ref3,0.001,3,blocks.7.attn.v_proj,0,1,1.7320508075688772,0.007896540686488152,0.002541405587226312
+2026,11,labels,shuffle_11,rs_ref3,0.001,3,blocks.7.attn.v_proj,1,1,1.7320508075688772,0.009387172758579254,0.0030211473915069207

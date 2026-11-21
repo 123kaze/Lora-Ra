@@ -1,0 +1,225 @@
+{
+  "run": "outputdiag_calibration_20261122_01",
+  "files": [
+    {
+      "path": "results/outputdiag_calibration_20261122_01/allocations.json",
+      "bytes": 85412,
+      "sha256": "11799eb0d2edfd96dab4a6feb16a76b3ea452e2a363c6e834d43751237e8bf13"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/allocation_summary.csv",
+      "bytes": 10636,
+      "sha256": "24b5c3ca34e6f7f97bc7ded73a1d96555d0b122448dc64c39c97276e32a8ddc2"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/config.json",
+      "bytes": 488,
+      "sha256": "a9630351a24c4bb04b73d4966eec40789f6adb709ae1d85c08160fbbc1611143"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/identity.json",
+      "bytes": 1734,
+      "sha256": "20c722148175d1c0adb034939d69c1d6bfc340c9aa5628e00fc02330028fb1d2"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/invariance.csv",
+      "bytes": 43178,
+      "sha256": "5fa1a30cdff26f21edaf7a50046e19a9c0936f78b1c8602416e28ef1b4a53aa8"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/moments.csv",
+      "bytes": 3544,
+      "sha256": "09bb98d0270de4ae772811728274c9d903152f47731f91c681af48dd4cdb5030"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/protocol.md",
+      "bytes": 2089,
+      "sha256": "88134186c5748e3b6f97bb5dd4949996cf092a140056d1658b288cda970b9ad6"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/spectra.csv",
+      "bytes": 924690,
+      "sha256": "a6d2c5a86f08de245093fbb05e652900b1340879e72327a9db807237dc2f9e5c"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/structure_and_budget_feasibility.json",
+      "bytes": 1183,
+      "sha256": "07b8b08c0d4eef1c28d8c30a1bf57caeb2b5bf3277cb7d0c452403fc58267759"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/verification.json",
+      "bytes": 721,
+      "sha256": "20ead4caff40f775d5f794b96172846cc1e87a764983c7f3b40b8ecb7a380bfb"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/groups.json",
+      "bytes": 30448,
+      "sha256": "aef85662d3361b5bf785d9db73f4b982a8fdd01efa88f4f95f57d9babe0c98de"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/scale_0p125.json",
+      "bytes": 855,
+      "sha256": "b0e269cfc522829399dc245a24d408e866d49ab05d5570d3f070d570af015ebd"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/scale_0p125.npz",
+      "bytes": 598487,
+      "sha256": "e7ef125755b5ccad99899f798e4b9206b9ec0f9a584ecd0ab06458ff3b115b36"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/scale_1p0.json",
+      "bytes": 853,
+      "sha256": "51381fb21b095a1505216b1b3148d5d281b6f75c963a1a933a1e840274ad2702"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/scale_1p0.npz",
+      "bytes": 600168,
+      "sha256": "a60c04b301ec11137194b361c3f27b12fe1ca0069651a1a64390084964e740fb"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/scale_8p0.json",
+      "bytes": 853,
+      "sha256": "e459b69839e9eac62f87278a646277ca58d7a9d1592333c90453a2afdc0b194d"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2026/scale_8p0.npz",
+      "bytes": 600051,
+      "sha256": "eb14a2273f36e3b245820905dc6f667e2156cc6ae4737a2318e1f2aa341efdeb"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/groups.json",
+      "bytes": 30448,
+      "sha256": "aef85662d3361b5bf785d9db73f4b982a8fdd01efa88f4f95f57d9babe0c98de"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/scale_0p125.json",
+      "bytes": 855,
+      "sha256": "90ac5eab20637cc5800b51f4dd106c27524fbfe7ac4816dfeca4dcfc206a1c5e"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/scale_0p125.npz",
+      "bytes": 598545,
+      "sha256": "039836dce4b64eb9c3eac74b82036aea1af2d5785e3a942472414fedf7f32134"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/scale_1p0.json",
+      "bytes": 853,
+      "sha256": "caf865f87d713cc570ccf54e1f47a312237e70b82348472821aff085be572f0a"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/scale_1p0.npz",
+      "bytes": 600309,
+      "sha256": "45edaf6e7d7f901ffb3304f4be5d175c6c3b6dad9d49ed1b68772c59ce64c2bc"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/scale_8p0.json",
+      "bytes": 853,
+      "sha256": "95adefb4b2d7baeee8e71401e95822f029731102e479764cc4013a660329f13c"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2027/scale_8p0.npz",
+      "bytes": 600053,
+      "sha256": "cbca3c265d36b493ec9c03949bc4d28656c4e1e5bbf23436a785a98baac4d1c3"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/groups.json",
+      "bytes": 30448,
+      "sha256": "aef85662d3361b5bf785d9db73f4b982a8fdd01efa88f4f95f57d9babe0c98de"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/scale_0p125.json",
+      "bytes": 855,
+      "sha256": "8415bde34c4b71b8363070975b024519aff272f621abf6615c7ba222dac90678"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/scale_0p125.npz",
+      "bytes": 598464,
+      "sha256": "a68b1e8c50c2b412b3502d318955207b7a633d0307a2670ea92d268345643cd4"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/scale_1p0.json",
+      "bytes": 853,
+      "sha256": "fd4ce5e51bbe4a16b2403a6c6dfc688a85f2b1980d260274e98d3497ce99893f"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/scale_1p0.npz",
+      "bytes": 600130,
+      "sha256": "7270c3add85a0acabd31fec78217a54bd03f6b6aabc0e7d07f6701213aa95e64"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/scale_8p0.json",
+      "bytes": 853,
+      "sha256": "5157169daaca6c19ddb4ec454f550ca8bb09044ca2ee229d3271c1c0516a4dbd"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/base_2028/scale_8p0.npz",
+      "bytes": 600286,
+      "sha256": "f556e32039d598dd544dce42514c109341c9379d3609a3193f8046c40c6294da"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/figures/pilot/plot_results.py",
+      "bytes": 4079,
+      "sha256": "55bf4369b75a0b464b57c97e9c1235aabb56ed143e3bebe6ad8a8397c3d90147"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/scripts/calibrate_output_diagonal.py",
+      "bytes": 13797,
+      "sha256": "b668855d1dbcf99612e55ed44cdfe9371007d1ca733534118574da331b2b955d"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/allocation.py",
+      "bytes": 1558,
+      "sha256": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/curvature.py",
+      "bytes": 1610,
+      "sha256": "a808ce777a12ac96e12b56fa91b10f7df4f5d75a98fd65abbb3ce77846eea76d"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/data.py",
+      "bytes": 2789,
+      "sha256": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/diagnostic.py",
+      "bytes": 16407,
+      "sha256": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/diagnostics.py",
+      "bytes": 397,
+      "sha256": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/diagnostic_report.py",
+      "bytes": 10001,
+      "sha256": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/experiment.py",
+      "bytes": 27098,
+      "sha256": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/lora.py",
+      "bytes": 2732,
+      "sha256": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/model.py",
+      "bytes": 4792,
+      "sha256": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/report.py",
+      "bytes": 10614,
+      "sha256": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c"
+    },
+    {
+      "path": "results/outputdiag_calibration_20261122_01/source_snapshot/src/carryrank/__init__.py",
+      "bytes": 61,
+      "sha256": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859"
+    }
+  ]
+}

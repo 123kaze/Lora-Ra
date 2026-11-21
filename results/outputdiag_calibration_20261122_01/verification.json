@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "all_calibration_logits_invariant": true,
+    "empirical_gradient_transform": true,
+    "empirical_output_moment_transform": true,
+    "two_sided_matrix_invariant": true,
+    "two_sided_spectrum_invariant": true,
+    "two_sided_utility_invariant": true,
+    "two_sided_allocations_identical": true,
+    "exact_budgets": true,
+    "parent_base_files_unchanged": true
+  },
+  "pass": true,
+  "training_steps": 0,
+  "actual_forward_backward_batches": 108,
+  "max_both_matrix_relative_error": 0.0,
+  "max_both_spectrum_relative_error": 0.0,
+  "max_both_utility_relative_error": 0.0,
+  "two_sided_allocation_checks": 36,
+  "max_fixed_absolute_damping_matrix_error": 0.40736137061658934
+}

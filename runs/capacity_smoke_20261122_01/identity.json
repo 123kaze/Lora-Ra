@@ -1,0 +1,229 @@
+{
+  "config": {
+    "name": "crossdomain_capacity_screen",
+    "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "widths": {
+      "long": [
+        128,
+        128,
+        64,
+        64,
+        64,
+        64,
+        64,
+        128
+      ],
+      "short": [
+        128,
+        64,
+        64,
+        64,
+        64,
+        128,
+        64,
+        128
+      ]
+    },
+    "base_seeds": [
+      2026
+    ],
+    "adapter_seeds": [
+      11
+    ],
+    "ranks": [
+      1,
+      4
+    ],
+    "steps": 3,
+    "eval_steps": [
+      3
+    ],
+    "lr": 0.001,
+    "scaling": "1/sqrt(rank)",
+    "target": "final_v_proj_both_C_R_equal_rank",
+    "evaluation_max_blocks": 4,
+    "gate": {
+      "step": 600,
+      "low_rank": 1,
+      "high_rank": 4,
+      "minimum_mean_loss_reduction": 0.01,
+      "require_all_adapter_pairs_positive": true,
+      "require_both_width_profiles": true
+    },
+    "test_split_used": false,
+    "smoke": true
+  },
+  "parent_training_config": {
+    "name": "carryrank_gradient_pilot",
+    "model": {
+      "widths": [
+        192,
+        128,
+        64,
+        128,
+        192
+      ],
+      "head_dim": 32,
+      "seq_len": 128,
+      "vocab_size": 256
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/karpathy/char-rnn/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare/input.txt",
+      "fractions": [
+        0.0,
+        0.6,
+        0.7,
+        0.85,
+        0.925,
+        1.0
+      ]
+    },
+    "pretrain": {
+      "seed": 2026,
+      "steps": 1200,
+      "batch_size": 32,
+      "lr": 0.001,
+      "eval_every": 200
+    },
+    "calibration": {
+      "seed": 31415,
+      "batches": 12,
+      "batch_size": 16,
+      "shuffle_seed": 2718
+    },
+    "adapter": {
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "steps": 180,
+      "batch_size": 16,
+      "lr": 0.003,
+      "budget": 3840,
+      "max_rank": 16,
+      "uniform_rank": 3,
+      "scaling": 1.0
+    },
+    "sweep": {
+      "seed": 11,
+      "steps": 180,
+      "layer": 4,
+      "projection": "v_proj",
+      "ranks": [
+        0,
+        2,
+        4,
+        8
+      ]
+    },
+    "evaluation": {
+      "batch_size": 16,
+      "max_blocks": 128
+    },
+    "runtime": {
+      "device": "cuda",
+      "precision": "bfloat16",
+      "threads": 4,
+      "log_every": 60
+    }
+  },
+  "sources": {
+    "src/carryrank/__init__.py": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859",
+    "src/carryrank/allocation.py": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31",
+    "src/carryrank/capacity.py": "53685c08247fd24ab7e778316792337a5d9e82878202d00063a4932a447ed268",
+    "src/carryrank/curvature.py": "a808ce777a12ac96e12b56fa91b10f7df4f5d75a98fd65abbb3ce77846eea76d",
+    "src/carryrank/data.py": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2",
+    "src/carryrank/diagnostic.py": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f",
+    "src/carryrank/diagnostic_report.py": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5",
+    "src/carryrank/diagnostics.py": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe",
+    "src/carryrank/experiment.py": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2",
+    "src/carryrank/lora.py": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933",
+    "src/carryrank/model.py": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2",
+    "src/carryrank/report.py": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c",
+    "scripts/prepare_wikitext.py": "2c6ea50dd03532d374ee534c58f73e1d5eae356c58ead9cf1c2d39bf6341a0ae"
+  },
+  "data": {
+    "source": {
+      "url": "https://raw.githubusercontent.com/karpathy/char-rnn/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare/input.txt",
+      "raw_sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+      "raw_bytes": 1115394,
+      "tokenizer": "fixed UTF-8 bytes, vocabulary 256",
+      "splits": [
+        {
+          "name": "source_train",
+          "start": 0,
+          "end": 669236,
+          "bytes": 669236,
+          "sha256": "f7581f84bb0c35455b635a392e4b50a2060c9ae8ab4fea2dc5dbd2f685b8cce6"
+        },
+        {
+          "name": "source_val",
+          "start": 669236,
+          "end": 780775,
+          "bytes": 111539,
+          "sha256": "8f8a2eeb453e7f80971a6e2147b69d6f37997e6c773ea5b662e77d5f8f06352b"
+        },
+        {
+          "name": "target_train",
+          "start": 780775,
+          "end": 948084,
+          "bytes": 167309,
+          "sha256": "8cf1edaeebb5943fc96cbbd7e36312ddb84d72d15e3d5e27b3bdfb2d6e4ce91c"
+        },
+        {
+          "name": "target_val",
+          "start": 948084,
+          "end": 1031739,
+          "bytes": 83655,
+          "sha256": "e6c9297b1a807b2afbacc440b88d3ffb806733b0288d567e947682ea32a6eeb2"
+        },
+        {
+          "name": "target_test",
+          "start": 1031739,
+          "end": 1115394,
+          "bytes": 83655,
+          "sha256": "ed21f4bc7be89c8059739101406273bf46de2688fc40cea0d606482e89d50d06"
+        }
+      ]
+    },
+    "target": {
+      "dataset": "Salesforce/wikitext",
+      "subset": "wikitext-2-raw-v1",
+      "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+      "license_tags": [
+        "cc-by-sa-3.0",
+        "gfdl"
+      ],
+      "transform": "UTF8(''.join(text_rows_in_original_order)); no extra separator or normalization",
+      "test_downloaded_or_used": false,
+      "splits": [
+        {
+          "split": "train",
+          "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/train-00000-of-00001.parquet",
+          "rows": 36718,
+          "parquet_sha256": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7",
+          "parquet_bytes": 6357543,
+          "bin_path": "data/processed/wikitext-2-raw-v1/train.bin",
+          "bin_bytes": 10914845,
+          "bin_sha256": "fc1dd2874bf42e945db9bd38e856ae18010f5c088e7446c706c5ba2f39310ee3"
+        },
+        {
+          "split": "validation",
+          "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/validation-00000-of-00001.parquet",
+          "rows": 3760,
+          "parquet_sha256": "204929b7ff9d6184953f867dedb860e40aa69c078fc1e54b3baaa8fb28511c4c",
+          "parquet_bytes": 657209,
+          "bin_path": "data/processed/wikitext-2-raw-v1/validation.bin",
+          "bin_bytes": 1144248,
+          "bin_sha256": "8ef749789ca0693435d20b3f81d5638c19edcebc5a68586dcf09bdf47ef9542f"
+        }
+      ]
+    }
+  },
+  "protocol_sha256": "fd048dc31fed72ca8303472f4bb98b9b22b9cfec9765e1de1b2b358b6be314c9",
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.14.1+cu126",
+  "numpy": "1.26.4",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

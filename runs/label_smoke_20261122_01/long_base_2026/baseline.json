@@ -1,0 +1,14 @@
+{
+  "source_val": {
+    "loss": 1.7661335468292236,
+    "bits_per_byte": 2.547992109558157,
+    "accuracy": 0.486328125,
+    "bytes": 512
+  },
+  "target_val": {
+    "loss": 3.9263687133789062,
+    "bits_per_byte": 5.664552671493328,
+    "accuracy": 0.28125,
+    "bytes": 512
+  }
+}

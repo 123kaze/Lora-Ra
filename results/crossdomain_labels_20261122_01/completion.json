@@ -1,0 +1,7 @@
+{
+  "trajectories": 84,
+  "validation_rows": 168,
+  "smoke": false,
+  "test_split_used": false,
+  "complete": true
+}
