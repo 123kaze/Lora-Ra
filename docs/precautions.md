@@ -7,6 +7,6 @@
 5. calibration来自目标训练集，val/test不得进入谱或rank分配。共享基础checkpoint与训练batch顺序。三种子是adapter种子，不是三个独立预训练模型。
 6. 随机同形状分组只是一个控制；不能消除所有随机划分方差。未通过结构优势门时保留负结果，不扩大复杂度。
 7. PyTorch峰值allocated不包含桌面/驱动显存。WSL可见同一GPU；不要安装Linux显卡驱动覆盖Windows驱动。
-8. 环境默认在WSL `~/.venvs/carryrank`，项目位于`/mnt/e/Projects/Lora`；PowerShell入口使用`wsl -d Ubuntu-24.04 -- bash scripts/run_wsl.sh ...`。不在Windows Conda base安装torch。
+8. 当前直接复用Windows Conda `E:\envs\LangChain_agent\python.exe`，CUDA/BF16已实测，不更改其依赖；使用`scripts/run.ps1`。WSL `~/.venvs/carryrank`只作备用，安装因下载超时未完成；不在Windows Conda base安装torch。
 9. 每次新实验用新run-id。保留配置、代码散列、数据散列、checkpoint与日志；报告引用run-id。中断后用同配置resume，不覆写不同结果。
 10. 当桌面软件需要保存未保存内容时不能强制退出。当前已获用户授权退出非必要显存软件；编辑器和当前会话始终保留。

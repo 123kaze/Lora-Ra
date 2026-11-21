@@ -7,10 +7,10 @@ name = "carryrank"
 version = "0.1.0"
 description = "Minimal reproducible CarryRank-LoRA mechanism experiments"
 requires-python = ">=3.11"
-dependencies = ["torch>=2.7,<2.8", "numpy>=2.2,<2.3", "scipy>=1.15,<1.16", "matplotlib>=3.10,<3.11"]
+dependencies = ["torch>=2.7", "numpy>=1.26", "matplotlib>=3.10"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.4,<8.5"]
+dev = ["pytest>=8.4"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

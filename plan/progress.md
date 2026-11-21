@@ -7,3 +7,12 @@
 - 用户授权通过WSL运行、退出非必要显存程序。已退出NVIDIA Overlay与PhoneExperienceHost，保留编辑器/聊天/桌面；显存约1460→696MiB。
 - WSL缺少python3.12-venv，正在安装最小环境支持；不修改驱动或全局Python依赖。
 - D0/D1/D2已建立。接下来：隔离依赖、正确性测试、smoke、预训练与正式pilot。
+
+用户提醒已有Conda后，检查全部登记环境：`scTPF`为torch2.9.1+cpu；`LangChain_agent`为Python3.11.14/torch2.14.1+cu126，RTX4050 CUDA矩阵与BF16可用。切换直接复用后者，不修改现有依赖；unittest和NumPy实现验证/相关统计，免装scipy/pytest。WSL仅补venv组件，pip在解析CUDA依赖时下载超时退出，无残留安装进程。训练尚未开始。
+
+## 实测进展
+
+- `python -m unittest discover -s tests -v`：10项通过（11.197s）。覆盖旁路历史/梯度、因果性、输入列掩码、零初始化、冻结与合并、精确背包对照穷举、预算可达性、切分边界及秩统计。
+- `runs/smoke_20261122_01`：完整流程退出码0，12项运行审计通过，最大FP32合并输出误差`7.152557373046875e-07`。此run名称明确标为smoke，预训练/机制研究门保持false，不纳入正式结论。
+- 数据下载完成：1,115,394字节，SHA256=`86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed`；切分散列已写入manifest。
+- `runs/pilot_20261122_01`正式运行中，1,439,296参数；源验证loss从5.55272下降到step400的1.74594；尚未得出C/R适配结论。
