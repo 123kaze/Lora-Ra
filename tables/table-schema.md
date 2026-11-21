@@ -8,3 +8,5 @@
 | sweep | 预测诊断 | 组×rank | predicted utility、actual val improvement、params | sweep.csv | sweep阶段 |
 
 无mock数据；空表不得回填估计数。std使用ddof=1。单种子诊断不计算显著性。
+
+实际已交付的数据：`results/pilot_20261122_01/main.csv`（18行）、`summary.csv`（6行）、`spectra.csv`（320行）、`sweep.csv`（共享rank0+6个非零rank行）。`tables/`存放表契约，实测CSV统一位于`results/`，不再仅引用本机运行目录。

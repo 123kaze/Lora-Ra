@@ -1,0 +1,43 @@
+{
+  "url": "https://raw.githubusercontent.com/karpathy/char-rnn/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare/input.txt",
+  "raw_sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+  "raw_bytes": 1115394,
+  "tokenizer": "fixed UTF-8 bytes, vocabulary 256",
+  "splits": [
+    {
+      "name": "source_train",
+      "start": 0,
+      "end": 669236,
+      "bytes": 669236,
+      "sha256": "f7581f84bb0c35455b635a392e4b50a2060c9ae8ab4fea2dc5dbd2f685b8cce6"
+    },
+    {
+      "name": "source_val",
+      "start": 669236,
+      "end": 780775,
+      "bytes": 111539,
+      "sha256": "8f8a2eeb453e7f80971a6e2147b69d6f37997e6c773ea5b662e77d5f8f06352b"
+    },
+    {
+      "name": "target_train",
+      "start": 780775,
+      "end": 948084,
+      "bytes": 167309,
+      "sha256": "8cf1edaeebb5943fc96cbbd7e36312ddb84d72d15e3d5e27b3bdfb2d6e4ce91c"
+    },
+    {
+      "name": "target_val",
+      "start": 948084,
+      "end": 1031739,
+      "bytes": 83655,
+      "sha256": "e6c9297b1a807b2afbacc440b88d3ffb806733b0288d567e947682ea32a6eeb2"
+    },
+    {
+      "name": "target_test",
+      "start": 1031739,
+      "end": 1115394,
+      "bytes": 83655,
+      "sha256": "ed21f4bc7be89c8059739101406273bf46de2688fc40cea0d606482e89d50d06"
+    }
+  ]
+}

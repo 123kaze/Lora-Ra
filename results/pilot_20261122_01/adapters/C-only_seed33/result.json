@@ -1,0 +1,22 @@
+{
+  "method": "C-only",
+  "seed": 33,
+  "steps": 180,
+  "params": 3840,
+  "val_loss": 1.6647778004407883,
+  "val_bits_per_byte": 2.4017666768779615,
+  "val_accuracy": 0.50921630859375,
+  "val_bytes": 16384,
+  "test_loss": 1.731730803847313,
+  "test_bits_per_byte": 2.4983594428651767,
+  "test_accuracy": 0.492919921875,
+  "test_bytes": 16384,
+  "training_seconds": 2.7859176999998,
+  "peak_allocated_mb": 100.580078125,
+  "unmerged_latency_ms": 5.340590000002976,
+  "merged_latency_ms": 5.4553400000031615,
+  "initial_max_error": 0.0,
+  "merge_max_error": 5.7220458984375e-06,
+  "frozen_base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "data_trace_sha256": "8a4986d2cab7ef0a09d7e889c8a5f1430495e6f73440b5799a21c731099d4c64"
+}

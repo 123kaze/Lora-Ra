@@ -26,3 +26,12 @@
 - 正式run12项工程检查全部通过，最大合并误差9.53674e-06。独立重载18个适配器，验证loss误差0；全部校准效用重新SVD误差0。
 - 三幅PNG/SVG已生成并目视检查。摘要在`reports/pilot_20261122.md`，完整证据在`runs/pilot_20261122_01/`。
 - 原始方案SHA256保持`ef6fc54d197af6f3d3f9d612a40c843a90c9f8482362ef2008f270847d3e3cb2`。
+
+## 结果交付修正
+
+用户指出原先整个`runs/`被Git忽略，导致仓库仅可见计划而缺少可审查的实测文件。核实原始run确有4个CSV、报告、三图及日志；未重新训练或更改数值。
+
+- 导出实测证据到`results/pilot_20261122_01/`，PNG/SVG到`figures/pilot_20261122_01/`；README与报告均链接这些位置。
+- `scripts/export_results.py`提供导出与纯标准库独立核验；Windows入口完成`all/report`后自动导出。旧run、原始源码散列和权重保持不变。
+- 导出106个文件，18条main、6条summary、320条spectra、6个非零rank；逐文件哈希通过，汇总均值/std重算通过，CSV与原始完成日志一致，rank预测与谱一致。
+- 当前`.gitignore`已移除`runs/`整目录规则；保留该修改，没有擅自提交或推送。

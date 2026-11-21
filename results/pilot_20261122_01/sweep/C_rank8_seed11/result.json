@@ -1,0 +1,22 @@
+{
+  "method": "C_rank8",
+  "seed": 11,
+  "steps": 180,
+  "params": 2560,
+  "val_loss": 1.6784273236989975,
+  "val_bits_per_byte": 2.4214587763930786,
+  "val_accuracy": 0.50933837890625,
+  "val_bytes": 16384,
+  "test_loss": null,
+  "test_bits_per_byte": null,
+  "test_accuracy": null,
+  "test_bytes": null,
+  "training_seconds": 1.8041747000002033,
+  "peak_allocated_mb": 88.703125,
+  "unmerged_latency_ms": 6.254325000008976,
+  "merged_latency_ms": 8.048535000000356,
+  "initial_max_error": 0.0,
+  "merge_max_error": 5.7220458984375e-06,
+  "frozen_base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "data_trace_sha256": "ff68f715f7cb7602d0e280a41e725c756836fa1fb776a510e7033630761ed2af"
+}

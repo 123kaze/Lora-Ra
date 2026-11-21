@@ -4,6 +4,10 @@
 
 首轮已完成：[结果与限制](reports/pilot_20261122.md)。10项测试、18个主对照及6个非零rank诊断完成；工程通过，梯度分配未稳定胜过均分/普通LoRA，暂不扩展曲率。
 
+**实际结果入口：[证据包索引](results/pilot_20261122_01/README.md)**。
+直接查看：[main.csv](results/pilot_20261122_01/main.csv)、[spectra.csv](results/pilot_20261122_01/spectra.csv)、[sweep.csv](results/pilot_20261122_01/sweep.csv)、[summary.csv](results/pilot_20261122_01/summary.csv)、[完整报告](results/pilot_20261122_01/report.md)。
+生成图：[comparison](figures/pilot_20261122_01/comparison.png)、[sensitivity](figures/pilot_20261122_01/sensitivity.png)、[prediction](figures/pilot_20261122_01/prediction.png)。这些是实测文件，不是图表程序或占位数据。
+
 ## 结构
 
 ```text
@@ -14,7 +18,9 @@ tests/           影响实验可信度的正确性测试
 plan/            协议、阶段门、进度与方法证据对应
 docs/            来源、环境与注意事项
 data/            原始语料/切分散列（不进Git）
-runs/<run-id>/   检查点、原始日志、CSV、图表与审计（不进Git）
+runs/<run-id>/   完整运行工作目录，保留检查点和原始输出
+results/<id>/    供仓库审阅的CSV、日志、审计、源码快照和哈希清单
+figures/<id>/    实测生成的PNG/SVG
 reports/         可读结果入口
 ```
 
@@ -38,3 +44,14 @@ WSL为备用：Ubuntu24.04已补`python3.12-venv`；此前CUDA依赖下载超时
 预设协议见[plan/experiment-protocol.md](plan/experiment-protocol.md)。6种方法×3个适配种子，每种3840个可训练参数、同基础checkpoint、相同训练batch顺序。先源训练集预训练，再在无交叠的目标训练段适配；校准不接触val/test。记录工程检查与机制初筛的独立判定。
 
 查看`runs/<run-id>/report.md`与`verdict.json`，先确认`verification.json`。最终CSV和图直接来自真实运行。注意小模型、单语料与共享预训练种子的限制；不把流程跑通当作方法有效。
+
+## 结果交付与独立核验
+
+实验完成后必须提供小型证据包，不能只引用本机运行目录。Windows入口的`all/report`阶段会自动导出；其他入口手动运行：
+
+```powershell
+python scripts/export_results.py --run runs/pilot_20261122_01
+python scripts/export_results.py --verify results/pilot_20261122_01
+```
+
+导出不重训、不改原始run；复制实测CSV、日志、配置与源码快照，图保存在`figures/<id>/`。`artifact-manifest.json`逐文件列出字节数、SHA-256和原路径。核验只需Python标准库，重算均值/样本std、对照原始完成日志，并从谱重算rank预测效用；不依赖Conda、CUDA或`runs/`。完整检查点重载仍需原始tensor文件。

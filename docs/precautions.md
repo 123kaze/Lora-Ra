@@ -10,3 +10,4 @@
 8. 当前直接复用Windows Conda `E:\envs\LangChain_agent\python.exe`，CUDA/BF16已实测，不更改其依赖；使用`scripts/run.ps1`。WSL `~/.venvs/carryrank`只作备用，安装因下载超时未完成；不在Windows Conda base安装torch。
 9. 每次新实验用新run-id。保留配置、代码散列、数据散列、checkpoint与日志；报告引用run-id。中断后用同配置resume，不覆写不同结果。
 10. 当桌面软件需要保存未保存内容时不能强制退出。当前已获用户授权退出非必要显存软件；编辑器和当前会话始终保留。
+11. 完成实验时同步导出小型证据包：`python scripts/export_results.py --run runs/<id>`，再以`--verify results/<id>`独立核验。README必须指向可审阅的CSV/生成图/报告；不能仅用进度文字或被忽略的本机目录作为结果交付。

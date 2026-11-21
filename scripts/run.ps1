@@ -19,6 +19,10 @@ try {
     if ($Resume) { $experimentArguments += '--resume' }
     & $Python @experimentArguments
     if ($LASTEXITCODE -ne 0) { throw "Experiment exited with code $LASTEXITCODE" }
+    if ($Stage -in @('all','report')) {
+        & $Python scripts/export_results.py --run $Output
+        if ($LASTEXITCODE -ne 0) { throw "Result export exited with code $LASTEXITCODE" }
+    }
 } finally {
     Pop-Location
     $env:PYTHONPATH = $previousPythonPath

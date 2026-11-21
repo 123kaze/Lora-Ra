@@ -1,0 +1,16 @@
+{
+  "run": "pilot_20261122_01",
+  "adapter_checkpoints_reconstructed": 18,
+  "parameter_costs": {
+    "C-only": 3840,
+    "R-only": 3840,
+    "Equal": 3840,
+    "Gradient": 3840,
+    "Shuffled": 3840,
+    "Uniform": 3840
+  },
+  "max_spectral_utility_error": 0.0,
+  "max_reconstructed_val_loss_error": 0.0,
+  "original_proposal_sha256": "ef6fc54d197af6f3d3f9d612a40c843a90c9f8482362ef2008f270847d3e3cb2",
+  "pass": true
+}
