@@ -13,6 +13,8 @@
 
 没有torch也可运行：`python scripts/verify_phase2_evidence.py results/diagnostic_20261122_02`。已核对391个文件、CSV与原始完成日志、参数成本、Q保留约束，重算基础内均值和配对差，并独立求解18组代理优化问题。另从磁盘重载109个最终检查点，验证loss复现误差均为0。
 
+进一步的[完整解读](diagnostic_20261122.md)包含只读末步梯度分析。每个基础还导出了不含模型权重的`calibration_arrays.npz`与键名JSON，可用NumPy打开；`python scripts/verify_diagnostic.py results/diagnostic_20261122_02 --spectra`可以重新计算所有校准谱，不需要torch、CUDA或原始run。用法见[证据包说明](../results/diagnostic_20261122_02/README.md)。
+
 ## 输入尺度偏差存在，白化只修正了一部分
 
 末层V、rank2的校准结果：

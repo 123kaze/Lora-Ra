@@ -1,14 +1,20 @@
 # CarryRank-LoRA 最小机制实验
 
+最新跨域标签筛查已完成：[完整结论](reports/crossdomain_labels_20261122.md)、[84条正式轨迹/168行CSV与审计](results/crossdomain_labels_20261122_01/README.md)。3基础、5随机分组、长短旁路：真实C/R对随机分组平均改善仅0.003208/0.000613，未过0.01门；真实代理6/6退化为同一个VBalanced配置，不能把相同适配器的打平解释为有区分力的方法比较。
+
+跨域容量筛查已完成：[24条轨迹的结果](reports/crossdomain_capacity_20261122.md)、[实测CSV与独立重载](results/crossdomain_capacity_20261122_01/README.md)。长短旁路均通过预定rank1/rank4容量门；这不等于C/R标签或方法优势成立。
+
 第二轮诊断已完成：[复核结论与证据](reports/diagnostic_review_20261122.md)、[109条轨迹的完整CSV](results/diagnostic_20261122_02/diagnostic.csv)、[逐基础汇总](results/diagnostic_20261122_02/by_base_summary.csv)。输入尺度与rank更新尺度的混杂确实存在，C/R结构优势仍未证实；原始结果保持不变。
 
 正式第二轮入口：`./scripts/run_diagnostic.ps1 -Output runs/<new-run-id>`。无需torch的结果核验：`python scripts/verify_phase2_evidence.py results/diagnostic_20261122_02`。
 
 研究方案见[研究方案.md](研究方案.md)，原文保留。第一轮从头预训练小型变宽Transformer，检验扩张层C/R适配及梯度谱分配；不实现K-FAC或V2，不预先假定R更重要。
 
+双侧对角校准已完成：[不变性修复与下一步设计](reports/output_diagonal_20261122.md)、[NPZ/CSV证据](results/outputdiag_calibration_20261122_01/README.md)。补上相对阻尼的输出对角项后，三个基础的Q/K标量重参数化下谱和rank分配完全一致；原宽度校准轮没有训练此版本；后续跨域训练与限制见最新标签报告。
+
 第二轮已完成：[109条诊断轨迹与证据](results/diagnostic_20261122_02/README.md)、[针对Q被舍弃的解读](reports/diagnostic_20261122.md)。新增两个独立预训练种子、小预算/输入归一化/Q保留/缩放与lr对照。Q/K保持输出不变的重标定可使Q预算从0变为3008，暴露当前代理的参数尺度依赖；不据此宣称新的LoRA方法已获验证。
 
-首轮已完成：[结果与限制](reports/pilot_20261122.md)。10项测试、18个主对照及6个非零rank诊断完成；工程通过，梯度分配未稳定胜过均分/普通LoRA，暂不扩展曲率。
+首轮已完成：[结果与限制](reports/pilot_20261122.md)。10项测试、18个主对照及6个非零rank诊断完成；工程通过，梯度分配未稳定胜过均分/普通LoRA，该轮未支持梯度方法优势；后续双侧校准与跨域复核另行报告。
 
 **实际结果入口：[证据包索引](results/pilot_20261122_01/README.md)**。
 直接查看：[main.csv](results/pilot_20261122_01/main.csv)、[spectra.csv](results/pilot_20261122_01/spectra.csv)、[sweep.csv](results/pilot_20261122_01/sweep.csv)、[summary.csv](results/pilot_20261122_01/summary.csv)、[完整报告](results/pilot_20261122_01/report.md)。
@@ -61,3 +67,18 @@ python scripts/export_results.py --verify results/pilot_20261122_01
 ```
 
 导出不重训、不改原始run；复制实测CSV、日志、配置与源码快照，图保存在`figures/<id>/`。`artifact-manifest.json`逐文件列出字节数、SHA-256和原路径。核验只需Python标准库，重算均值/样本std、对照原始完成日志，并从谱重算rank预测效用；不依赖Conda、CUDA或`runs/`。完整检查点重载仍需原始tensor文件。
+
+## 新跨域实验的环境与复核
+
+数据转换沿用已有`E:\Conda\python.exe`（NumPy2.1.3和PyArrow），训练使用`E:\envs\LangChain_agent\python.exe`。后者现有PyArrow与NumPy1.26.4不兼容，因此不在训练环境转换Parquet、不升级依赖；训练只读校验过的bin缓存。
+
+```powershell
+& "E:\Conda\python.exe" scripts/prepare_wikitext.py
+$env:PYTHONPATH = "$PWD\src"
+& "E:\envs\LangChain_agent\python.exe" -m carryrank.capacity --output runs/<fresh-capacity-id>
+# 容量门通过后，复制configs/crossdomain_labels.json并将capacity_parent指向该新run，再传--config运行labels。
+& "E:\Conda\python.exe" scripts/verify_capacity.py results/crossdomain_capacity_20261122_01
+& "E:\Conda\python.exe" scripts/verify_labels.py results/crossdomain_labels_20261122_01
+```
+
+两个轻量结果包不依赖runs目录或Torch即可审阅与重算；重训、adapter重载需要CUDA环境和本地tensor。论文优势没有得到验证，原方案、原结果及原门槛保留。

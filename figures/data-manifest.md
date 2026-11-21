@@ -15,3 +15,7 @@ PNG为450dpi，SVG为矢量；图中英文标注避免WSL缺失中文字体。�
 第二轮约定（仅在运行完成后构成证据）：`diagnostic_20261122_02`的small_budget/capacity/concentration三图由`src/carryrank/diagnostic_report.py`读取实际`diagnostic.csv`生成，输出至`figures/diagnostic_20261122_02/`，PNG450dpi与SVG各一份。基础seed先聚合adapter seed，再呈现基础之间的波动；smoke图不计入研究结果。
 
 第二轮正式图已实际生成并逐幅查看；391个导出文件哈希及原始数据关联通过独立核验。源数据是`results/diagnostic_20261122_02/diagnostic.csv`及`by_base_summary.csv`，输出为同run-id下small_budget、capacity、concentration的PNG/SVG。解释与适用边界见`reports/diagnostic_review_20261122.md`。
+
+跨域容量真实数据：`results/crossdomain_capacity_20261122_01/main.csv`与`summary.csv`，24条轨迹、72条定步记录。脚本`figures/crossdomain_capacity/plot_capacity.py`生成`figures/crossdomain_capacity_20261122_01/capacity.png,svg`及`paired_gate.png,svg`。均值和样本SD仅跨3个adapter seed，基础seed2026，每宽度1个基础；图不证明C/R方法优势。
+
+跨域标签真实数据：`results/crossdomain_labels_20261122_01/main.csv`、`summary.csv`、`base_comparisons.csv`。84条轨迹、168行，3基础×2adapter、5随机分组。脚本`figures/crossdomain_labels/plot_labels.py`生成`figures/crossdomain_labels_20261122_01/comparison.png,svg`和`paired_differences.png,svg`。均值图SD跨基础均值，配对图展示3个基础原始差；非独立确认性测试。
