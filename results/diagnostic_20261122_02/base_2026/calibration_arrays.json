@@ -1,0 +1,26 @@
+{
+  "format": "numpy savez_compressed; allow_pickle=False",
+  "modules": {
+    "blocks.3.attn.q_proj": {
+      "gradient": "gradient__blocks_3_attn_q_proj",
+      "input_second_moment": "moment__blocks_3_attn_q_proj"
+    },
+    "blocks.3.attn.v_proj": {
+      "gradient": "gradient__blocks_3_attn_v_proj",
+      "input_second_moment": "moment__blocks_3_attn_v_proj"
+    },
+    "blocks.4.attn.q_proj": {
+      "gradient": "gradient__blocks_4_attn_q_proj",
+      "input_second_moment": "moment__blocks_4_attn_q_proj"
+    },
+    "blocks.4.attn.v_proj": {
+      "gradient": "gradient__blocks_4_attn_v_proj",
+      "input_second_moment": "moment__blocks_4_attn_v_proj"
+    }
+  },
+  "base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "gradient": "mean task loss gradient from training calibration only",
+  "input_second_moment": "uncentered E[x^2] of actual projection input",
+  "dtype": "float64",
+  "no_model_weights": true
+}

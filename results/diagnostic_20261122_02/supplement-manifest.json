@@ -1,0 +1,151 @@
+{
+  "kind": "post-hoc read-only supplements and portable calibration",
+  "original_run_modified": false,
+  "files": [
+    {
+      "path": "reports/diagnostic_20261122.md",
+      "bytes": 8315,
+      "sha256": "fc32ffa31845f7b202a2b9bfad8e484556d07423e4e0eb2aa359425eecb76c56"
+    },
+    {
+      "path": "reports/diagnostic_correctness_tests.txt",
+      "bytes": 2091,
+      "sha256": "2c8f72de16be2cd913fce444d07d365fd6686cfcfd417c6fd45560124e8d2e60"
+    },
+    {
+      "path": "reports/phase1_replay_check.json",
+      "bytes": 138,
+      "sha256": "1cdd052fc2de484baf9af0d9b9bacfc4aa24fa783e35f5b3e26550eb565fa7b1"
+    },
+    {
+      "path": "results/calibration_probe_20261122_01/frozen_base_metrics.json",
+      "bytes": 722,
+      "sha256": "36a8f9d089ead86a975e1ede235998f9636e758254e8e37b790635f97a33dd43"
+    },
+    {
+      "path": "results/calibration_probe_20261122_01/input_scale_probe.csv",
+      "bytes": 3486,
+      "sha256": "a54cc36409331facd26713abf3f8af9dc21473ee0c8574eee08bfd56784f7965"
+    },
+    {
+      "path": "results/calibration_probe_20261122_01/input_second_moments.json",
+      "bytes": 16069,
+      "sha256": "987100722197d387951741f7a4f812aa5414be52c7b52f57dda620bf210a2629"
+    },
+    {
+      "path": "results/calibration_probe_20261122_01/provenance.json",
+      "bytes": 362,
+      "sha256": "9893d8a609ac5547788a134973955779eb0f10172359f65c1bc105e09c647e27"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/calibration_arrays.json",
+      "bytes": 980,
+      "sha256": "1f67f1a9badd1bfbd76672b9888ebc4522e547c65dd68c20bbfaf8ec0d317bc0"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/calibration_arrays.npz",
+      "bytes": 594288,
+      "sha256": "fec25feb745b4810837419577014eba1ad5510b5d656819f294715474e185331"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/calibration_arrays.json",
+      "bytes": 980,
+      "sha256": "0b6d43572e7d218559867df0ffe97996db2ab7abbfdbdbc69bde441426b833b6"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/calibration_arrays.npz",
+      "bytes": 594479,
+      "sha256": "758d43677ed186a24471d6bbbc470d4cba8b597f3ecb214fba5e40c0367c0029"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/calibration_arrays.json",
+      "bytes": 980,
+      "sha256": "ea32a1e055b1da1b9c9ce45b2cec6b68676a537295e822dc38be741ac78c3890"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/calibration_arrays.npz",
+      "bytes": 594249,
+      "sha256": "912c86d9a213ff6d86c5fbb2edd3534d15ad33c0297aea89fa19930249173d13"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/checkpoint_audit.json",
+      "bytes": 200,
+      "sha256": "265b2398df9dc6506cedb51d7be3d5639e1bbb4de0ccd7b934847e49b18b4dd1"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/final_output_shifts.csv",
+      "bytes": 7257,
+      "sha256": "69090a2e9c4de11bbe03b6700be675a859b0d331c4485edde204f34cb8e56787"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/late_gradient_probe.csv",
+      "bytes": 21740,
+      "sha256": "1287b1a4ebca9ed4de3ff8fdd7e42bec6fdfc30082c7e2f8fda7a96cfbbbe1b9"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/late_gradient_probe_provenance.json",
+      "bytes": 271,
+      "sha256": "5b33424e8dd74d670de031afdeaf62a30f9f5cbd866c217c16c288b1fcf5ddb5"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/README.md",
+      "bytes": 2191,
+      "sha256": "6c70b55fa499e514930bdea54f765ef588dd8f5953779dd2129fe67c7d14b581"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/audit_diagnostic.py",
+      "bytes": 3490,
+      "sha256": "642bb8eb34c4f59086b5073888a25fb8d1d2b97cfbf1bb271859ccff78af6d83"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/export_calibration_npz.py",
+      "bytes": 1505,
+      "sha256": "ca073c9d0f99dcf3d71c2f86a95f45fcd5a8c722fe3cb8a6d5a5c46a42509123"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/probe_calibration.py",
+      "bytes": 5003,
+      "sha256": "f8735c3efbc19524a2bcd941b2b844d55397b609768a0bb5b822e25719402a2e"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/probe_late_gradients.py",
+      "bytes": 4522,
+      "sha256": "8656f5a5f56dcad700a0d738f7dfe284f116d7ffdeb98485540cea2c1cf7ccd9"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/probe_parameterization.py",
+      "bytes": 4829,
+      "sha256": "b2fc91cbe32163d999b1ce6d2d152ce4b9fd3fc3f4397cdb9cc2c6238acd4f6c"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/run_diagnostic.ps1",
+      "bytes": 701,
+      "sha256": "378c640e488d5c4f22ee296699064f1200fcd1c139fc1dcb4308dd90a2bc2a3f"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/scripts/verify_diagnostic.py",
+      "bytes": 4132,
+      "sha256": "56f00a6b6025b77b3ff01439b520a59f6fca711c6e33e410483382cb47329ea1"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/tests/test_diagnostic.py",
+      "bytes": 2067,
+      "sha256": "d95118cd6bad31aab54158193245083b8f68e406fcba1e3885f23c87084877bf"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/tests/test_diagnostics.py",
+      "bytes": 1309,
+      "sha256": "6a719d9ed54d8efb67246dd685970fd6e2343a04d1fd56daf26113419b33a762"
+    },
+    {
+      "path": "results/parameterization_probe_20261122_01/parameterization.csv",
+      "bytes": 3853,
+      "sha256": "e77e80f7e9ed008a2363dab1d8b1b80682773824b8362d740cd056881266c783"
+    },
+    {
+      "path": "results/parameterization_probe_20261122_01/provenance.json",
+      "bytes": 492,
+      "sha256": "9de345b911a2cc7d7e8288c1c333523bf1fc9eab684cc4a7aafdf08047d7d801"
+    }
+  ]
+}

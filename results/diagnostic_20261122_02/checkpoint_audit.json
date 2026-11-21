@@ -1,0 +1,8 @@
+{
+  "run": "diagnostic_20261122_02",
+  "checkpoints_reconstructed": 109,
+  "max_validation_loss_error": 0.0,
+  "exported_hashes_verified": 391,
+  "parent_base_unchanged": true,
+  "pass": true
+}

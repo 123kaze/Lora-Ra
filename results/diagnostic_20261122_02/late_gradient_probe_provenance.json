@@ -1,0 +1,9 @@
+{
+  "purpose": "Post-hoc temporal gradient diagnostic, not a confirmatory test",
+  "training_performed": false,
+  "rank_reallocated": false,
+  "data": "same target training calibration only",
+  "base_weights_unchanged": true,
+  "adapter_seed": 11,
+  "rows": 192
+}

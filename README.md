@@ -1,6 +1,12 @@
 # CarryRank-LoRA 最小机制实验
 
+第二轮诊断已完成：[复核结论与证据](reports/diagnostic_review_20261122.md)、[109条轨迹的完整CSV](results/diagnostic_20261122_02/diagnostic.csv)、[逐基础汇总](results/diagnostic_20261122_02/by_base_summary.csv)。输入尺度与rank更新尺度的混杂确实存在，C/R结构优势仍未证实；原始结果保持不变。
+
+正式第二轮入口：`./scripts/run_diagnostic.ps1 -Output runs/<new-run-id>`。无需torch的结果核验：`python scripts/verify_phase2_evidence.py results/diagnostic_20261122_02`。
+
 研究方案见[研究方案.md](研究方案.md)，原文保留。第一轮从头预训练小型变宽Transformer，检验扩张层C/R适配及梯度谱分配；不实现K-FAC或V2，不预先假定R更重要。
+
+第二轮已完成：[109条诊断轨迹与证据](results/diagnostic_20261122_02/README.md)、[针对Q被舍弃的解读](reports/diagnostic_20261122.md)。新增两个独立预训练种子、小预算/输入归一化/Q保留/缩放与lr对照。Q/K保持输出不变的重标定可使Q预算从0变为3008，暴露当前代理的参数尺度依赖；不据此宣称新的LoRA方法已获验证。
 
 首轮已完成：[结果与限制](reports/pilot_20261122.md)。10项测试、18个主对照及6个非零rank诊断完成；工程通过，梯度分配未稳定胜过均分/普通LoRA，暂不扩展曲率。
 
