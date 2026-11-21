@@ -1,0 +1,2928 @@
+{
+  "run": "diagnostic_20261122_02",
+  "files": [
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/baseline_validation.json",
+      "sha256": "836caae99cc74c8267ad07f388cbf5787080fb9dab860de825e8f3317b51da2e",
+      "bytes": 124,
+      "source": "runs/diagnostic_20261122_02/base_2026/baseline_validation.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/calibration.json",
+      "sha256": "7763d78e354c29486409e58b2b5629f3c1338393cfb6b795313ef4391705a10d",
+      "bytes": 34993,
+      "source": "runs/diagnostic_20261122_02/base_2026/calibration.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/config.json",
+      "sha256": "85db32b54e94591263f27e335c468bfffd5b99a7b5db5c78085574626559c5cf",
+      "bytes": 1280,
+      "source": "runs/diagnostic_20261122_02/base_2026/config.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/data_manifest.json",
+      "sha256": "73980e6f6ac2fd7d468ec0db293aa6268da855f8414d10b8dac31c06b519528b",
+      "bytes": 1314,
+      "source": "runs/diagnostic_20261122_02/base_2026/data_manifest.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_constant_lr0.003_seed11/result.json",
+      "sha256": "664783ea99f28cf48adb4b2ad5018ec2e45859a63415b37abd713bd14bceeb88",
+      "bytes": 3338,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_constant_lr0.003_seed11/updates.csv",
+      "sha256": "dddec1d5fe4b2d361ecb7c3aa875341c1b455781ccea439bafa33d92cd0a3a69",
+      "bytes": 572,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "555b91412c20301022e423b69f9953c3e701d2da1f445c736dee693db4f9c795",
+      "bytes": 3334,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "2ac42a12ef305a9370bc67b7b214a2a27b6d6fe83843e2b9edf0c088ac2f380c",
+      "bytes": 625,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_constant_lr0.003_seed11/result.json",
+      "sha256": "7f44c90021d16a3a95c33ff957e068cbb5c876da09b9e41296c0e94ec3589c26",
+      "bytes": 3339,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_constant_lr0.003_seed11/updates.csv",
+      "sha256": "18891308a82482b66bec6740e78fecd08473796457c2e5e861d4fc8308da3b4b",
+      "bytes": 570,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "29e5402d9e6028a9ed66674516ae26bdb3a1f750d8d0a46341ebad3df39844e3",
+      "bytes": 3334,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "bdcb89f4b7aa2bc5f828fe15707ac0a3f16c6fa0cfbc0ae9cf9fb3fbedaeb169",
+      "bytes": 623,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_constant_lr0.003_seed11/result.json",
+      "sha256": "3010298c8ea961000158ed907d53b73f0c12e9612b8cda4157b10203c85bc344",
+      "bytes": 3335,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_constant_lr0.003_seed11/updates.csv",
+      "sha256": "203445b14e473dddbbefe2160b930aebfd8bd8d4b0bfbd530ec1c2641bfa0fb6",
+      "bytes": 568,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "168e3840d7e31b0f487da7ec948e04f37a71bf3ba4202038368ec2768635b5f8",
+      "bytes": 3336,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "466c367cc3416716cdbed4cdb882a7aa1dee2a56ce6c26c7a4ef84fe6ff48d8e",
+      "bytes": 624,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_constant_lr0.003_seed11/result.json",
+      "sha256": "e01d2abc978cc1254f14dcca686e2eac1606f58ae035f81c317914dfe83639d6",
+      "bytes": 3338,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_constant_lr0.003_seed11/updates.csv",
+      "sha256": "627cc5dc1ff798a2660f9f3a28c7372019104b2e2f79d46c820810c35b2250c4",
+      "bytes": 569,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "acd48bfc09d84cddba4cbb5e0edf328e95f7939abea866836cb2aa2e88bde44a",
+      "bytes": 3336,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "d58a9f5f926c77b5d09d9c2aecff7291c9cc3db773826cd4c9efc1bdea6d416f",
+      "bytes": 627,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_constant_lr0.003_seed11/result.json",
+      "sha256": "0e5a3b29c53aeba93633f06072478fb793b879ee80e53f9ef1e26b4c24c2a9d1",
+      "bytes": 2552,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_constant_lr0.003_seed11/updates.csv",
+      "sha256": "3ac8a3f85890948f47fb875da7fd93ce43e57700430d98b8fe885cf7a34f9736",
+      "bytes": 571,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "3e14f72a377832e780316b197a78587a41dcd1d9635caaeb2a68f2247ef014a0",
+      "bytes": 2547,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "985c2a01799386afa75f7e8390a3883c4d9d39555799c9beca6ab6e383e64f43",
+      "bytes": 628,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_constant_lr0.003_seed11/result.json",
+      "sha256": "28c6c915977147e1145e7e53b175e1c650634276acf59a32d3d4f29e8ef54c4d",
+      "bytes": 2550,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_constant_lr0.003_seed11/updates.csv",
+      "sha256": "e90f013573cf6bc3e5eafeb0827c423f438f68a3efd25381652403d9da7f217c",
+      "bytes": 570,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "0c984c0ddfe769e72136457a6ffea1904b68228a501a516faa24fadb501b2578",
+      "bytes": 2547,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "ec1dcec9597203937db969b499bb41ec8beff4a6fbe312034c1b77b086270e31",
+      "bytes": 621,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_constant_lr0.003_seed11/result.json",
+      "sha256": "98d51fdad9ce051b102fd3b8d170b86a996e3aa4e84081a2f53c39ad53f01cea",
+      "bytes": 2552,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_constant_lr0.003_seed11/updates.csv",
+      "sha256": "27ffc674a900dd60feff11c7afee0ee09b3de67eb88d6fdb35d0ca0ad3de0eda",
+      "bytes": 570,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "9593c063c2d26cbcce84c94eee97364980e3aa465d1061c582014be95c58209a",
+      "bytes": 2548,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "31744dd1c689fc6b23c0faf086e39a8a9bdaad7620fdded382d731d8b8d3b040",
+      "bytes": 628,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_constant_lr0.003_seed11/result.json",
+      "sha256": "64ee1a9365bb37dba5774fc4ce6bb74974b26686a9fddefb705bafe4246f1d21",
+      "bytes": 2551,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_constant_lr0.003_seed11/updates.csv",
+      "sha256": "8c22f3fe916b9938d924ffcc7544d4da248d192e0a6df5d022974f3d2970bfd8",
+      "bytes": 568,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "ab9e25da1988d31b9416f8012bdeaf171a7363816142078c22234b096996e46d",
+      "bytes": 2548,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "b4a1ed85707f4f44abf0e5bfd7b754d561fadddee22281cbada06f4d0308d6b1",
+      "bytes": 627,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.001_seed11/result.json",
+      "sha256": "987cd38c4c42f00472a188b7bfbf9e0609356f58dd55378a6e2bbb83b31ab219",
+      "bytes": 12107,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.001_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.001_seed11/updates.csv",
+      "sha256": "69d7e8cc16728651c08b89a0542f401c4c873886b88c575f9294ffd14192c92d",
+      "bytes": 2031,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.001_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.003_seed11/result.json",
+      "sha256": "e97417d76ed71492f4451cec847a30b0f5cc945628c71b50bbe8d64eb97ed993",
+      "bytes": 12104,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.003_seed11/updates.csv",
+      "sha256": "e4610ba75883405e769f1bd948af4321b76fc680f731d8ed75ae9200abb7404d",
+      "bytes": 2018,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "257f674fabd5673d79ca7ee0e89541584c6968add35a4444a6ac28981500862f",
+      "bytes": 12109,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "2d99245a98688b861ae92f34f3987fecb3df2720d708589a03a0a1b2f67f915d",
+      "bytes": 2237,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.001_seed11/result.json",
+      "sha256": "96911ee7d1a8c46ca7cde868f597bda10f5c9abff23966636e491c8c5dbc461e",
+      "bytes": 12120,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.001_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.001_seed11/updates.csv",
+      "sha256": "134ffb7fa54adf70d9ed4175f0698ce0304ff7df512534417b804665eddac15f",
+      "bytes": 3123,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.001_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.003_seed11/result.json",
+      "sha256": "9f070fa300d7c42c71f8d1ef0ac1d23b2207092103c532b01154b0e800ae49e4",
+      "bytes": 12120,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.003_seed11/updates.csv",
+      "sha256": "3d2a2db75a265ce101098096de6b192df55a18820b0c991f04c7670743dfe994",
+      "bytes": 3105,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "1f31a582d2cd1331e71d0383566ad9e6c97982c33ddc578a4e7d12b6fe5c9708",
+      "bytes": 12117,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "44e58572efe22774a8f1edcdae00a7e36b2abee16192d6fb7d6bf0a6a7b650db",
+      "bytes": 3442,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.001_seed11/result.json",
+      "sha256": "2e866d16fe8376e248412675d1e2c6c1580abe80266b37b00704e1478897a333",
+      "bytes": 12124,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.001_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.001_seed11/updates.csv",
+      "sha256": "b71569f52119ded4e5f4810238e0d1e857c0a51faf3bc48903d1def86a836892",
+      "bytes": 2161,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.001_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "9cca4bb2ea870b17685e86e4ef00ea58033faaadea001f9ced18a4834c57eb2d",
+      "bytes": 12123,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "d10487bea0dd6429aef474aff09deaae92877830cec30eb444026afb23089c7d",
+      "bytes": 2146,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "65caa0b9ddf6eb1e225c9c8312176c57e397dbbfb9b8f8620087a3b85745925f",
+      "bytes": 12123,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "225136d475b6bd7f76dfa2fb2002a7025b61e432bde25a4efbe20e9f5ee4a8dd",
+      "bytes": 2367,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/result.json",
+      "sha256": "029da717faf0d655d7d9ba435d8234e5ba01bbb52427c0387771080b1b43e3b6",
+      "bytes": 12096,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/updates.csv",
+      "sha256": "82933d798adeedbb0dbe7daba5ac3e0cb0f76e5ad1aa220758f6fadc6c9da6d2",
+      "bytes": 2327,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/result.json",
+      "sha256": "1d60a8a775c4c52104d5a7e9d69125a56b8e2239590da0fc1aa2961f3afca0f9",
+      "bytes": 12094,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/updates.csv",
+      "sha256": "9d7dcd8302f23f7876ccefde55c2f38b04967a9fdb9eeb88a73cfb873b0dce73",
+      "bytes": 2330,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "e9e878d88d9a4d3b86a081eab79569b15332aeadddd6ddec925b1c61a40798c1",
+      "bytes": 12091,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "e50700976252e479734a58342c49643b794304b20c38759657402132ade5f10c",
+      "bytes": 2602,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "bf46c04accdd8349aec66d59dd04fdb6fe79c1d94d838d1e74e9c882b073f922",
+      "bytes": 12091,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "4f780edd541e29dc6f8e23c4e02ec56b315c46897a2fa771e2c85ff834627c58",
+      "bytes": 2600,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/result.json",
+      "sha256": "5346522575540476335798597f1cd467cb070d84e3c2909ed715b3f6e0d11c05",
+      "bytes": 12095,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/updates.csv",
+      "sha256": "272cd2c2b2d1249bf962f57919682160e9ea9ba8ffb146ca0c28a87985e75cb5",
+      "bytes": 1461,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/result.json",
+      "sha256": "5065d81343d04db217de57c846f0db4a0c602b51269bb19189dabd6d01bd7d52",
+      "bytes": 12095,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/updates.csv",
+      "sha256": "881b332e5f5c714b4a1cf119ea9f63c8c71e720c2e523884eefc9d6f99cb37ea",
+      "bytes": 1459,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "b28864ade4d2f2da6541846115f17103d6703f1b7c9e0a66fdf458bed382ba2d",
+      "bytes": 12089,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "293d3df4e00dab0b8c4b34180f10ff77a16a859e1a0cb6cedb7a4c5498051873",
+      "bytes": 1622,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "6d2923e068704c6de17367580742f0716b15018b29b1ab4290220b1f71188526",
+      "bytes": 12096,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "d37a582f062f63ee15b8ba2b6ac4d6f3beaf7ef3a323735eb1b576455ddebb06",
+      "bytes": 1619,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "8bda906269231aeed55022d8bb14cf29a78c70bae89d478f26580d72f6afc470",
+      "bytes": 12112,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "742c822c88c28581afc78ac87391d0f80e7b99c2a4297cf809903a8d055b3b34",
+      "bytes": 1553,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/result.json",
+      "sha256": "17ef6b1850f0a32743e587cc7ce8980ed64cb8f9d4c9a9b03a8678776472b3b4",
+      "bytes": 12112,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/updates.csv",
+      "sha256": "c87ef9328bfa0ea56a71baf692bf5f364f3795c0a50d3f34d03290552482db18",
+      "bytes": 1558,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "66e36120e9ed7f3818bc54e05cde65e8a0eccd2dbfa61404f4f6c54ef029af47",
+      "bytes": 12107,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "8047fa57eae12d15bc0d57e688514cd6c47c5c2b13241ab9655aee055bf0a1bc",
+      "bytes": 1718,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "52d0a948a3cd546145670d98941aef3f6975cf9e654fbbd73d2f34e0956a5857",
+      "bytes": 12110,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "23117295df96835e02325337c5b371f0e4b1cf3e9744510302d95effface9ef4",
+      "bytes": 1714,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/result.json",
+      "sha256": "73abbfa074811a406d93bb9ab5a041f25c8db0f1ecdf9f546903d53f8d35a9e7",
+      "bytes": 12084,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/updates.csv",
+      "sha256": "94d6cc147d78196ae066b2eae5a73497c75bd785b5b5e87832d8283c2adeb55f",
+      "bytes": 1446,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/result.json",
+      "sha256": "51accc9a204e6a4ead26fbbb66dfe78fa5887c7fb309d8f9cb4810cf24d70258",
+      "bytes": 12095,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/updates.csv",
+      "sha256": "0f2d14a9ad66d59ee59aaf96dd2da89aa930093b54147cbfa19b823fa866569c",
+      "bytes": 1447,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "941e73b9b73f4d7124b16f8fb214f101966acee5c1a987dfd645483a0d25a292",
+      "bytes": 12090,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "cb8961c62d566edf212a2c842ffb55f188780b0f48322be4b9839933d879a3f0",
+      "bytes": 1613,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "947d9928bbdefa09a9a67730e62070bf8cd17415e7c4c745ce4c95edf0a34fae",
+      "bytes": 12089,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "2c22c7c89a3492749328af386d8bf379fff4b8176607aaaa73ffad571085e8b1",
+      "bytes": 1603,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/result.json",
+      "sha256": "910ae881662a1e3d2b2ab5e748286af5d94605c50114016a7b2a24b849759bf5",
+      "bytes": 12102,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/updates.csv",
+      "sha256": "6fae15d8241fbccb490e34e1ed591a1cab1889381b3218f9437ca6b3453b8513",
+      "bytes": 1984,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/result.json",
+      "sha256": "64dc10d4670b75a7d9cbe90b5cb61de71bd3663837b0902030f8c9d851655b92",
+      "bytes": 12106,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/updates.csv",
+      "sha256": "5f209811f3b88d7d539a93422e8654780fdfdb265af3160b01bf51f54babf3c2",
+      "bytes": 1979,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "59bfc316487530a0eaca56111301d07a9c744464462db1aa9f5811b9dd10cced",
+      "bytes": 12104,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "42ed12cda1ce25e525491d5aac74ec5afdaf0c52e2b632956bb29a6a39eca619",
+      "bytes": 2206,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "2d80c610fa60ecef894b594dc576b0569d21157d0e803dde0c6e3976ac9bc233",
+      "bytes": 12100,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "5c238b504588bfdcc6206110e9a3b346c57ca069bbb5d21c5c7787cb660e79f3",
+      "bytes": 2204,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "b7449165154b47ac53fbcecc3bbc96bb11924e08b241d890f67b4e74578be8e7",
+      "bytes": 12110,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "90ce30d08df22f5d7e18042e5232f21692e02678c7ef372f0515b6050d8956dd",
+      "bytes": 1541,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/result.json",
+      "sha256": "80ee8b320ff1c90688f286ce747f335ef23274ae632d8b15eaa8a855641d4146",
+      "bytes": 12110,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/updates.csv",
+      "sha256": "a33051c106caf340a07b418b3a4f800101654b35fd6dbfd8f55f91086d09fa47",
+      "bytes": 1546,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "89c6c19397dbedcec73991b811d7dcfede2ab6a194afecea57fc3f880f6b5b2e",
+      "bytes": 12105,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "cafd02b753896aff2dfce2b1d8b695c87ace5533323ba613350e2ce434b858e8",
+      "bytes": 1706,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "47e203690a3c8b7f31b601e0c0f874eee7b3d1a86b2a1a85ad44135a08fbfcf2",
+      "bytes": 12109,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "92bc33bbbe1f63b27c812a773c61f86495c4af04549fee39f6476c1c29eff80e",
+      "bytes": 1702,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/result.json",
+      "sha256": "c93c8476badd500739ba9cb9823869adbf1d78e112c2732a1051c9be69f48a29",
+      "bytes": 6742,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/updates.csv",
+      "sha256": "8581708e915220d61967700b12ed52629b018841429a585048387baf581dacb5",
+      "bytes": 1503,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/result.json",
+      "sha256": "8976c916db8d3524b99df155a05b478e00cef235f2271a2ec3d97fa3f744482a",
+      "bytes": 6744,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/updates.csv",
+      "sha256": "4b9ca5c25d6deac6916a3cadbb97208039d9dc4b95cd825da2eb5e7ac69ed41c",
+      "bytes": 1505,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "86d38036f4a816a999a84c4a3adf6ff50d2e7c2575371e71d5b949224b667b90",
+      "bytes": 6738,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "49ba38d6318b4ab7aae4146443ac994eb8fdd5f3d383c84ec6acb5d49584c706",
+      "bytes": 1655,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "c307bc55ecedbe52499a4728e493b6bf72170677aec55f8f0f9f83d54688a23c",
+      "bytes": 6743,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "312364e207d54c792b46d79587ec7eb87c5906a12e30a19a7ecbbf7fea704e1b",
+      "bytes": 1657,
+      "source": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/environment-freeze.txt",
+      "sha256": "c3a517187e280383fb8cef506daef7632034266205dc1a8616dffe1211ac103d",
+      "bytes": 2330,
+      "source": "runs/diagnostic_20261122_02/base_2026/environment-freeze.txt"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/environment.json",
+      "sha256": "51d665b6f4766d6d7d01b1b875741ae2160a12038bb7bb6bdce85f9fdebbcad9",
+      "bytes": 574,
+      "source": "runs/diagnostic_20261122_02/base_2026/environment.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/identity.json",
+      "sha256": "c58c375b59b2ee65155d2ee21355ad319351206fa81390ef2b34d72df7159856",
+      "bytes": 4234,
+      "source": "runs/diagnostic_20261122_02/base_2026/identity.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/input_second_moments.json",
+      "sha256": "987100722197d387951741f7a4f812aa5414be52c7b52f57dda620bf210a2629",
+      "bytes": 16069,
+      "source": "runs/diagnostic_20261122_02/base_2026/input_second_moments.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank1_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "88e56498e6e7f71a1bb855eb9894e0e22f6561637a774507bf5c2f331454ea17",
+      "bytes": 2427,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank1_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank1_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "e226ee4593ffefa945eed4855be5f72ab5efb17859a3d61dffa270a62ffaa200",
+      "bytes": 2416,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank1_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank2_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "96c7f189223813bdb0885ab439d6238e9db624706a1cf1f34303726fc97368fe",
+      "bytes": 2428,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank2_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank2_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "47c5dccbeb1d20575b6fe59f9f1a8e7037bb46516f9221ac1014a758d379bce9",
+      "bytes": 2418,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank2_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank4_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "dfea7523cd5a7fa10bb684217bc6c0a81a5c121ea3e277c9adb6772d222d90ae",
+      "bytes": 2423,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank4_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank4_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "87e29c60fd290c91a4cc9892b48870b323e402e572985cc71f71d711a6a7b3bd",
+      "bytes": 2417,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank4_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank8_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "7564179a92828a58c65baf94c74e7fea82d25f44b5082ad212fb426a7d808528",
+      "bytes": 2425,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank8_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_C_rank8_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "6d6247bddcba2be7ef8a024b3aa9987b76a05aee3c29cabc4bda5e4417245d29",
+      "bytes": 2420,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_C_rank8_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank1_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "4260d30580a16dbb58f97f45f17aa34a3f010320645e40f5bc8fa35e1c5a8686",
+      "bytes": 2426,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank1_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank1_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "361593aa164e516d3d8e14e25f3f375cf025edcca64948c8a5fd7102f64912c8",
+      "bytes": 2418,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank1_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank2_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "24c7e012558ede8e78bd309da157c360eb0a1de088a3c4427efe3c73fcdf9b77",
+      "bytes": 2426,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank2_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank2_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "27e598f38a5dd0f152fe35d3a93db76de1ff3f308393784e1e7592dc848e21ec",
+      "bytes": 2417,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank2_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank4_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "e7770073051b49a7fc9c50dcb1f9a8abea25d3c130a6183a4106c2e46e7aec63",
+      "bytes": 2426,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank4_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank4_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "2f835c0818aa4ea0399c9f2c1196ab69c78613db312eaa75312059288cd315db",
+      "bytes": 2419,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank4_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank8_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "447defa6ab89615a51283b93bedc7ea660b4fba1ec6362823ee2c6d9d70ad0b4",
+      "bytes": 2426,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank8_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/capacity_R_rank8_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "1ef2b7f7de7a42da2cf4b5dd5fd84d1e53d93b03b346bd0c0b76e7ed4c3c2ad8",
+      "bytes": 2420,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/capacity_R_rank8_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_Gradient_constant_lr0.001_seed11/attempt_000.jsonl",
+      "sha256": "e0024a9d997a5b4c10c5e23338d5ea3f13d84a61140535a22f39015d7ea6caf7",
+      "bytes": 2467,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_Gradient_constant_lr0.001_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_Gradient_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "cea6e7099da2005941c916d4b1c18268673dac9dc38af9efefe3881787ea7a19",
+      "bytes": 2464,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_Gradient_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "a8095453e9421d63a9c6eeb4a8676efde160f1f5bfc19acea7958678b5e45863",
+      "bytes": 2467,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_GradientQFloor_constant_lr0.001_seed11/attempt_000.jsonl",
+      "sha256": "e2328dffecf32f7cc5a2784ba2768859736de262257be7a941817e2829edb68d",
+      "bytes": 2510,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_GradientQFloor_constant_lr0.001_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "422805efaa0889419076479ea70acc5756e3cef809096222cbb093f6d477a3fd",
+      "bytes": 2508,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "e8fefe546c019c33316be274eba243ae5a28e8a1d008e2aa40b436016258f78c",
+      "bytes": 2504,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_GradientShuffled_constant_lr0.001_seed11/attempt_000.jsonl",
+      "sha256": "53401704eb2e6330b88d370dd9131b8458d816f109780ed1f84bd9760ff5e91b",
+      "bytes": 2526,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_GradientShuffled_constant_lr0.001_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "7fbbdc008e9eef9ec7d9defa2acdad1aaf16c8dc19fed93609052577d0e98989",
+      "bytes": 2523,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "9e546cca46ad16e73bcd425351ddade9b5920f104cab985d0e886c76cd312a7f",
+      "bytes": 2519,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Balanced_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "bf814fd905ea7772bcedfe4115f7dd26d8b21b80807aabb07b9d52e560f01f57",
+      "bytes": 2416,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Balanced_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Balanced_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "c14dbc2babe5cf7ae04fc1deb534436aa6e97940b1c4370997e9976d635b515c",
+      "bytes": 2414,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Balanced_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Balanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "ac47375b0ca1444bc20b6a277cdc34e8a70bc0ef1bc9ea87638a7a268ef1f8d2",
+      "bytes": 2404,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Balanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Balanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "6604f9c41a4e2a1e2dd4dd7d205acee9aea12ee91243b5ac28cdfd016905fd58",
+      "bytes": 2406,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Balanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInput_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "e2b2b232ac8c97e82b357db25910e946ed0d6dc49b84140383e64fc25d0dddbe",
+      "bytes": 2423,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInput_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInput_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "6c7620dc079ce3db7054b6beed40152a51bb89f9f48c726b75217c0074c07da4",
+      "bytes": 2420,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInput_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInput_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "6af5a9687045acfdf0817fe9b9b8f683cb447618e25804c07f2d65da55ebc049",
+      "bytes": 2407,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInput_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInput_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "743f96a5475b4b3d5f503d6a902c32e1ca0157a23546bd1fe6e8abc24676823f",
+      "bytes": 2416,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInput_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "f5e1d0b2f3f7682fd213b0788eb2afa3f9295f37634ba127916989b733a61b80",
+      "bytes": 2479,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "561d80031f5c54e488de65effd362fdaae2f92d09038ddf84e537b9f3104aba0",
+      "bytes": 2478,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "66733c5d6e6fed649e8358c439576ebb4386e75301de4d726049263dc79ba738",
+      "bytes": 2468,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "2e36a4f506ca1254918934d46acc18ecf5c34af2efc5c4ae781d5df53123869e",
+      "bytes": 2472,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Gradient_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "6294def3664c59078fc1898548623469d7bd2b62b4d71e1fa372260c35ef06d6",
+      "bytes": 2408,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Gradient_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Gradient_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "c7f36f24ca23b3c5e80e18b1734b12e671e24edff666391d947acc0334ce6901",
+      "bytes": 2417,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Gradient_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "02eb3fdb06f72330e6a84078fef56fbee180daf02a3e020948588ba296f84b38",
+      "bytes": 2407,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_Gradient_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "b8e4021aa3544a18f7051b5f9ea384fab866a4eab51a06a8abe3cc26aeb172a1",
+      "bytes": 2405,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_Gradient_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "5bf5a6b609071e99ae090a576b66233ae88c8fd1435602f86c5e7b0653d189d4",
+      "bytes": 2454,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "7af7fbcacc0f5138fa7a7048225f9a5b06ca3b818d1ff29c3deef8c1991c8714",
+      "bytes": 2458,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "28c3704c1f62ae8fea07e20371ccfbdab54364dfdd105dc40e9da1242db303e3",
+      "bytes": 2452,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "47af379f812747e45be893045b7422e9ddcbb93d6c92e00303bad40250a440e8",
+      "bytes": 2445,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientQFloor_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "76c52f7e45b1348ab7574f3e2c15c2f537991f8f8d2eca158dbc318542057f16",
+      "bytes": 2472,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "aee4c83a8d9a4ac82b97d8a49093caadb0dbce46e61562585cfaee385ea68ed9",
+      "bytes": 2471,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "f0c46e56385328a86d7ffe6360a4df78c0e3d015ebce3f8d4d6951648fdba4c1",
+      "bytes": 2461,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "843558d7da7f1c26cb066447b440d4fc5a453ca8a8e5ae40cfe3590000f90b08",
+      "bytes": 2465,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_GradientShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "fa5bf5b1261926caae5fea7c84695292218beeb2cc3cd4219990914bbfda9848",
+      "bytes": 2448,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "3043a2e7d30b726bde560944df4334229b7e948bcc0a22560456da073f27c333",
+      "bytes": 2447,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "85f2db19b23ece8c55fa83b5936bcfd4a6b1ffd37a1e218eeffb644338771f4f",
+      "bytes": 2436,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "04cfac111799bba6f0de08baa49021f0d538d6b512b97eb98d3f6cdac6c3bf35",
+      "bytes": 2441,
+      "source": "runs/diagnostic_20261122_02/base_2026/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/normalized_spectra.csv",
+      "sha256": "76315ffeb8feb458a8e85602acf50750928ea6eaea5ecbbc345576f75da03c6d",
+      "bytes": 35492,
+      "source": "runs/diagnostic_20261122_02/base_2026/normalized_spectra.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/parent_checkpoint.json",
+      "sha256": "f6224cc4089b75e6df595567d39ab54e2e10583d432e24054b90c71c0ed762f0",
+      "bytes": 161,
+      "source": "runs/diagnostic_20261122_02/base_2026/parent_checkpoint.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/pretrain.json",
+      "sha256": "edb1726cde381efa15483791d77c9f4e9ad5678ec56e2ee9f842a894c5b43967",
+      "bytes": 940,
+      "source": "runs/diagnostic_20261122_02/base_2026/pretrain.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/spectra.csv",
+      "sha256": "16345c8ca32243bac1588614b61efdf2949333d01130ec039f8d7358cbcdb983",
+      "bytes": 44717,
+      "source": "runs/diagnostic_20261122_02/base_2026/spectra.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2026/structure.json",
+      "sha256": "6fa1f9b3b458d697716c5406f43e3faed016abecb31cb21cc6133e1c085162b4",
+      "bytes": 9806,
+      "source": "runs/diagnostic_20261122_02/base_2026/structure.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/baseline_validation.json",
+      "sha256": "971f958d50a69f93fa314c2c7aaecb18c8487f86d0213eea39ba00346e6c1680",
+      "bytes": 125,
+      "source": "runs/diagnostic_20261122_02/base_2027/baseline_validation.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/calibration.json",
+      "sha256": "10548d808e0145a8a19128fbaacbf79aa00008397a1fe00b27bec997264c9287",
+      "bytes": 34994,
+      "source": "runs/diagnostic_20261122_02/base_2027/calibration.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/config.json",
+      "sha256": "6c95b4a8aef0d52ce9a29ab8caf5196283de36fa88fb63ab48dc94f995f74711",
+      "bytes": 1280,
+      "source": "runs/diagnostic_20261122_02/base_2027/config.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/data_manifest.json",
+      "sha256": "73980e6f6ac2fd7d468ec0db293aa6268da855f8414d10b8dac31c06b519528b",
+      "bytes": 1314,
+      "source": "runs/diagnostic_20261122_02/base_2027/data_manifest.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/result.json",
+      "sha256": "e4ed81fbb444933c795417b2bb29a10b3b14b6e85abaf080f291431ba2729edd",
+      "bytes": 12093,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/updates.csv",
+      "sha256": "3079c1962b724d031aaffb83432e8874c55184b3c42b952be32e511e88ee9c1b",
+      "bytes": 2326,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/result.json",
+      "sha256": "1720778bda63443abed12d282f4faf9f6a5b29f71ef67a57523ac380bca24ee4",
+      "bytes": 12090,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/updates.csv",
+      "sha256": "2208b715a224f766408377966eca6ed9993c944a4fdecc244d38f01bedcf80cb",
+      "bytes": 2324,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "41d2e5f47f1bcf9fd59d8a16896b14e38f32c2cbdf7c847872b7895f3dca8ccd",
+      "bytes": 12090,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "7c4191fda7345201182edbbc2e6903630c24c602c90a2ab916088cf3aa54f77a",
+      "bytes": 2607,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "97e2ca5f4d816b90ccb885fb439156381198820fee9ddf581c4eb0030919e4ec",
+      "bytes": 12087,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "ef289fdabd117b735f82b44f7ceec2984d4dbc5ea76059b6e4597460bf5e6ab2",
+      "bytes": 2604,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/result.json",
+      "sha256": "42c32ea37ababd95936ca8d59d8717bac01137d703990df8094402eb1ea15c46",
+      "bytes": 12091,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/updates.csv",
+      "sha256": "3fc827eed6b8814f3993afd17877cc4217fa1b0189cf774d4624c2c417756a42",
+      "bytes": 1461,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/result.json",
+      "sha256": "f20b8485acadc07ae985431ac4844d0676c28b31e32c58fef077cfcae4584cf2",
+      "bytes": 12092,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/updates.csv",
+      "sha256": "083b1f5a0266af9197f6c1976658053746c501b53bf0c302168c66521f2567b5",
+      "bytes": 1456,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "cdb657daf55391b8da7e1d6b936d17d34355128827ecb1dba4b549a1b9f7310a",
+      "bytes": 12091,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "c77c8eafd5e7d48b175518395faea2e49f08bbb4153cb56ede6e5d60785bc1dd",
+      "bytes": 1617,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "553b0e5ff382c1d326fc4efbd3241a3ba6db62e71980dfc5c482cd188b37dd5a",
+      "bytes": 12095,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "fafa9d94d3a5efef88e66e264ea635b0997972b6c9284325e81767dcc8ee83a7",
+      "bytes": 1618,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "0067ba9f81e6f355f42ffd92874ecec8f80bd590b505b0c615a8b95956dc891f",
+      "bytes": 12109,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "5782263fe24c44506d3bd4533fed2cb2317cfa1b0380d2276119a211be80e11c",
+      "bytes": 1555,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/result.json",
+      "sha256": "bc53201de68a8ef28d26563484d03be29f135ce11c2cc9abc6cbf1d64b29679e",
+      "bytes": 12107,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/updates.csv",
+      "sha256": "eb0fdfa22d505030c5a4767bc883465524703f4892764b729f7d7863e1a35a23",
+      "bytes": 1560,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "3478aa50ac274abde79cdfe05c55ad666e9e2da9efd3274e2a47463457b6bd6d",
+      "bytes": 12110,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "36a37795bc17db29fcec7aecd67dbdb493542bcebfe75f54e0768ece66e92129",
+      "bytes": 1712,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "bbda5d89ccbd8196e5a8d0c7ab46593206c854e1dc20658a250bbfa01e794fae",
+      "bytes": 12108,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "168d02d22f2eaf7a2871b10c11706570f688608a4f519e29e4538eb08d8de84c",
+      "bytes": 1716,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/result.json",
+      "sha256": "c1c64efd99b4d22df44ba4e824432230fec55fe65c24745eab16cea3cf9c6eee",
+      "bytes": 12089,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/updates.csv",
+      "sha256": "ca0a4e6b6eaed32aeeb0aab76e090e36f60d3b39149714af04489632c951a33c",
+      "bytes": 1449,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/result.json",
+      "sha256": "9f316219989f02dfe30830dbb64cc6cdf397cb6405d1e4ffd0e33bec7381b743",
+      "bytes": 12090,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/updates.csv",
+      "sha256": "3322fa6fbb6bbeca1e03dbc573a9b52b3612f3d05d13926391b5bb1ce01c79cb",
+      "bytes": 1444,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "15088f88542b646489bc06d86fedf34be47c2938e6254eb54d5e14a2a758d168",
+      "bytes": 12089,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "5a92a687d6308abc222f1e95dc48665a9a3ed7ca694a85a6e96166318809feb8",
+      "bytes": 1605,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "d576351a70b30027c56b4fad03f2b7bc1270c546c82156e581d51ecb56c97cb5",
+      "bytes": 12093,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "863b42a61d487b7bdbdaed49ac3bc6cdcd8fc0f6cd81854ce91beb82b097eb2c",
+      "bytes": 1606,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/result.json",
+      "sha256": "0e69a6230158f2097aea33601f0d2e473652a14909d5af3f2c70d047809ce1de",
+      "bytes": 12105,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/updates.csv",
+      "sha256": "d58af24d31008e33f6db727df71eef2860d805fa7b0bfef5858eec41dc820899",
+      "bytes": 1982,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/result.json",
+      "sha256": "e605b18244fae7b93bd035fc8893f12b8ff011b010297e21194a56d6cf3c3c1f",
+      "bytes": 12099,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/updates.csv",
+      "sha256": "65e5e17a17916da558413c4062150b2b3a6877315655540967bf15ed7324c519",
+      "bytes": 1983,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "cdc7c3b066b7b9436ee7846432ead6da8178c03f8dc1a3be1c9dbb44d27a859c",
+      "bytes": 12099,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "d9c389a1a3b1710c383f65c17251b4c8118a9796692fe5d2272bec731d97aff6",
+      "bytes": 2204,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "8820662f9581a783a52cd22963a1f924e9ec4d6e61eafdd3b8e2acb832965609",
+      "bytes": 12104,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "367c64a6bbbcb56b590cc339912467210d7024d3ad2926a17651fe36e9afe3de",
+      "bytes": 2207,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "389c59ebf1e5035cab092d9b2b4cf7350e6678afa184dee2952058b3a7d8c669",
+      "bytes": 12106,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "8608e9550d644b12c04d759e0d59160482eb0a60771c9d55650adf23bd980aaa",
+      "bytes": 1543,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/result.json",
+      "sha256": "1deac168b8848c3d170884aa48b817bf73e97e92e22eb6b809e3d45814c8f71b",
+      "bytes": 12106,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/updates.csv",
+      "sha256": "4e43e1a4009a101020af1c63141d97eda03a8478ba323fd6e17d9b65cbb5bf2b",
+      "bytes": 1548,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "b82954fc54a18be336df468cfde3a457623f48e0f5d1720a9b58099860bf4fd6",
+      "bytes": 12107,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "3fa1a32c2c81e30d8bba13dbd49299b828986a16a20c04f146be2f0d2a1e1f4e",
+      "bytes": 1700,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "260ac994e0620f3605a4c6646175fcb6663179b49c8d4f8f36bec9c79351358e",
+      "bytes": 12106,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "95d89c15ce2b24ec192ca28b44286e361fc01fa80a950f8364387f0b9b810149",
+      "bytes": 1704,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/result.json",
+      "sha256": "28ec3ce3b17fd3cb22a3e5339bdf1a0ab80d34aa5f1f19eaaa82d115ac0dcabc",
+      "bytes": 6743,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/updates.csv",
+      "sha256": "77be9e7a89b4c762b0aa45d096fec7b57738e4b6fe2c8db598624bffc6b8ec07",
+      "bytes": 1502,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/result.json",
+      "sha256": "a922085ceea23dc151f109ce7e07ae19259584788e7a5678146306796d010fd2",
+      "bytes": 6745,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/updates.csv",
+      "sha256": "8f99e85c213f56852314eea3e3591b1afc24a5fa40bd3274f982f82393b9359d",
+      "bytes": 1501,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "215324bcf71eb026bc3bd1e510f168bc4209ad36aef0389f964477105874f369",
+      "bytes": 6741,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "f85c9e3e1467cb3f08c5a837bccf4380f2b6225bf9058158733013beda7cb425",
+      "bytes": 1660,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "1fc104b0a1cbcc609a71e99795f80bbbf13c00c97c21af162e9dbae709331b5e",
+      "bytes": 6741,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "7ac5fb9a47245915903542b4e34b5da0f000d9ac72c8ab719a6f2a11bbbb37e2",
+      "bytes": 1664,
+      "source": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/environment-freeze.txt",
+      "sha256": "c3a517187e280383fb8cef506daef7632034266205dc1a8616dffe1211ac103d",
+      "bytes": 2330,
+      "source": "runs/diagnostic_20261122_02/base_2027/environment-freeze.txt"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/environment.json",
+      "sha256": "51d665b6f4766d6d7d01b1b875741ae2160a12038bb7bb6bdce85f9fdebbcad9",
+      "bytes": 574,
+      "source": "runs/diagnostic_20261122_02/base_2027/environment.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/identity.json",
+      "sha256": "517ffeff199ec76fc6153dd06df8f6ab9e6fc747b4e5a56391cfdee491c92541",
+      "bytes": 4234,
+      "source": "runs/diagnostic_20261122_02/base_2027/identity.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/input_second_moments.json",
+      "sha256": "2990c0c144b5bb3a6958bfe25cf7a783a9301e739318d2f23361d0b91afc7ed4",
+      "bytes": 16045,
+      "source": "runs/diagnostic_20261122_02/base_2027/input_second_moments.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/pretrain/attempt_000.jsonl",
+      "sha256": "48ade89dd6917a87e4904a752e77fda15cd4e3121edb432285138868b3e0fb1e",
+      "bytes": 5318,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/pretrain/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Balanced_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "1d7f4fc07ea2879996dacb8eb971244a1aa5927f24921a1dc87f6f2dc92013b1",
+      "bytes": 2414,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Balanced_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Balanced_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "0b869681fb32563693f97476d5bf3d0cbde44981f19e24803c8d1de3c0dabe8c",
+      "bytes": 2412,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Balanced_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Balanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "ab8803b232b0ed3fec27c37c1d9df407ce03348f775ce78073d41fef158bebca",
+      "bytes": 2407,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Balanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Balanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "310e9e0d41c9ceecd1ad3b4f94a8a0932fcef36ac194cb85ce76ae7144a6ad60",
+      "bytes": 2403,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Balanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInput_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "05d2d69c3b2a35639c32cfa7b121e7ec5c6a9900c445cd66ae790a0294d860a0",
+      "bytes": 2418,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInput_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInput_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "e1b6eec7fae94af0f35b75a5ffeb8784743c8baf6d805040d509f2c74ec1a4ff",
+      "bytes": 2419,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInput_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInput_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "609d6425dd7173cd93f26cd0bdcff9632c7f6212416089395c2cf04ab191e9d0",
+      "bytes": 2413,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInput_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInput_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "d8db6bf1f5379c0222ed1f658beeb4a6ceec58f2c65e84a88271b67d36898a11",
+      "bytes": 2415,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInput_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "5fb9c65fe4db02f9c4af38e415d22a73aa17d1882d27dc381d59adf653cfdbd9",
+      "bytes": 2477,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "6eda030a33a493cdbe8952e58dbc0e35782d42f4302936ced9ba893347058ab2",
+      "bytes": 2475,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "0f57bde1761a9f219f32dc0db20aeebe7e8269b0ce3c1c2e3b8cfb0188cf3343",
+      "bytes": 2468,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "af4c03e27fe7c5a0a478d1e5268706c0168cefcd282c0f809708424a7ada0a26",
+      "bytes": 2469,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Gradient_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "98db99b7f14623eb406e3721753504284f3b77f4a6f2734212ff7eb53120062c",
+      "bytes": 2411,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Gradient_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Gradient_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "56308b34cfb89b70633d08391b393306025754fa939135db3d1730d492164eb2",
+      "bytes": 2412,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Gradient_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "e3763bababfbd69bef1290bc64e3c796a5c72d8b922c50dce1c936a26e532868",
+      "bytes": 2406,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_Gradient_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "dc17de8a05b59529e9d8c9e7bb0725e150bb98ab7b4ba4f11f397f1ba8f4f2be",
+      "bytes": 2408,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_Gradient_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "2c4877ed5949b7fbff35ebbad157970ec0bddfa676367a712519007de19ffde9",
+      "bytes": 2456,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "354b6f2d11553334e5f6025bbfc12d00cab4a45dcd7548d2f0641da5b68406be",
+      "bytes": 2451,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "5562e38ac3508f82847d19b3c36205a6c468ae0621dac3556bc17e66811dd9f4",
+      "bytes": 2446,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "a66f3d14675e656fa6276448ebb9de1ade2e6922ea71b1ab31d3b3f358de4e62",
+      "bytes": 2450,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientQFloor_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "13cd6487a28ce46fa9071911e0895441329d8d83c154c18d1be851aa2b1b993f",
+      "bytes": 2470,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "d00a9e740d56091d52a45087402810cf6aebccf1e46ec703d5d2846c849c9615",
+      "bytes": 2468,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "692f190482097e3c01e74e1dc9c36ba5381fe7dd3c8374eafa49996835b0e216",
+      "bytes": 2461,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "489c2bf00ada7fbfb3b9069460117e680cb8290fcb9201ad72256efe7042b6a9",
+      "bytes": 2462,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_GradientShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "8ffe39ea8dc8c784489835112794563deac80659ceeb610ffaf9a2657e008232",
+      "bytes": 2444,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "2838e606ae6926e42dd521817bc650803bb5e5023ba22880fd8910ef5e985004",
+      "bytes": 2447,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "fdd6ad82051f9dce5591c307e45650753c8de7cf68fb76c7ee64ed533da67be2",
+      "bytes": 2439,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "15b12b9d8bf9a505f5817f10932d1f7c7fcbda8ed4aa8156e3f2227b4c9b5a8a",
+      "bytes": 2438,
+      "source": "runs/diagnostic_20261122_02/base_2027/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/normalized_spectra.csv",
+      "sha256": "c67b119f6bb43240e05a3c8556f34bd455c63bfd4115652d1ff47d37cb7b719e",
+      "bytes": 35460,
+      "source": "runs/diagnostic_20261122_02/base_2027/normalized_spectra.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/pretrain.json",
+      "sha256": "59e76609b6cb79626f089450f222c2063d471fffd587bcdc4e4a4164c16b6e12",
+      "bytes": 939,
+      "source": "runs/diagnostic_20261122_02/base_2027/pretrain.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/spectra.csv",
+      "sha256": "8887cdcd860ebe6a4340e6325c3de895e15e843fe555c9ef9c1651f2bc1539c3",
+      "bytes": 44679,
+      "source": "runs/diagnostic_20261122_02/base_2027/spectra.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2027/structure.json",
+      "sha256": "6fa1f9b3b458d697716c5406f43e3faed016abecb31cb21cc6133e1c085162b4",
+      "bytes": 9806,
+      "source": "runs/diagnostic_20261122_02/base_2027/structure.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/baseline_validation.json",
+      "sha256": "bdf4942d2633c7cabf645f75b6aa7a26999b7da6b3ef2f7bba94db31856c5167",
+      "bytes": 124,
+      "source": "runs/diagnostic_20261122_02/base_2028/baseline_validation.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/calibration.json",
+      "sha256": "0fb67e2a2392231e4bf2e5573d044989a8f504fb65006962b52f5be286954f34",
+      "bytes": 34994,
+      "source": "runs/diagnostic_20261122_02/base_2028/calibration.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/config.json",
+      "sha256": "01d1656846c84230120af3d0b75ad828da37aa255d3ba5116559462105ca9fc1",
+      "bytes": 1280,
+      "source": "runs/diagnostic_20261122_02/base_2028/config.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/data_manifest.json",
+      "sha256": "73980e6f6ac2fd7d468ec0db293aa6268da855f8414d10b8dac31c06b519528b",
+      "bytes": 1314,
+      "source": "runs/diagnostic_20261122_02/base_2028/data_manifest.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/result.json",
+      "sha256": "2902d4534cdada17ff64b477c5b8435fb349f587f20f0ca1f1c382dae305a563",
+      "bytes": 12087,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/updates.csv",
+      "sha256": "fe16959b36a9d319fc6f76328102527225b07f4fc160c287c2ab3942024cf7fc",
+      "bytes": 2327,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/result.json",
+      "sha256": "d5d7ab7741e93b8eebbd569bb8cefb457562dfee23fd79cb3e63cea8cf0e354c",
+      "bytes": 12087,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/updates.csv",
+      "sha256": "501b237ed291cbb946ba9c1f452e953ae0ddc3a4859ea5de3f3993f463cfaaf1",
+      "bytes": 2326,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "1e9e94f9ca691461cab82cbc055b42a0cc7d4c715da849f0baa172bd562310d3",
+      "bytes": 12087,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "83f13fbc6ed6c40e8043735192f1f3d925614c3a758cf8bbbaef5da3edad6439",
+      "bytes": 2603,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "93a38405ecb7b5478a71f0139ecdfab8b7a6aa543afd709f27e2ce992081ddfd",
+      "bytes": 12084,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "67a7cb0facf05fa3c8746ac87f11f4661fae7cc3c5f9cc917b020c920d801f4c",
+      "bytes": 2603,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/result.json",
+      "sha256": "edf37da9a3c8fa20ca1b8e9977c3170d81b73fc8b16463211f1e62c5de7c05bc",
+      "bytes": 12094,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/updates.csv",
+      "sha256": "0660a240b7ff13457618282678e777b18de60f458e155dc410b2ef1617d961cd",
+      "bytes": 1461,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/result.json",
+      "sha256": "fda8d7d38c36ff7d8f75e851c05edb0c8cdf2ac3780ff30fd4fd23533e2a2917",
+      "bytes": 12092,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/updates.csv",
+      "sha256": "54808a5f5d14c83a057c3e99de2d0f15ff7c6a9999641cc734f52c2c948effaf",
+      "bytes": 1461,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "8d6641b713625307520d28779fc08c4d9915210d247948cf1a423668973c9cc8",
+      "bytes": 12087,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "fc698c75afa217c0ad5ecdfff966beb8a499d3a49c2cc446ca85c444fc1592ad",
+      "bytes": 1620,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "ae35aa23d0de3726ba1b217d76b927ca994fbad9256660d9618a7738c348087c",
+      "bytes": 12092,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "4e4c2afa0e9bb6183d8ab02f628711d4f3ca6bf514ef13280e4c951021f1c904",
+      "bytes": 1622,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "08375463fbd7d1f54729f32a5e5aa4f3ee649646fa8364d2c0efe8f05cd03c6b",
+      "bytes": 12103,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "8bfeb4384225954245126323dfd03b582533aea0f517a66dbc7286e44aea322b",
+      "bytes": 1553,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/result.json",
+      "sha256": "0db6346984cb3d0f477646d90eaf9ae19f193197008518ed3689449d94326be9",
+      "bytes": 12110,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/updates.csv",
+      "sha256": "b5cc604dad1457291a57f733d07e0e504f408788fcb9bd09752acaf9c37548c8",
+      "bytes": 1556,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "3db0f54bf6e9f38f229873f1b6dece23d172eea0c661b5c761cb7535460f6039",
+      "bytes": 12101,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "8e8bae1bbac1c83aafa40d8132f17faedd20c48f8cb9bf72e821b3dd242dd283",
+      "bytes": 1716,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "8c9a917853aefd6108bffd4d06d1a84a3deace110110d57762d6d32c9604f5e9",
+      "bytes": 12105,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "5fcf3f644dc9d34194dfadb2be0d8c5845eabc418a1f1e30011d3bea5f5911e9",
+      "bytes": 1719,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/result.json",
+      "sha256": "60d4c38a245e35ef52b3c6d9031f2465b57744988af753ad79fe2cd1161b835e",
+      "bytes": 12085,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/updates.csv",
+      "sha256": "abd6443a15f35cf3d5aca3890c237c0c0dce33e8848c9848f40278e6a293e25a",
+      "bytes": 1442,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/result.json",
+      "sha256": "2791ceaff7c979f50985cd77b85ce8644d2b3e0df4f07d438707268d09edf7b3",
+      "bytes": 12086,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/updates.csv",
+      "sha256": "aadc90217211f3513a50b506d76f53eff79e9a51a6c1ae02d1ae17e73df6c66a",
+      "bytes": 1451,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "f2db8c6f40478567e59aaa239f6e50a43c1b2ec73d14f72d6f08bc7c6f0eaa55",
+      "bytes": 12085,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "c786e32751c6dcf61f6d7c3c2e9c7e0d26ebd4a4e9f4658571a07a95b940f55d",
+      "bytes": 1611,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "7fbb6cadf027223f3ab7356e5db091c693e97f6dae7529e9c2a172768d69efe9",
+      "bytes": 12090,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "a65d1c705769c28e79234474f06571f7ec0a8811ba9771e4f4413e51e4681996",
+      "bytes": 1608,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/result.json",
+      "sha256": "f336709ffddcea23fe8cef77f1b4ac5cd03a8b5c7f6bdd588bd2861f3bf9e83d",
+      "bytes": 12103,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/updates.csv",
+      "sha256": "ca6a6b76c9799472becda4528ec03ce882199ef4abb8088e44ceef0c85f7c6c5",
+      "bytes": 1974,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/result.json",
+      "sha256": "73100281ee63a913af5e915d30a8dbc8e4989791b3540f2b430cbe2354ea4bd9",
+      "bytes": 12097,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/updates.csv",
+      "sha256": "0cd58d46e7e3d1b77dd4cca8098e4048cc7c405758de237efbd0cfa39f97c207",
+      "bytes": 1985,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "62e49abe578d46484041def82b614acd2b4bddd2eba9d4d4ddf9d466ff0fcabd",
+      "bytes": 12098,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "04c22717012e0b6760d5946993a2bdad802f824757cc837137a1bb75d2d2e3c0",
+      "bytes": 2202,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "af65566f89c95d796f2d5a96cba5327beea96e4ba8e42f4ce5fc20c84a789b02",
+      "bytes": 12098,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "ec672b22f58ee39f473ad38ed7a31ead6cd8ca7ed89c7a3582aefc2bbeb0c02b",
+      "bytes": 2206,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/result.json",
+      "sha256": "d1eb206e4d897d516edda0bbe781290857ff576c3f37e37fbff25dfda4b134d1",
+      "bytes": 12101,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/updates.csv",
+      "sha256": "e83eb7704b8de95b3383ae2b8e59331f3a761155e98adddecd66f600951626c7",
+      "bytes": 1541,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/result.json",
+      "sha256": "3e13a405218e1a2b8d081c6039819853a2116cb4c74ed07fa1517e36792997e4",
+      "bytes": 12108,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/updates.csv",
+      "sha256": "5ac0f175ff868e9174c03f10bc829e542e5566c5ecfa560306fb3ab47bd87636",
+      "bytes": 1544,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "3266cb2be9dd7f167d60a0ba7c36f78b712692d02ba1300820ba6f9b0aeb106a",
+      "bytes": 12099,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "503b5248089f3bece3b39ef0af7b70fec2a8e65edd94616924e7312879d1548f",
+      "bytes": 1704,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "16f802e3e817a72c4178f8cded3f33b22819fb7659b17aecbd1e4198dbce5a1d",
+      "bytes": 12102,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "5d025435ffeae223ff249aa4a5d5ad3a92d31198922d76c89ddad5574deab9ef",
+      "bytes": 1707,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/result.json",
+      "sha256": "9cc71074552eb77f4d03e466f131833348d19450cd5dd5a538e9ece00603f776",
+      "bytes": 6742,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/updates.csv",
+      "sha256": "a86dce6e2abf5000778d42892329cf59cf3b556cd1ff86958fd425169c2a53ce",
+      "bytes": 1502,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/result.json",
+      "sha256": "affe058d2f0e5a90ef29ca2d50ef1aceaf8a5e44eaf1dd102770f8726843333e",
+      "bytes": 6741,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/updates.csv",
+      "sha256": "4188625a84f09b9c7bb41f57226a48aa792780be987eecd23cc34ff9d7d998fe",
+      "bytes": 1502,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/result.json",
+      "sha256": "f4d210838397fc2c0c90d8139445b2f095541a0bad10905fd8cc912998611d0e",
+      "bytes": 6739,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/updates.csv",
+      "sha256": "92023acf619120b5a43314a4c09714251b2ff34976381c9a437e44c44b93a0d9",
+      "bytes": 1663,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/result.json",
+      "sha256": "40d89bd7797867a3985eedf549190066c4528170ee0664943773f5775db8a856",
+      "bytes": 6742,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/result.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/updates.csv",
+      "sha256": "c25de0c9d79e005cee7f5d90ae8e9e107275787f486d794db1a12b3088d4e527",
+      "bytes": 1662,
+      "source": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/updates.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/environment-freeze.txt",
+      "sha256": "c3a517187e280383fb8cef506daef7632034266205dc1a8616dffe1211ac103d",
+      "bytes": 2330,
+      "source": "runs/diagnostic_20261122_02/base_2028/environment-freeze.txt"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/environment.json",
+      "sha256": "51d665b6f4766d6d7d01b1b875741ae2160a12038bb7bb6bdce85f9fdebbcad9",
+      "bytes": 574,
+      "source": "runs/diagnostic_20261122_02/base_2028/environment.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/identity.json",
+      "sha256": "93ae1ac682c8b93f184b236f52d789af494db009409edbc71d07f76c8c56f268",
+      "bytes": 4234,
+      "source": "runs/diagnostic_20261122_02/base_2028/identity.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/input_second_moments.json",
+      "sha256": "4dea03d24a130d315e778e9e6ff3f21cc2d09196eb3ab8d2a1503c4600f00175",
+      "bytes": 16023,
+      "source": "runs/diagnostic_20261122_02/base_2028/input_second_moments.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/pretrain/attempt_000.jsonl",
+      "sha256": "49cd87ec20fb40362f1bebdd00cdd07bf19e6fea11818aa139e4eeedaebfd23f",
+      "bytes": 5298,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/pretrain/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Balanced_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "bcd0ea3d4825f1caf03e6d13aa061e8b31fab1b1b588914712c48b7c229156ca",
+      "bytes": 2409,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Balanced_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Balanced_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "ace33119d00fddf124aeb00f98794d8533c102b544c695aa04045a4e13627612",
+      "bytes": 2409,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Balanced_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Balanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "ffa19eec65e3c7e4584cedc43c453c05ce98e740ac9367e2ed41790d34c86c40",
+      "bytes": 2404,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Balanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Balanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "8d3bb7595042517e65c9f5a4ba346250de338da5203de3683157d80cd4d0bd4f",
+      "bytes": 2402,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Balanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInput_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "1d6d3e52d6a13022446a5505b1ad223989ee9a45584e0be80f79eb566aa0ee01",
+      "bytes": 2421,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInput_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInput_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "21d5e4d02ad0b08bd579696c8720060382b9b7239235f70e99661605adec1e56",
+      "bytes": 2420,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInput_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInput_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "87b0e08c2a223ae91a185bebd887d6456bbacdfb3e25389945b1c0a7a7037998",
+      "bytes": 2409,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInput_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInput_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "e3c5fe79066bb17d8557ae3c2c8bd94cba6170c0b6ecd2172707999f42db8498",
+      "bytes": 2411,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInput_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "c87f7060bdc4850c2baa1e3468608cecc8b105da310f215da108bfec711c76ea",
+      "bytes": 2469,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "707d83bde08b7999102d9dae234ad3e66428e13923ff3bab9c07422e9c22403a",
+      "bytes": 2470,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "168db9686805b54eba9fbc79bb3748a2b58ffa33e7a01fd8b384ef6bee7258aa",
+      "bytes": 2462,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "9788a5eb2365d2383c2a8b62ebf7db61b0a6cca10e2ca02de12e2d8bff5eeb45",
+      "bytes": 2464,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Gradient_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "bda2683d3c9f8ae783140e551af6ebd81b8323be443e453338d34d806b2cf396",
+      "bytes": 2408,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Gradient_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Gradient_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "f008118ce7f128b29e26f9a13eabb80822436a21cdf46492022982fa82c9d978",
+      "bytes": 2408,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Gradient_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "ac63e78a619c6e8ac44ddfe5bcb3720a0891964c96b0e5340a2c4af2ef409d21",
+      "bytes": 2400,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Gradient_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_Gradient_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "62ed76c97efeaa8e099c5bb5e3e00a6104fbf4e5f8d701d92f6dfea8af924299",
+      "bytes": 2406,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_Gradient_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "187a85f620abcd4fda651f35b980581b9d71778394a494b9ea07c73e9986ad16",
+      "bytes": 2454,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "bc87c9baa228abac01fa99d1fc1352c369e8119fb19f8b6a979eade0e213a07d",
+      "bytes": 2450,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "d2e01d970133fca286119d30dccd634b8f2e3f5cce4e438876a65952cebd3705",
+      "bytes": 2444,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "325d72c3129787652a37358dbbbb80ef92b5b4fa1bdaef12bf0ed9038d552a6f",
+      "bytes": 2444,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientQFloor_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "d0999adf9ec5a339cf2dfb2806450897e82c10b845537ef47e44bf88c774e0c4",
+      "bytes": 2462,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "5ab296d1070a837993fdae1d788f13a9b203cce61ce64d80df33149c0854a3f1",
+      "bytes": 2463,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "2e54dd622f13ee4de5d06b3a7e3853cba740baa3cf836a576e1a4e1b085bba20",
+      "bytes": 2455,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "80d589b5d20f0ff2b46e96af2cf150946deaa13041d6571bcd09aa372e61c328",
+      "bytes": 2457,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_GradientShuffled_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_constant_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "02e4ec6dc40d8253871d0d1dc85bd59d4b8f5fff6b0c399ed7801eb300ec2aa8",
+      "bytes": 2446,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_constant_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_constant_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "d165c1b5a6eb7f3dea9e8969614b5bf9ac774d5ecb9f536a80899c93877c5543",
+      "bytes": 2441,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_constant_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl",
+      "sha256": "203e03c80a4d233ef2e14f24e1af19dc577b79bb0fc3e978d1a4bb9a9de316a3",
+      "bytes": 2435,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl",
+      "sha256": "30b169b5329943a6e1d4e9bd7de451b8350f20025945c8664666e2a9147b4615",
+      "bytes": 2437,
+      "source": "runs/diagnostic_20261122_02/base_2028/logs/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/attempt_000.jsonl"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/normalized_spectra.csv",
+      "sha256": "df6b3f6d74417e717c0773fcee65847de29a82d3449a523804362132dccc4339",
+      "bytes": 35463,
+      "source": "runs/diagnostic_20261122_02/base_2028/normalized_spectra.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/pretrain.json",
+      "sha256": "9c629fd8b00c0e4b08ac43c53d85c173520ac9b40592a8ea908cae04f1b32afc",
+      "bytes": 936,
+      "source": "runs/diagnostic_20261122_02/base_2028/pretrain.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/spectra.csv",
+      "sha256": "91713a2ae3f760a956392da4d46b64bd674dc209f55cacd3a0fc00061b3189a1",
+      "bytes": 44589,
+      "source": "runs/diagnostic_20261122_02/base_2028/spectra.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/base_2028/structure.json",
+      "sha256": "6fa1f9b3b458d697716c5406f43e3faed016abecb31cb21cc6133e1c085162b4",
+      "bytes": 9806,
+      "source": "runs/diagnostic_20261122_02/base_2028/structure.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/by_base_summary.csv",
+      "sha256": "4523770e10aecec1265315133f25af4a22c61060a492b9d97909a8b14cf984d7",
+      "bytes": 6139,
+      "source": "runs/diagnostic_20261122_02/by_base_summary.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/diagnostic.csv",
+      "sha256": "3e67c574db8df0a8fc8d45b898a432aa8d6d23d15ca9533d9f164ab29bd3a471",
+      "bytes": 57122,
+      "source": "runs/diagnostic_20261122_02/diagnostic.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/diagnostic_config.json",
+      "sha256": "3ba9985c35ea72ad40b04e79e03fb462ea7f6f0471c742d6f36afba12a2e12ba",
+      "bytes": 809,
+      "source": "runs/diagnostic_20261122_02/diagnostic_config.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/diagnostic_identity.json",
+      "sha256": "78a0f7c89b03291b154c686d24eb317303de6d3550054a7491404bf35469f44e",
+      "bytes": 2195,
+      "source": "runs/diagnostic_20261122_02/diagnostic_identity.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/diagnostic_verification.json",
+      "sha256": "4f579eaa3e0a1548960bbe3590bf9775fba8b23aa51d32965c27e172e4e7f295",
+      "bytes": 437,
+      "source": "runs/diagnostic_20261122_02/diagnostic_verification.json"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/paired_effects.csv",
+      "sha256": "140b89da99f90bbf1481765627454906f4cb4662d4f3f318af73d7be1a2d14eb",
+      "bytes": 4246,
+      "source": "runs/diagnostic_20261122_02/paired_effects.csv"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/protocol.md",
+      "sha256": "db203c28fc6dbd4d871526925c0858bcd0649ee7ce67db12e798222cfaeacb75",
+      "bytes": 5398,
+      "source": "runs/diagnostic_20261122_02/protocol.md"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/report.md",
+      "sha256": "4b712cfe5f0091e144f619c697798b045a0db5fb3d1e2ce976f0f5983bb6ca23",
+      "bytes": 2412,
+      "source": "runs/diagnostic_20261122_02/report.md"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/__init__.py",
+      "sha256": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859",
+      "bytes": 61,
+      "source": "src/carryrank/__init__.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/allocation.py",
+      "sha256": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31",
+      "bytes": 1558,
+      "source": "src/carryrank/allocation.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/data.py",
+      "sha256": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2",
+      "bytes": 2789,
+      "source": "src/carryrank/data.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/diagnostic.py",
+      "sha256": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f",
+      "bytes": 16407,
+      "source": "src/carryrank/diagnostic.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/diagnostic_report.py",
+      "sha256": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5",
+      "bytes": 10001,
+      "source": "src/carryrank/diagnostic_report.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/diagnostics.py",
+      "sha256": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe",
+      "bytes": 397,
+      "source": "src/carryrank/diagnostics.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/experiment.py",
+      "sha256": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2",
+      "bytes": 27098,
+      "source": "src/carryrank/experiment.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/lora.py",
+      "sha256": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933",
+      "bytes": 2732,
+      "source": "src/carryrank/lora.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/model.py",
+      "sha256": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2",
+      "bytes": 4792,
+      "source": "src/carryrank/model.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/src/carryrank/report.py",
+      "sha256": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c",
+      "bytes": 10614,
+      "source": "src/carryrank/report.py"
+    },
+    {
+      "path": "results/diagnostic_20261122_02/source_snapshot/figures/pilot/plot_results.py",
+      "sha256": "55bf4369b75a0b464b57c97e9c1235aabb56ed143e3bebe6ad8a8397c3d90147",
+      "bytes": 4079,
+      "source": "figures/pilot/plot_results.py"
+    },
+    {
+      "path": "figures/diagnostic_20261122_02/capacity.png",
+      "sha256": "cfed0e83006e23637ab473b3c298a9fb88f0c9c59e4b58d955f57faf08fb5a17",
+      "bytes": 278716,
+      "source": "generated from diagnostic.csv"
+    },
+    {
+      "path": "figures/diagnostic_20261122_02/capacity.svg",
+      "sha256": "f19cb5ddac372ed2ced8688f6cdc46be7786de486b40af96ef97a2925ec382a6",
+      "bytes": 19063,
+      "source": "generated from diagnostic.csv"
+    },
+    {
+      "path": "figures/diagnostic_20261122_02/concentration.png",
+      "sha256": "3b1e696f087554c3de7706786697f9d4ac5830be692b0ef449cc836bc14228fb",
+      "bytes": 198362,
+      "source": "generated from diagnostic.csv"
+    },
+    {
+      "path": "figures/diagnostic_20261122_02/concentration.svg",
+      "sha256": "242e4bbbb3ecdb2c1a9b5a09ef9a3232e863e1d09c8f6ed6f86f626ca966de3f",
+      "bytes": 17703,
+      "source": "generated from diagnostic.csv"
+    },
+    {
+      "path": "figures/diagnostic_20261122_02/small_budget.png",
+      "sha256": "bd64cc2afc7367cae4673fe39f9c595de913ff0c84130e339422f8bf1cf4dd65",
+      "bytes": 251135,
+      "source": "generated from diagnostic.csv"
+    },
+    {
+      "path": "figures/diagnostic_20261122_02/small_budget.svg",
+      "sha256": "b916c7243a2bf9e092fb1685359fac7a3246a6aaa96b3043a10de3d658a3386f",
+      "bytes": 20288,
+      "source": "generated from diagnostic.csv"
+    }
+  ],
+  "local_tensors": [
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/base.pt",
+      "sha256": "52f63836c31f3ecbf9bee06f37052ae3db537c8fbafe81369aa1df4929729e96",
+      "bytes": 5769585
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/calibration.pt",
+      "sha256": "234832053e9d85bb88aa21d0085c929d69839c5d428f246360fbd14f6afdb039",
+      "bytes": 862789
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "3bb9a782c40d409bb39c8cba7569fcd864fe63e9e7a8e609c713e585a5b00343",
+      "bytes": 5025
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank1_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "d34d0a46e983b10b28fd6c13656528c3b0c7f505b9b793f24f61243b89e9ea48",
+      "bytes": 5025
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "7e75b55cf6e975a43722b533bec5cb162421e539ade9b16d857a8eae7eb624c2",
+      "bytes": 6305
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank2_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "b8ffa0204bed8bc7c9230ee8ae9f806f96b1b76926c4cdb5671c1c005c3a4c90",
+      "bytes": 6305
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "3d5c3752f9d09f254a0a2f8c73325beff3ae00f0e39f77f0bb057d6fc7eb7f88",
+      "bytes": 8865
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank4_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "d8b0723e8b8825472328ed7339a51d7457225a428a6d6d875b56b5f2fcd78895",
+      "bytes": 8865
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "bf488d56a142943bc220a9c9c5425f4a8a035a792815d6c0f4a3aa48f38a61ba",
+      "bytes": 13985
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_C_rank8_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "12aa053e128391d8832668495d3bc87d5f7cbd61533f91ac70dc118ec6b5da22",
+      "bytes": 13985
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "a1f70d94a539929c24099e00bd0b1dbe626fe1a5853e194ef28ee6e0003669d7",
+      "bytes": 4129
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank1_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "1528a41861d89c4964d2af2e89e52cf5e6a6560b6f7aea113bee99cd2f2f3969",
+      "bytes": 4129
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "e385442e84f6583322ec56c4ba27a34cc5578389234b75cc1dc6e2ff03cfdf10",
+      "bytes": 5153
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank2_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "28f2931412d96ff3f8b7c1802d6cbae3e8a27d40db2b5911f78208d8ec3ef19d",
+      "bytes": 5153
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "3ede2dcc629948fbb16e40e7b496689ee682be955052dec3d7cdd2c323daa641",
+      "bytes": 7201
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank4_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "3a541cf770cfa2390b8640265d5eb6f22c91b0cfe9ca515f80629a033a6c6f28",
+      "bytes": 7201
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "f6bdea81e892cc3e8611c9ad16b3e4b8155b4fcdd2482c3917f278709cf66eb4",
+      "bytes": 11297
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/capacity_R_rank8_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "4db8b0cd86608b6d6fc487deb71dca7ef34afeebab5c9a8c68ca235c724dd315",
+      "bytes": 11297
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.001_seed11/adapter.pt",
+      "sha256": "75e95b5a02de40070bc70ce1e77a2cfc1df8b9face869cb17d236ebcffaad98c",
+      "bytes": 26989
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "8f314f23243ac711b7ab1303420fc2cb27ffa19c85848b26671352fafc92af4e",
+      "bytes": 26989
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientQFloor_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "2ff4d366f252ed2fa14ecee2660a5180632ccf04a2dcabc708cea489bb05298d",
+      "bytes": 26989
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.001_seed11/adapter.pt",
+      "sha256": "a81e8e87a171622f635402e5b511be840843af63103437b2c3bcb29ea267ddd6",
+      "bytes": 24383
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "89a2adcc07471a9d7315c1c4461ed2fe65b8f3052e7a11026dfed919f4ddf1eb",
+      "bytes": 24383
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_GradientShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "d1d130edf35a711871e814168e901ecb12dd0b26f44bdc4445b6412cdc9f727c",
+      "bytes": 24383
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.001_seed11/adapter.pt",
+      "sha256": "1c9b0852dc24c34ec3d63bf20e8bd1a8c17bd851c8e7a1519b0fadc33336e96f",
+      "bytes": 23743
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "a8444aa92f86072cc48964197980b9ddb9c9660c3d1b11e0da4a9171d1adc992",
+      "bytes": 23743
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/concentration_Gradient_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "54f1c397d9500053cdedaf35e0a4d875daf5ed5b922bfb9a4d0eb9919255ce1b",
+      "bytes": 23743
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "d452bbabfeb641e9b334d0c3fad7ab398c21ad0b520a7f39e043424fddcd3a3b",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "de5c70e8f3ebb953fdfe6b5bf57355741d8ce2ff5643fec2ce95e982d30de236",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "9ad6c6eb5abb8025b3eef357d8033fb77543e07fe6a2b459f1691f41e07cdf04",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "489ad35831e1180b7996d7f561b58406ee97f44d2794040377969d7447660409",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "8246b53e92cb3ac9370e91c55dc013176026ae86f46408362e961caa2c6eb3ab",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "c16ddf148afb5675478d6717e39d0b800fd60d6b6b64496aa10a753209c240bf",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "9221ee2bbc47fb85dfc747b0d93062e734bb31599c241d1b756937dbb4a48609",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "a824ee76be2c351e73c7c02b4758231efbfc9bb7b34aa319198f070521d3241a",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "3f8385ba056217f965a58dfe61518edb7278752874e71da9e94f749fdcf1b589",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "47340313509508386fc5233a48bb3e62fc1cbcaa24c57d3ae126eb3ef753b4c7",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "8bdb4014ee37dd7eb0915dfa01de4e51bbf2638573bc5facd74d6959758bac55",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "f7b75e0884e05ea2000df509dbfae302ffed591d546b4701ec1b16298711625a",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "8066b126cf63d83cf6a44971f2ffd0b5a8510422ade04c8656c2c0dacf0cfed2",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "6a90bbd2de013ac8fb7359e14c8094ece64ae16666678172835cf3afb0151f70",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "ee16dd918aa58bea03e22d8e734f8f6e3779f622ef3f13bcd5195c6458e66dab",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "144163e270bcabf69eb602a61a2cec54a322a26aa700fad574676cd3af317ebb",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "8246b53e92cb3ac9370e91c55dc013176026ae86f46408362e961caa2c6eb3ab",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "c16ddf148afb5675478d6717e39d0b800fd60d6b6b64496aa10a753209c240bf",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "9221ee2bbc47fb85dfc747b0d93062e734bb31599c241d1b756937dbb4a48609",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "a824ee76be2c351e73c7c02b4758231efbfc9bb7b34aa319198f070521d3241a",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "5fa2db29073f3d3d353d2c0d6f7e3ae9060fbb68cfb1d63ca120d3f934cfbc09",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "593b71827a89bf96069af6a0abccb2f23192f7cf5cc720c7fdcf30064afbefff",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "a6f27622ffc975b5e8ef188c9afe9efc0a7dafc34c6266754d1dd467f39290a5",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "5fb058603a81f8aaa58e6170052ad68f4feb6aaae3bb60d7cba8fe672e21b26b",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "e083ed061457ee94b51e0bb0a6a176c13a491a9fa3b60191224dfc6ec8d10cfc",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "7dfcfd89e6734cf458233f4c7cf6f903736fa9ed369bd72d488fc4431e150af5",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "49c472b66578c11c27d04df6b29c35b2c7fe89b0dd6144019f3b0e6cdc8b1d11",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2026/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "671a8081ebf7b32bae1ebf327931cd26a85f30d03c73e420bc019b8f63f71778",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/base.pt",
+      "sha256": "2cd53b7227d9db64d1f0fb415eb4089f6e6ccaed793f02e51505bb7ac4a5bb1f",
+      "bytes": 5769585
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/calibration.pt",
+      "sha256": "3e1b8becffffee1a3c5bc343697e311045851186302774c043f323d73794e47a",
+      "bytes": 862789
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "c74f9a585c8e6d73f630ef4b004cb6789f41943828cb138308f314d40b0b89c5",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "b44a92e40cdf33f1c36e58ff5f12b0597eba4753046064ccfe279a2341c16fb5",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "ba6bee8ca7d1d471ef4263b805b5147957e1ae49f6c95a113cc1dcbb00091100",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "428d9f9aada55262b97676d55ac6cd7d2a4bf42bd4a534256982a697ec67770b",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "888eeb87b7601d6cb25db5640879ed3e675528fa1f4aedda89ad1b5b028c0cb4",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "432a8cd09da1fb965f3119288011aa73279ecf8015d831b94f83e9c34e452765",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "498e2e56c9f31df203ec16c599631946b16abec63774472d1a3d925655a49d95",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "3e1d6ad5da2f6a91d3a08e96bd62161f4f6a254a8012ec4b14404fc993c2c013",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "4ce3f62001e09f2852fd14893ed29db2ef2f5c147bd20e56b5ec44b008a403c6",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "bef0937528388a3099c5c272c9f4b4942d805cfec0380d74aa776f15db44d4c9",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "63636fe937818422ff3fcff2307c11dab0650e51bf5ca5c279235692698facb5",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "0eb3405d471ef12e77f029fff005d66207a435bb964a912853a7a803141859b2",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "9d07ef64359a4428d240d2145688921b0d2870c256a31c2de11f3b403dcd8ac8",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "b20b6824823332d59cb23ae2bf426d4139dde5d102765fbfd9f87580cc2d9222",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "b0d805559fd5e9f603065138be1c72221fa6a39acc9fcaf269963ed54e72f4a5",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "0f16cecd606a9bc5be7d2d8b06d26206b04b039b9b1b5e2e7d55ce0a6ab81f56",
+      "bytes": 12479
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "888eeb87b7601d6cb25db5640879ed3e675528fa1f4aedda89ad1b5b028c0cb4",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "432a8cd09da1fb965f3119288011aa73279ecf8015d831b94f83e9c34e452765",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "498e2e56c9f31df203ec16c599631946b16abec63774472d1a3d925655a49d95",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "3e1d6ad5da2f6a91d3a08e96bd62161f4f6a254a8012ec4b14404fc993c2c013",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "4ce3f62001e09f2852fd14893ed29db2ef2f5c147bd20e56b5ec44b008a403c6",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "bef0937528388a3099c5c272c9f4b4942d805cfec0380d74aa776f15db44d4c9",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "63636fe937818422ff3fcff2307c11dab0650e51bf5ca5c279235692698facb5",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "0eb3405d471ef12e77f029fff005d66207a435bb964a912853a7a803141859b2",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "212fe18756ce9b657ef48e04fecea67a4577389440208ddda1611bfe59577394",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "978b4189184267b4d87bf9277cfd689c20f913d6164da21d3cb12b605fb69cae",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "288a19ae48c832bf7653fc189d8f1a764b86f83289b8b240f006b10f26fe6bdf",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2027/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "25c23b029145bf526ad11596da3840a342e0b3f4e1cf17c1700aa4d285f0aee1",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/base.pt",
+      "sha256": "27450b1122f00b264733abfac5fb3012de25ee609467f7ddd72f2f6fc1459a82",
+      "bytes": 5769585
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/calibration.pt",
+      "sha256": "1063c1afe3281e8606cdf79b04803d962d5d527603bd134899468bf715e600db",
+      "bytes": 862789
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "171ddf7fedb260b80721a89acea1c0997bd8ae7428bcc5fc11bac743eae78a2f",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "059c3ffde0a0361c4466461e105fb125b463aba4c2522085b528e806aeed02aa",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "42df63a84b6da21dcbc900a2c02aa142abdcfff9b6e72543565c5a5c06f0d070",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Balanced_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "93c01e449c019fac7de6cb243c915cc7066e9268d853a53063e11f2ff5109add",
+      "bytes": 13302
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "f92d279e1c5eb630ebe28c1341790c63853ef9b7d730ae7dba3d0f198e2bc268",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "0abcd139669a6ced94191f3c2e77fb5a61b62872cd0a945cf94decca0c552bb9",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "73598a41cf6ab909d9d8013cd4516349499faaadc1b050d8ee942d1ff7e27e70",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInputShuffled_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "38f11c4462a0c701c7e4ac8c06082a12c598dd3542367f63cd039971461435dd",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "cb4e6b26a66850066f7ba965dd68b6ea2575049ae4dba1da1f2c78a742b2047e",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "a80004ef01fd33c3b3e2fd7b5264ee56628bda1ce4d118ddac12951bdfe06c52",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "c73293e66d8b5dbf37c1cb651bbe3c7d2e426ec476160dba074ac28c62509144",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_DiagInput_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "446e41ae4ad8d0e74ca039f4bbcd5dd73f74d8620f2d204a5e159dc272617b3a",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "0f7f1162f5cb07a888204dfaef678a18e864ec9372318b01665bab43c03e6a8a",
+      "bytes": 12991
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "69dc3859e2a5458dc490932d887598b76b7ef6f273207d2cd5fb28801de736e8",
+      "bytes": 12991
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "f247457afa8384c9c00e5e6ded12a0bd93ff58ea48b7b7ee4cfed25c3ef35450",
+      "bytes": 12991
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientQFloor_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "73973d9bf003461f0f4ba055a698bdf32ae6de088f63ef92a84deb5c82b9e800",
+      "bytes": 12991
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "f92d279e1c5eb630ebe28c1341790c63853ef9b7d730ae7dba3d0f198e2bc268",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "0abcd139669a6ced94191f3c2e77fb5a61b62872cd0a945cf94decca0c552bb9",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "73598a41cf6ab909d9d8013cd4516349499faaadc1b050d8ee942d1ff7e27e70",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_GradientShuffled_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "38f11c4462a0c701c7e4ac8c06082a12c598dd3542367f63cd039971461435dd",
+      "bytes": 11849
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "cb91b264fc0439224678db3754e76b2c8767a88de391725d4010b3c6b03ce0f4",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "a7f7ca0601145d626ef9e258abcd53bd5f4128dc904cffb34530d8bea70d6b8e",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "4f24e437e17e300b0648b6cc256e90decb1cf6b561236aacfb6e6a311d72de9a",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_Gradient_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "e98b190cfb40263eaf8768cb1831f66676570fdcc5a5f631631ba679830293f1",
+      "bytes": 11145
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed11/adapter.pt",
+      "sha256": "5bc3d5f2bfdc4575abc566fe097290cb7084fa930f0c8df7e648a924347825ad",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_constant_lr0.003_seed22/adapter.pt",
+      "sha256": "ffcb94705fd63560008ba4dd66d28d6a69a2f83c9e6d3093203f30700d8a975f",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed11/adapter.pt",
+      "sha256": "47c5d1531d84dd38c7cedc6ee90170640d0135bcb3259dbe7b1edd440fa50b97",
+      "bytes": 10313
+    },
+    {
+      "path": "runs/diagnostic_20261122_02/base_2028/diagnostic_adapters/small_VOnlyBalanced_rs_ref3_lr0.003_seed22/adapter.pt",
+      "sha256": "be828acaf03087bc0804b025c25d1781b214511ba74256fd643d19ce34cb4409",
+      "bytes": 10313
+    }
+  ]
+}

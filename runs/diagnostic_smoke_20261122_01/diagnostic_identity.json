@@ -1,0 +1,58 @@
+{
+  "config": {
+    "name": "carryrank_phase2_diagnostic",
+    "parent_run": "runs/pilot_20261122_01",
+    "base_seeds": [
+      2026
+    ],
+    "adapter_seeds": [
+      11
+    ],
+    "budgets": {
+      "small": 1024,
+      "original": 3840
+    },
+    "steps": 3,
+    "eval_steps": [
+      3
+    ],
+    "scales": [
+      "constant"
+    ],
+    "input_damping": 0.01,
+    "main_methods": [
+      "Balanced",
+      "Gradient",
+      "GradientQFloor",
+      "GradientShuffled",
+      "DiagInput",
+      "DiagInputShuffled",
+      "VOnlyBalanced"
+    ],
+    "sweep_ranks": [
+      1
+    ],
+    "concentration_methods": [
+      "Gradient"
+    ],
+    "concentration_seed": 11,
+    "concentration_lrs": [
+      0.003
+    ]
+  },
+  "code": {
+    "src/carryrank/__init__.py": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859",
+    "src/carryrank/allocation.py": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31",
+    "src/carryrank/data.py": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2",
+    "src/carryrank/diagnostic.py": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f",
+    "src/carryrank/diagnostic_report.py": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5",
+    "src/carryrank/diagnostics.py": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe",
+    "src/carryrank/experiment.py": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2",
+    "src/carryrank/lora.py": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933",
+    "src/carryrank/model.py": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2",
+    "src/carryrank/report.py": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c",
+    "figures/pilot/plot_results.py": "55bf4369b75a0b464b57c97e9c1235aabb56ed143e3bebe6ad8a8397c3d90147"
+  },
+  "smoke": true,
+  "parent_base_file_sha256": "52f63836c31f3ecbf9bee06f37052ae3db537c8fbafe81369aa1df4929729e96"
+}

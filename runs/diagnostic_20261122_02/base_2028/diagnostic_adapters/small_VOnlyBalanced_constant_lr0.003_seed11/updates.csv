@@ -1,0 +1,13 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2028,11,small,VOnlyBalanced,constant,0.003,1,blocks.3.attn.v_proj,0,2,1.0,0.008639521896839142,0.002852974013270657
+2028,11,small,VOnlyBalanced,constant,0.003,1,blocks.3.attn.v_proj,1,2,1.0,0.007783126551657915,0.0025701720603313522
+2028,11,small,VOnlyBalanced,constant,0.003,1,blocks.4.attn.v_proj,0,1,1.0,0.006439344957470894,0.0013392525867141293
+2028,11,small,VOnlyBalanced,constant,0.003,60,blocks.3.attn.v_proj,0,2,1.0,0.7613877058029175,0.2514281883438731
+2028,11,small,VOnlyBalanced,constant,0.003,60,blocks.3.attn.v_proj,1,2,1.0,0.7326191663742065,0.2419281377195564
+2028,11,small,VOnlyBalanced,constant,0.003,60,blocks.4.attn.v_proj,0,1,1.0,0.7964985370635986,0.1656554716545896
+2028,11,small,VOnlyBalanced,constant,0.003,180,blocks.3.attn.v_proj,0,2,1.0,2.3139028549194336,0.7641053281817777
+2028,11,small,VOnlyBalanced,constant,0.003,180,blocks.3.attn.v_proj,1,2,1.0,2.1287083625793457,0.7029497364307542
+2028,11,small,VOnlyBalanced,constant,0.003,180,blocks.4.attn.v_proj,0,1,1.0,2.4212236404418945,0.5035651987727612
+2028,11,small,VOnlyBalanced,constant,0.003,600,blocks.3.attn.v_proj,0,2,1.0,4.526215553283691,1.4946631892563704
+2028,11,small,VOnlyBalanced,constant,0.003,600,blocks.3.attn.v_proj,1,2,1.0,4.424432277679443,1.461051949681791
+2028,11,small,VOnlyBalanced,constant,0.003,600,blocks.4.attn.v_proj,0,1,1.0,4.20567512512207,0.8746947596997813

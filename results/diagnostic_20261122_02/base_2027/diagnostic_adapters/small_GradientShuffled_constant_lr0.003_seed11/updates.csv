@@ -1,0 +1,13 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2027,11,small,GradientShuffled,constant,0.003,1,blocks.3.attn.v_proj,0,1,1.0,0.005571848712861538,0.0017922731982345402
+2027,11,small,GradientShuffled,constant,0.003,1,blocks.4.attn.v_proj,0,1,1.0,0.010679608210921288,0.0022747713441728995
+2027,11,small,GradientShuffled,constant,0.003,1,blocks.4.attn.v_proj,1,2,1.0,0.009184583090245724,0.001956328922300756
+2027,11,small,GradientShuffled,constant,0.003,60,blocks.3.attn.v_proj,0,1,1.0,0.40461817383766174,0.13015183036357258
+2027,11,small,GradientShuffled,constant,0.003,60,blocks.4.attn.v_proj,0,1,1.0,0.9029836058616638,0.19233675901813174
+2027,11,small,GradientShuffled,constant,0.003,60,blocks.4.attn.v_proj,1,2,1.0,0.9467728137969971,0.20166392097276786
+2027,11,small,GradientShuffled,constant,0.003,180,blocks.3.attn.v_proj,0,1,1.0,0.934745728969574,0.3006757368212856
+2027,11,small,GradientShuffled,constant,0.003,180,blocks.4.attn.v_proj,0,1,1.0,1.685752511024475,0.35906762024514205
+2027,11,small,GradientShuffled,constant,0.003,180,blocks.4.attn.v_proj,1,2,1.0,2.032701015472412,0.4329681323458315
+2027,11,small,GradientShuffled,constant,0.003,600,blocks.3.attn.v_proj,0,1,1.0,2.132627010345459,0.6859931827743805
+2027,11,small,GradientShuffled,constant,0.003,600,blocks.4.attn.v_proj,0,1,1.0,3.268782615661621,0.6962552256208789
+2027,11,small,GradientShuffled,constant,0.003,600,blocks.4.attn.v_proj,1,2,1.0,3.9804022312164307,0.8478311895930415

@@ -1,0 +1,7 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2026,11,small,VOnlyBalanced,constant,0.003,1,blocks.3.attn.v_proj,0,2,1.0,0.008673553355038166,0.0028702137020865026
+2026,11,small,VOnlyBalanced,constant,0.003,1,blocks.3.attn.v_proj,1,2,1.0,0.007845297455787659,0.0025961309434346623
+2026,11,small,VOnlyBalanced,constant,0.003,1,blocks.4.attn.v_proj,0,1,1.0,0.0064405291341245174,0.0013461897358412439
+2026,11,small,VOnlyBalanced,constant,0.003,3,blocks.3.attn.v_proj,0,2,1.0,0.018471458926796913,0.00611249303936371
+2026,11,small,VOnlyBalanced,constant,0.003,3,blocks.3.attn.v_proj,1,2,1.0,0.015460233204066753,0.005116031615115354
+2026,11,small,VOnlyBalanced,constant,0.003,3,blocks.4.attn.v_proj,0,1,1.0,0.013088219799101353,0.0027356800640230983

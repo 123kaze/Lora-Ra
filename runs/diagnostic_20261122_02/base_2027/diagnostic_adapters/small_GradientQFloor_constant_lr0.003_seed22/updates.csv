@@ -1,0 +1,17 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2027,22,small,GradientQFloor,constant,0.003,1,blocks.3.attn.q_proj,0,1,1.0,0.005064896307885647,0.0010295009404305236
+2027,22,small,GradientQFloor,constant,0.003,1,blocks.4.attn.q_proj,0,1,1.0,0.006808535661548376,0.0009570869462452366
+2027,22,small,GradientQFloor,constant,0.003,1,blocks.4.attn.v_proj,0,1,1.0,0.009432450868189335,0.0020091251023922068
+2027,22,small,GradientQFloor,constant,0.003,1,blocks.4.attn.v_proj,1,1,1.0,0.006705389358103275,0.00142825722274501
+2027,22,small,GradientQFloor,constant,0.003,60,blocks.3.attn.q_proj,0,1,1.0,0.8312857151031494,0.1689687949055787
+2027,22,small,GradientQFloor,constant,0.003,60,blocks.4.attn.q_proj,0,1,1.0,1.1397027969360352,0.16020987827191607
+2027,22,small,GradientQFloor,constant,0.003,60,blocks.4.attn.v_proj,0,1,1.0,0.7510502934455872,0.1599747529891161
+2027,22,small,GradientQFloor,constant,0.003,60,blocks.4.attn.v_proj,1,1,1.0,0.9659335613250732,0.20574518674104078
+2027,22,small,GradientQFloor,constant,0.003,180,blocks.3.attn.q_proj,0,1,1.0,2.4148404598236084,0.49084529539280997
+2027,22,small,GradientQFloor,constant,0.003,180,blocks.4.attn.q_proj,0,1,1.0,3.74615216255188,0.5266027104294243
+2027,22,small,GradientQFloor,constant,0.003,180,blocks.4.attn.v_proj,0,1,1.0,1.441595435142517,0.3070618248335317
+2027,22,small,GradientQFloor,constant,0.003,180,blocks.4.attn.v_proj,1,1,1.0,1.7042181491851807,0.3630008267551789
+2027,22,small,GradientQFloor,constant,0.003,600,blocks.3.attn.q_proj,0,1,1.0,5.342538356781006,1.0859350178657932
+2027,22,small,GradientQFloor,constant,0.003,600,blocks.4.attn.q_proj,0,1,1.0,10.571760177612305,1.4860895452116845
+2027,22,small,GradientQFloor,constant,0.003,600,blocks.4.attn.v_proj,0,1,1.0,2.7795674800872803,0.5920517239978387
+2027,22,small,GradientQFloor,constant,0.003,600,blocks.4.attn.v_proj,1,1,1.0,2.9478890895843506,0.6279044600090191

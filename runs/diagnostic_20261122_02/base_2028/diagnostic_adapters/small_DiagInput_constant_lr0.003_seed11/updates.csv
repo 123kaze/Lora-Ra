@@ -1,0 +1,13 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2028,11,small,DiagInput,constant,0.003,1,blocks.3.attn.v_proj,0,1,1.0,0.005572033580392599,0.0018400169819290085
+2028,11,small,DiagInput,constant,0.003,1,blocks.4.attn.v_proj,0,1,1.0,0.010679725557565689,0.0022211653782847514
+2028,11,small,DiagInput,constant,0.003,1,blocks.4.attn.v_proj,1,2,1.0,0.009166732430458069,0.0019064936263375755
+2028,11,small,DiagInput,constant,0.003,60,blocks.3.attn.v_proj,0,1,1.0,0.37332138419151306,0.12327953102199866
+2028,11,small,DiagInput,constant,0.003,60,blocks.4.attn.v_proj,0,1,1.0,0.7557839155197144,0.1571876596985813
+2028,11,small,DiagInput,constant,0.003,60,blocks.4.attn.v_proj,1,2,1.0,0.9757204055786133,0.2029299696958848
+2028,11,small,DiagInput,constant,0.003,180,blocks.3.attn.v_proj,0,1,1.0,0.8966398239135742,0.29609162954085555
+2028,11,small,DiagInput,constant,0.003,180,blocks.4.attn.v_proj,0,1,1.0,1.8150732517242432,0.3774982647306492
+2028,11,small,DiagInput,constant,0.003,180,blocks.4.attn.v_proj,1,2,1.0,2.243993043899536,0.46670484474111984
+2028,11,small,DiagInput,constant,0.003,600,blocks.3.attn.v_proj,0,1,1.0,1.8970355987548828,0.6264459226010097
+2028,11,small,DiagInput,constant,0.003,600,blocks.4.attn.v_proj,0,1,1.0,3.196204423904419,0.6647454159782035
+2028,11,small,DiagInput,constant,0.003,600,blocks.4.attn.v_proj,1,2,1.0,4.549948692321777,0.9462966490929839

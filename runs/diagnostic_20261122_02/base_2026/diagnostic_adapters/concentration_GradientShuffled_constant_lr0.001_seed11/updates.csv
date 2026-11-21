@@ -1,0 +1,17 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2026,11,concentration,GradientShuffled,constant,0.001,1,blocks.3.attn.v_proj,0,1,1.0,0.0018575001740828156,0.0006146756966893762
+2026,11,concentration,GradientShuffled,constant,0.001,1,blocks.3.attn.v_proj,1,1,1.0,0.0021846743766218424,0.0007229427287416171
+2026,11,concentration,GradientShuffled,constant,0.001,1,blocks.4.attn.v_proj,0,6,1.0,0.007281206082552671,0.0015219067701973282
+2026,11,concentration,GradientShuffled,constant,0.001,1,blocks.4.attn.v_proj,1,6,1.0,0.005806732922792435,0.0012137146027361599
+2026,11,concentration,GradientShuffled,constant,0.001,60,blocks.3.attn.v_proj,0,1,1.0,0.11457554996013641,0.03791483143741301
+2026,11,concentration,GradientShuffled,constant,0.001,60,blocks.3.attn.v_proj,1,1,1.0,0.08044068515300751,0.026619073784480397
+2026,11,concentration,GradientShuffled,constant,0.001,60,blocks.4.attn.v_proj,0,6,1.0,0.5975788235664368,0.12490502905714672
+2026,11,concentration,GradientShuffled,constant,0.001,60,blocks.4.attn.v_proj,1,6,1.0,0.35397136211395264,0.07398656298824757
+2026,11,concentration,GradientShuffled,constant,0.001,180,blocks.3.attn.v_proj,0,1,1.0,0.45429518818855286,0.15033334327428174
+2026,11,concentration,GradientShuffled,constant,0.001,180,blocks.3.attn.v_proj,1,1,1.0,0.2552908957004547,0.08447972784207967
+2026,11,concentration,GradientShuffled,constant,0.001,180,blocks.4.attn.v_proj,0,6,1.0,1.3489534854888916,0.28195623348255594
+2026,11,concentration,GradientShuffled,constant,0.001,180,blocks.4.attn.v_proj,1,6,1.0,1.1306442022323608,0.23632555466120328
+2026,11,concentration,GradientShuffled,constant,0.001,600,blocks.3.attn.v_proj,0,1,1.0,0.9737820625305176,0.3222396294014437
+2026,11,concentration,GradientShuffled,constant,0.001,600,blocks.3.attn.v_proj,1,1,1.0,0.5542099475860596,0.1833966911000977
+2026,11,concentration,GradientShuffled,constant,0.001,600,blocks.4.attn.v_proj,0,6,1.0,2.5256781578063965,0.5279134588589314
+2026,11,concentration,GradientShuffled,constant,0.001,600,blocks.4.attn.v_proj,1,6,1.0,2.3473453521728516,0.4906386034071234

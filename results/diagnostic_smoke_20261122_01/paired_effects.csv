@@ -1,0 +1,8 @@
+base_seed,mode,step,method,val_advantage_over_gradient
+2026,constant,3,Balanced,-0.00040803849697113037
+2026,constant,3,Gradient,0.0
+2026,constant,3,GradientQFloor,-0.00025975704193115234
+2026,constant,3,GradientShuffled,0.00014261901378631592
+2026,constant,3,DiagInput,-6.285309791564941e-05
+2026,constant,3,DiagInputShuffled,0.00014261901378631592
+2026,constant,3,VOnlyBalanced,-0.0002833157777786255

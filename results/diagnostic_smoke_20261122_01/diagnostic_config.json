@@ -1,0 +1,41 @@
+{
+  "name": "carryrank_phase2_diagnostic",
+  "parent_run": "runs/pilot_20261122_01",
+  "base_seeds": [
+    2026
+  ],
+  "adapter_seeds": [
+    11
+  ],
+  "budgets": {
+    "small": 1024,
+    "original": 3840
+  },
+  "steps": 3,
+  "eval_steps": [
+    3
+  ],
+  "scales": [
+    "constant"
+  ],
+  "input_damping": 0.01,
+  "main_methods": [
+    "Balanced",
+    "Gradient",
+    "GradientQFloor",
+    "GradientShuffled",
+    "DiagInput",
+    "DiagInputShuffled",
+    "VOnlyBalanced"
+  ],
+  "sweep_ranks": [
+    1
+  ],
+  "concentration_methods": [
+    "Gradient"
+  ],
+  "concentration_seed": 11,
+  "concentration_lrs": [
+    0.003
+  ]
+}

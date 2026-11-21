@@ -1,0 +1,25 @@
+{
+  "parent_run": "pilot_20261122_01",
+  "base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "metrics": {
+    "source_val": {
+      "loss": 1.5706173032522202,
+      "bits_per_byte": 2.2659217945363754,
+      "accuracy": 0.53948974609375,
+      "bytes": 16384
+    },
+    "target_val": {
+      "loss": 1.7708330899477005,
+      "bits_per_byte": 2.554772117109627,
+      "accuracy": 0.5050048828125,
+      "bytes": 16384
+    },
+    "target_test": {
+      "loss": 1.8252451419830322,
+      "bits_per_byte": 2.6332721147455924,
+      "accuracy": 0.49310302734375,
+      "bytes": 16384
+    }
+  },
+  "note": "Supplementary evaluation; no retraining or old-run mutation"
+}

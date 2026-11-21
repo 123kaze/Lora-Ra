@@ -7,3 +7,5 @@ data/raw/
 data/processed/
 !runs/.gitkeep
 .waylog/
+# Newly generated tensor checkpoints stay local; CSV/JSON reports remain visible.
+runs/**/*.pt

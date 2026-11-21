@@ -1,0 +1,10 @@
+{
+  "parent_run": "pilot_20261122_01",
+  "calibration_seed": 31415,
+  "calibration_bytes": 24576,
+  "input_damping_fraction": 0.01,
+  "H_out": "identity",
+  "script_sha256": "f8735c3efbc19524a2bcd941b2b844d55397b609768a0bb5b822e25719402a2e",
+  "base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "base_unchanged": true
+}

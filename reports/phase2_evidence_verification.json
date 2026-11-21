@@ -1,0 +1,14 @@
+{
+  "run": "diagnostic_20261122_02",
+  "artifacts_verified": 391,
+  "trajectories": 109,
+  "evaluation_rows": 218,
+  "independent_bases": 3,
+  "raw_csv_matches_logs": true,
+  "budget_and_q_floor_constraints": true,
+  "within_base_means_and_paired_effects_recomputed": true,
+  "proxy_optimality_checks": 18,
+  "all_paired_batch_sequences_match": true,
+  "requires_torch": false,
+  "pass": true
+}

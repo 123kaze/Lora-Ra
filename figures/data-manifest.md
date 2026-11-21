@@ -11,3 +11,5 @@ PNG为450dpi，SVG为矢量；图中英文标注避免WSL缺失中文字体。�
 2026-11-22实际生成：`runs/pilot_20261122_01/`下的`main.csv`、`summary.csv`、`spectra.csv`、`sweep.csv`为真实数据，三图PNG/SVG位于其`figures/`子目录，均已目视检查。`smoke_20261122_01`下图表只供流程检查，不作为研究证据。
 
 仓库审阅副本：4个CSV在`results/pilot_20261122_01/`，三图PNG/SVG在`figures/pilot_20261122_01/`。与原始输出逐字节相同；对应SHA-256见`results/pilot_20261122_01/artifact-manifest.json`。完整报告只调整图链接，没有修改实验数值。
+
+第二轮约定（仅在运行完成后构成证据）：`diagnostic_20261122_02`的small_budget/capacity/concentration三图由`src/carryrank/diagnostic_report.py`读取实际`diagnostic.csv`生成，输出至`figures/diagnostic_20261122_02/`，PNG450dpi与SVG各一份。基础seed先聚合adapter seed，再呈现基础之间的波动；smoke图不计入研究结果。

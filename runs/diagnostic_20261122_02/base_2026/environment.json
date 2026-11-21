@@ -1,0 +1,15 @@
+{
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.14.1+cu126",
+  "numpy": "1.26.4",
+  "device": "cuda",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "executable": "E:\\envs\\LangChain_agent\\python.exe",
+  "cuda_runtime": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "bf16": true,
+  "precision": "bfloat16",
+  "tf32": false,
+  "bitwise_reproducibility_guaranteed": false,
+  "original_proposal_sha256": "ef6fc54d197af6f3d3f9d612a40c843a90c9f8482362ef2008f270847d3e3cb2"
+}

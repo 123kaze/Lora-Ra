@@ -1,0 +1,5 @@
+base_seed,adapter_seed,regime,method,mode,lr,step,module,factor,rank,scaling,delta_frobenius,relative_to_base_projection
+2026,11,capacity,C_rank4,rs_ref3,0.003,1,blocks.4.attn.v_proj,0,4,0.8660254037844386,0.0159502811729908,0.003333903837977254
+2026,11,capacity,C_rank4,rs_ref3,0.003,60,blocks.4.attn.v_proj,0,4,0.8660254037844386,1.5790884494781494,0.3300586983466709
+2026,11,capacity,C_rank4,rs_ref3,0.003,180,blocks.4.attn.v_proj,0,4,0.8660254037844386,2.9920766353607178,0.6253993688238364
+2026,11,capacity,C_rank4,rs_ref3,0.003,600,blocks.4.attn.v_proj,0,4,0.8660254037844386,5.309430122375488,1.1097691175772915

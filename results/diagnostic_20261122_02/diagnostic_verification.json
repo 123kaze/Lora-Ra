@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "expected_rows": true,
+    "expected_completed_trajectories": true,
+    "zero_initialization": true,
+    "base_frozen": true,
+    "merge_equivalence": true,
+    "source_identity": true,
+    "small_budget_exact": true,
+    "paired_batch_sequences": true
+  },
+  "engineering_pass": true,
+  "trajectories": 109,
+  "evaluation_rows": 218,
+  "smoke_only": false,
+  "max_merge_error": 8.58306884765625e-06
+}

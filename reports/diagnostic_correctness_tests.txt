@@ -1,0 +1,21 @@
+test_budget_matching_all_main_shapes (test_correctness.Correctness.test_budget_matching_all_main_shapes) ... ok
+test_causality (test_correctness.Correctness.test_causality) ... ok
+test_column_mask_zero_initialization_and_merge (test_correctness.Correctness.test_column_mask_zero_initialization_and_merge) ... ok
+test_data_split_and_batch_boundaries (test_correctness.Correctness.test_data_split_and_batch_boundaries) ... ok
+test_history_distinguishes_new_and_reactivated (test_correctness.Correctness.test_history_distinguishes_new_and_reactivated) ... ok
+test_inactive_coordinates_and_gradients_are_carried (test_correctness.Correctness.test_inactive_coordinates_and_gradients_are_carried) ... ok
+test_knapsack_matches_independent_bruteforce (test_correctness.Correctness.test_knapsack_matches_independent_bruteforce) ... ok
+test_pilot_bypass_ages (test_correctness.Correctness.test_pilot_bypass_ages) ... ok
+test_rank_statistics_handle_ties (test_correctness.Correctness.test_rank_statistics_handle_ties) ... ok
+test_training_leaves_base_frozen_and_merge_equivalent (test_correctness.Correctness.test_training_leaves_base_frozen_and_merge_equivalent) ... ok
+test_input_whitening_removes_pure_column_rescaling_without_damping (test_diagnostic.DiagnosticTests.test_input_whitening_removes_pure_column_rescaling_without_damping) ... ok
+test_q_floor_matches_exhaustive_search (test_diagnostic.DiagnosticTests.test_q_floor_matches_exhaustive_search) ... ok
+test_scaling_reference_and_merge (test_diagnostic.DiagnosticTests.test_scaling_reference_and_merge) ... ok
+test_input_normalization_removes_positive_column_rescaling_without_damping (test_diagnostics.Diagnostics.test_input_normalization_removes_positive_column_rescaling_without_damping) ... ok
+test_scaling_reference_and_invalid_mode (test_diagnostics.Diagnostics.test_scaling_reference_and_invalid_mode) ... ok
+test_spectrum_is_prefix_monotone (test_diagnostics.Diagnostics.test_spectrum_is_prefix_monotone) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.342s
+
+OK

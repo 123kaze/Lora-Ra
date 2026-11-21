@@ -1,0 +1,8 @@
+{
+  "parent_base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "model_training_performed": false,
+  "data": "one fixed training calibration batch; full saved mean gradients transformed analytically",
+  "operation": "Wq *= c; Wk /= c on expansion layers only",
+  "limitation": "demonstrates coordinate dependence, not proof that Q capacity improves generalization",
+  "script_sha256": "b2fc91cbe32163d999b1ce6d2d152ce4b9fd3fc3f4397cdb9cc2c6238acd4f6c"
+}
