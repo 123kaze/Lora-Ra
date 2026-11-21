@@ -1,0 +1,66 @@
+{
+  "engineering_pass": true,
+  "pretraining_gate": true,
+  "mechanism_screening_pass": false,
+  "comparisons": {
+    "Equal": {
+      "paired_val_loss_advantage_of_gradient": [
+        -0.01634824275970459,
+        0.004036366939544678,
+        0.001742631196975708
+      ],
+      "mean_advantage": -0.0035230815410614014,
+      "all_positive": false
+    },
+    "Shuffled": {
+      "paired_val_loss_advantage_of_gradient": [
+        0.0008748471736907959,
+        0.005750715732574463,
+        0.001798003911972046
+      ],
+      "mean_advantage": 0.0028078556060791016,
+      "all_positive": true
+    },
+    "Uniform": {
+      "paired_val_loss_advantage_of_gradient": [
+        -0.010148078203201294,
+        0.0008977353572845459,
+        -0.0009267479181289673
+      ],
+      "mean_advantage": -0.0033923635880152383,
+      "all_positive": false
+    },
+    "C-only": {
+      "paired_val_loss_advantage_of_gradient": [
+        -0.011027708649635315,
+        0.0075463056564331055,
+        -0.0021514445543289185
+      ],
+      "mean_advantage": -0.0018776158491770427,
+      "all_positive": false
+    },
+    "R-only": {
+      "paired_val_loss_advantage_of_gradient": [
+        -0.0033876746892929077,
+        0.009709134697914124,
+        0.004787251353263855
+      ],
+      "mean_advantage": 0.0037029037872950235,
+      "all_positive": false
+    }
+  },
+  "prediction": {
+    "nonzero_points": 6,
+    "spearman": 0.5428571428571429,
+    "raw_mae": 0.06832503162018702,
+    "nonnegative_scale_fit": 2.7703323669118576,
+    "rescaled_mae_in_sample": 0.04104634701876906,
+    "scale_fit_is_descriptive_not_held_out": true,
+    "within_label_spearman": {
+      "C": -0.5,
+      "R": 1.0
+    }
+  },
+  "decision": "stop_complexity_and_retain_negative_or_mixed_evidence",
+  "not_publication_evidence": true
+}

@@ -1,0 +1,22 @@
+{
+  "method": "Equal",
+  "seed": 11,
+  "steps": 3,
+  "params": 3840,
+  "val_loss": 4.914371728897095,
+  "val_bits_per_byte": 7.08993972236476,
+  "val_accuracy": 0.140625,
+  "val_bytes": 128,
+  "test_loss": 4.917078971862793,
+  "test_bits_per_byte": 7.093845448365855,
+  "test_accuracy": 0.1484375,
+  "test_bytes": 128,
+  "training_seconds": 0.0859414999999899,
+  "peak_allocated_mb": 71.71240234375,
+  "unmerged_latency_ms": 6.923799999992752,
+  "merged_latency_ms": 7.21827500000245,
+  "initial_max_error": 0.0,
+  "merge_max_error": 4.76837158203125e-07,
+  "frozen_base_sha256": "a77fca20d8816e456d79c96ab40ac8f0fc327bbaa56828421b6338bc4e308d0a",
+  "data_trace_sha256": "8b537a3315a791c953e5cc4605e255a72c6822355c41cba985c8b02aa180a1a5"
+}

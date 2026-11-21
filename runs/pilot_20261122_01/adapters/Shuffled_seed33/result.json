@@ -1,0 +1,22 @@
+{
+  "method": "Shuffled",
+  "seed": 33,
+  "steps": 180,
+  "params": 3840,
+  "val_loss": 1.6687272489070892,
+  "val_bits_per_byte": 2.4074645265945405,
+  "val_accuracy": 0.511962890625,
+  "val_bytes": 16384,
+  "test_loss": 1.7495872974395752,
+  "test_bits_per_byte": 2.524120917618399,
+  "test_accuracy": 0.4918212890625,
+  "test_bytes": 16384,
+  "training_seconds": 2.6077766999999312,
+  "peak_allocated_mb": 100.31298828125,
+  "unmerged_latency_ms": 7.08177499999465,
+  "merged_latency_ms": 6.690279999997983,
+  "initial_max_error": 0.0,
+  "merge_max_error": 6.67572021484375e-06,
+  "frozen_base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "data_trace_sha256": "8a4986d2cab7ef0a09d7e889c8a5f1430495e6f73440b5799a21c731099d4c64"
+}

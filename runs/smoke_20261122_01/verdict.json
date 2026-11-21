@@ -1,0 +1,56 @@
+{
+  "engineering_pass": true,
+  "pretraining_gate": false,
+  "mechanism_screening_pass": false,
+  "comparisons": {
+    "Equal": {
+      "paired_val_loss_advantage_of_gradient": [
+        0.00673985481262207
+      ],
+      "mean_advantage": 0.00673985481262207,
+      "all_positive": true
+    },
+    "Shuffled": {
+      "paired_val_loss_advantage_of_gradient": [
+        0.0021047592163085938
+      ],
+      "mean_advantage": 0.0021047592163085938,
+      "all_positive": true
+    },
+    "Uniform": {
+      "paired_val_loss_advantage_of_gradient": [
+        0.0029366016387939453
+      ],
+      "mean_advantage": 0.0029366016387939453,
+      "all_positive": true
+    },
+    "C-only": {
+      "paired_val_loss_advantage_of_gradient": [
+        0.001773834228515625
+      ],
+      "mean_advantage": 0.001773834228515625,
+      "all_positive": true
+    },
+    "R-only": {
+      "paired_val_loss_advantage_of_gradient": [
+        0.008104562759399414
+      ],
+      "mean_advantage": 0.008104562759399414,
+      "all_positive": true
+    }
+  },
+  "prediction": {
+    "nonzero_points": 2,
+    "spearman": 0.9999999999999999,
+    "raw_mae": 0.19323151639861122,
+    "nonnegative_scale_fit": 0.0058192940127333465,
+    "rescaled_mae_in_sample": 0.00043499040283337495,
+    "scale_fit_is_descriptive_not_held_out": true,
+    "within_label_spearman": {
+      "C": null,
+      "R": null
+    }
+  },
+  "decision": "stop_complexity_and_retain_negative_or_mixed_evidence",
+  "not_publication_evidence": true
+}

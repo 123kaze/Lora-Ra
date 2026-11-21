@@ -1,0 +1,4 @@
+group,label,rank,params,predicted_utility,actual_val_improvement,val_loss
+shared_baseline,none,0,0,0.0,0.0,4.918281316757202
+blocks.4.attn.v_proj/C,C,2,640,0.3594738043665519,0.0020248889923095703,4.916256427764893
+blocks.4.attn.v_proj/R,R,2,512,0.029991633597296518,0.0009775161743164062,4.917303800582886

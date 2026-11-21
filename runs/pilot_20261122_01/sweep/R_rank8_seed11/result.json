@@ -1,0 +1,22 @@
+{
+  "method": "R_rank8",
+  "seed": 11,
+  "steps": 180,
+  "params": 2048,
+  "val_loss": 1.6775383800268173,
+  "val_bits_per_byte": 2.420176301765595,
+  "val_accuracy": 0.5091552734375,
+  "val_bytes": 16384,
+  "test_loss": null,
+  "test_bits_per_byte": null,
+  "test_accuracy": null,
+  "test_bytes": null,
+  "training_seconds": 1.7779057000000194,
+  "peak_allocated_mb": 88.44677734375,
+  "unmerged_latency_ms": 5.142365000006066,
+  "merged_latency_ms": 5.019659999993564,
+  "initial_max_error": 0.0,
+  "merge_max_error": 5.7220458984375e-06,
+  "frozen_base_sha256": "2260d962fd2ef160aa3830f8cc286d728e861fffa8a5f9c6ad93f5c296bc3748",
+  "data_trace_sha256": "ff68f715f7cb7602d0e280a41e725c756836fa1fb776a510e7033630761ed2af"
+}

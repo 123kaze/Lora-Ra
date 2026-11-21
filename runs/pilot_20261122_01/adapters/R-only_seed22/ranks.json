@@ -1,0 +1,6 @@
+{
+  "blocks.3.attn.q_proj/R": 6,
+  "blocks.3.attn.v_proj/R": 6,
+  "blocks.4.attn.q_proj/R": 3,
+  "blocks.4.attn.v_proj/R": 3
+}

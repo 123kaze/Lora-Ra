@@ -1,0 +1,18 @@
+{
+  "main_runs": 18,
+  "nonzero_rank_runs": 6,
+  "code_hashes_match": true,
+  "report_links_exist": true,
+  "proposal_unchanged": true,
+  "engineering_pass": true,
+  "checkpoint_audit_pass": true,
+  "mechanism_screening_pass": false,
+  "means": {
+    "C-only": 1.6671482076247532,
+    "Equal": 1.665502741932869,
+    "Gradient": 1.6690258234739304,
+    "R-only": 1.6727287272612255,
+    "Shuffled": 1.6718336790800095,
+    "Uniform": 1.665633459885915
+  }
+}

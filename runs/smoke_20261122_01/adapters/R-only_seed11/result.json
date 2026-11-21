@@ -1,0 +1,22 @@
+{
+  "method": "R-only",
+  "seed": 11,
+  "steps": 3,
+  "params": 3840,
+  "val_loss": 4.915736436843872,
+  "val_bits_per_byte": 7.091908579751838,
+  "val_accuracy": 0.140625,
+  "val_bytes": 128,
+  "test_loss": 4.919403314590454,
+  "test_bits_per_byte": 7.097198766092378,
+  "test_accuracy": 0.1484375,
+  "test_bytes": 128,
+  "training_seconds": 0.04695809999998346,
+  "peak_allocated_mb": 71.65869140625,
+  "unmerged_latency_ms": 6.358965000003991,
+  "merged_latency_ms": 5.844759999990856,
+  "initial_max_error": 0.0,
+  "merge_max_error": 2.980232238769531e-07,
+  "frozen_base_sha256": "a77fca20d8816e456d79c96ab40ac8f0fc327bbaa56828421b6338bc4e308d0a",
+  "data_trace_sha256": "8b537a3315a791c953e5cc4605e255a72c6822355c41cba985c8b02aa180a1a5"
+}

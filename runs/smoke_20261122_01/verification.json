@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "complete_main_comparison": true,
+    "exact_parameter_budget": true,
+    "zero_delta_initialization": true,
+    "frozen_base": true,
+    "merge_equivalence": true,
+    "identical_batches_per_seed": true,
+    "calibration_did_not_update_weights": true,
+    "calibration_base_matches": true,
+    "code_matches_run_identity": true,
+    "proposal_unchanged": true,
+    "fixed_adapter_training_steps": true,
+    "complete_sweep": true
+  },
+  "engineering_pass": true,
+  "max_merge_error": 7.152557373046875e-07
+}
