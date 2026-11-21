@@ -1,0 +1,11 @@
+{
+  "name": "smoke_not_research_evidence",
+  "model": {"widths": [192, 128, 64, 128, 192], "head_dim": 32, "seq_len": 32, "vocab_size": 256},
+  "data": {"url": "https://raw.githubusercontent.com/karpathy/char-rnn/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare/input.txt", "fractions": [0.0, 0.60, 0.70, 0.85, 0.925, 1.0]},
+  "pretrain": {"seed": 2026, "steps": 3, "batch_size": 2, "lr": 0.001, "eval_every": 3},
+  "calibration": {"seed": 31415, "batches": 2, "batch_size": 2, "shuffle_seed": 2718},
+  "adapter": {"seeds": [11], "steps": 3, "batch_size": 2, "lr": 0.003, "budget": 3840, "max_rank": 16, "uniform_rank": 3, "scaling": 1.0},
+  "sweep": {"seed": 11, "steps": 3, "layer": 4, "projection": "v_proj", "ranks": [0, 2]},
+  "evaluation": {"batch_size": 2, "max_blocks": 4},
+  "runtime": {"device": "cuda", "precision": "bfloat16", "threads": 4, "log_every": 1}
+}
