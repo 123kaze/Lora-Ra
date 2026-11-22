@@ -1,5 +1,11 @@
 # CarryRank-LoRA 最小机制实验
 
+GPT-2真实两任务补充已完成：[实际报告](reports/realmodel_gpt2_20261122.md)、[40条正式训练与24条调参数据](results/realmodel_gpt2_20261122_01/README.md)、[配对95% CI](results/realmodel_gpt2_20261122_01/confidence_intervals.csv)。一个124M公开预训练checkpoint，每任务5个新adapter/data seed。SST-2上Uniform的标签NLL低于双侧谱分配0.006771，95% CI [0.001516, 0.011957]；MRPC的差值区间包含0，未确认“两任务谱分配均更差”。这是固定标签token的生成式分类，不是训练分类头的标准GLUE榜单设置。
+
+40个主检查点独立GPU重载指标误差0；[无torch、无runs干净副本复核](reports/realmodel_clean_checkout_20261122.json)通过，修改汇总并更新哈希仍被重算拒绝。三幅实测图已生成并目视检查：[方法比较](figures/realmodel_gpt2_20261122_01/comparison.png)、[配对区间](figures/realmodel_gpt2_20261122_01/paired_nll.png)、[实际分配](figures/realmodel_gpt2_20261122_01/allocation.png)。AdaLoRA仅匹配最终rank容量、训练期物理参数更高；SST-2的覆盖下限与谱分配相同，不增加机制证据。没有建立集中程度的因果结论，不改变下述C/R的B判定。实验交付包含此处的代码、CSV、校准矩阵、报告和图；大权重及检查点留在本地。用户已授权每轮实验核验完成后自动提交并push。
+
+本轮可直接执行 `python scripts/verify_realmodel_evidence.py results/realmodel_gpt2_20261122_01`（需要NumPy，不需要torch、GPU、原始runs或模型权重）。训练沿用原torch环境，另建`E:\envs\lorara_realmodel`隔离PEFT依赖，没有升级原Conda环境；正式协议在[此处](plan/realmodel-gpt2-protocol-v1.md)。
+
 第0步决定性实验已完成，**按训练前锁定规则选择B路线**：[完整报告](reports/decisive_stage0_20261122.md)、[主实验真实证据](results/decisive_main_20261122_01/README.md)、[全部配对95% CI](results/decisive_main_20261122_01/confidence_intervals.csv)。长短各10个新基础、每基础2个adapter、2预算、5随机分组；720逻辑条件含80个公开标记的别名，640条实际训练及其检查点重载全部完成。
 
 1216预算下真实双侧分配优于稀疏整矩阵均衡，但对随机分组的CI包含0；2464预算下七矩阵全rank1标准LoRA更好，长短交互也未过门。新容量响应明显、分配未退化，因此本轮提供了比旧轮更有区分力的负结果，仍不外推为所有任务/规模上C/R无用。

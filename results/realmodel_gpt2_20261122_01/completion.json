@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "smoke": false,
+  "tuning": 24,
+  "main": 40,
+  "actual_optimizer_trajectories": 64,
+  "old_artifacts_unchanged": true,
+  "test_used": false
+}

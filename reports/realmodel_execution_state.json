@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "updated_utc": "2026-11-22T04:37:42.692286+00:00",
+  "objective": "Complete GPT-2 two-task experiment; user explicitly requested no outline work",
+  "run": "runs/realmodel_gpt2_20261122_01",
+  "evidence": "results/realmodel_gpt2_20261122_01",
+  "report": "reports/realmodel_gpt2_20261122.md",
+  "gpu_python": "E:/envs/lorara_realmodel/Scripts/python.exe",
+  "cpu_python": "E:/Conda/python.exe",
+  "core_source_config_protocol_frozen": true,
+  "source_file": "scripts/realmodel_experiment.py",
+  "protocol": "plan/realmodel-gpt2-protocol-v1.md",
+  "progress": {
+    "completed_units": 64,
+    "tuning": 24,
+    "main": 40,
+    "GPU_checkpoint_audits": 40
+  },
+  "verification": {
+    "GPU_checkpoint_reload_max_metric_error": 0,
+    "NumPy_clean_checkout_pass": true,
+    "torch_required_for_clean_verifier": false,
+    "runs_directory_present_in_clean_copy": false,
+    "manifest_entries_verified": 279,
+    "manifest_sha256": "cbda68241c03a9752186241e378a05c319651584fd58e2b0ea5da8c7b5de91a1",
+    "tamper_with_refreshed_checksum_rejected": true,
+    "analysis_tests_passed": 11,
+    "actual_API_gradient_tests_passed": 3,
+    "rendered_PNGs_visually_inspected": 3,
+    "local_Markdown_links_checked": 60,
+    "original_proposal_unchanged": true,
+    "old_artifacts_unchanged": true
+  },
+  "decision": {
+    "two_task_spectral_nll_disadvantage": false,
+    "sst2": "Uniform lower NLL; marginal paired 95% CI excludes zero",
+    "mrpc": "Uniform-minus-Spectral NLL CI includes zero; not equivalence",
+    "concentration_causality_established": false,
+    "previous_CR_stage0_route": "B, unchanged"
+  },
+  "scientific_limits": [
+    "One pretrained checkpoint, 5 adapter/data seeds per task",
+    "Generative label-token classification; no trainable classification head",
+    "AdaLoRA has higher physical parameters; only final factor rank capacity matched",
+    "SST2 CoverageFloor equals Spectral allocation; independent retraining is not new mechanism evidence",
+    "All selected LRs at fixed grid upper boundary; 200-step comparisons are conditional",
+    "Static allocations cover all 12 layers; no pure concentration causal intervention"
+  ],
+  "remaining": [],
+  "outline_work_continued": false,
+  "publication_policy": "User authorized automatic commit and push after completed experiment verification; current publication status is recorded by Git history and remote HEAD"
+}

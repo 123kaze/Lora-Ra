@@ -1,0 +1,110 @@
+{
+  "transformer.h.0.attn.c_attn": {
+    "file": "module_00.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 0
+  },
+  "transformer.h.1.attn.c_attn": {
+    "file": "module_01.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 1
+  },
+  "transformer.h.2.attn.c_attn": {
+    "file": "module_02.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 2
+  },
+  "transformer.h.3.attn.c_attn": {
+    "file": "module_03.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 3
+  },
+  "transformer.h.4.attn.c_attn": {
+    "file": "module_04.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 4
+  },
+  "transformer.h.5.attn.c_attn": {
+    "file": "module_05.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 5
+  },
+  "transformer.h.6.attn.c_attn": {
+    "file": "module_06.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 6
+  },
+  "transformer.h.7.attn.c_attn": {
+    "file": "module_07.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 7
+  },
+  "transformer.h.8.attn.c_attn": {
+    "file": "module_08.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 8
+  },
+  "transformer.h.9.attn.c_attn": {
+    "file": "module_09.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 9
+  },
+  "transformer.h.10.attn.c_attn": {
+    "file": "module_10.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 10
+  },
+  "transformer.h.11.attn.c_attn": {
+    "file": "module_11.npz",
+    "shape": [
+      2304,
+      768
+    ],
+    "cost": 3072,
+    "index": 11
+  }
+}

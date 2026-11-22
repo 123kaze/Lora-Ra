@@ -1,0 +1,54 @@
+{
+  "sst2": {
+    "train": {
+      "examples": 4096,
+      "truncated": 0,
+      "candidate_ids": [
+        4633,
+        3967
+      ]
+    },
+    "tune": {
+      "examples": 256,
+      "truncated": 0,
+      "candidate_ids": [
+        4633,
+        3967
+      ]
+    },
+    "validation": {
+      "examples": 872,
+      "truncated": 0,
+      "candidate_ids": [
+        4633,
+        3967
+      ]
+    }
+  },
+  "mrpc": {
+    "train": {
+      "examples": 3412,
+      "truncated": 0,
+      "candidate_ids": [
+        645,
+        3763
+      ]
+    },
+    "tune": {
+      "examples": 256,
+      "truncated": 0,
+      "candidate_ids": [
+        645,
+        3763
+      ]
+    },
+    "validation": {
+      "examples": 408,
+      "truncated": 0,
+      "candidate_ids": [
+        645,
+        3763
+      ]
+    }
+  }
+}

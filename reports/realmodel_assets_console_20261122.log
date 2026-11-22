@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+model/config.json: 665 bytes verified
+model/merges.txt: 456318 bytes verified
+model/tokenizer.json: 1355256 bytes verified
+model/tokenizer_config.json: 26 bytes verified
+model/vocab.json: 1042301 bytes verified
+model/model.safetensors: 548105171 bytes verified
+dataset/sst2/train-00000-of-00001.parquet: 3110468 bytes verified
+dataset/sst2/validation-00000-of-00001.parquet: 72819 bytes verified
+dataset/mrpc/train-00000-of-00001.parquet: 649281 bytes verified
+dataset/mrpc/validation-00000-of-00001.parquet: 75678 bytes verified
+Pinned assets complete

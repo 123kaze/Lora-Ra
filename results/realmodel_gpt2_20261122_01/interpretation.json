@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "analysis_kind": "real_model_conditional_adapter_data_seed_analysis",
+  "pretrained_checkpoint_count": 1,
+  "main_seed_pairs_per_task": 5,
+  "main_units": 40,
+  "tuning_units": 24,
+  "two_task_spectral_nll_disadvantage": false,
+  "decision_rule": "Both Uniform-minus-Spectral marginal 95% NLL CI upper bounds must be negative",
+  "primary_nll_is_not_a_task_accuracy_verdict": true,
+  "classification_directions_opposite_to_nll": [
+    {
+      "task": "mrpc",
+      "contrast": "uniform_minus_adalora",
+      "classification_metric": "f1",
+      "mean_classification_delta": -0.0008308098332890035,
+      "mean_nll_delta": -0.061724693253271144
+    }
+  ],
+  "near_degenerate_spectral_tasks_TV_below_0p10": [],
+  "rank_equivalent_static_method_pairs": [
+    {
+      "task": "sst2",
+      "first_method": "TwoSidedSpectral",
+      "second_method": "CoverageFloor",
+      "independently_retrained": true,
+      "additional_independent_mechanism_evidence": false
+    }
+  ],
+  "coverage_floor_rank_degenerate_tasks": [
+    "sst2"
+  ],
+  "all_64_units_independently_retrained": true,
+  "selection_lock_verified": true,
+  "concentration_causality_established": false,
+  "universal_disadvantage_established": false,
+  "pretraining_seed_uncertainty_estimated": false,
+  "adalora_final_effective_extra_scalar_parameters": 48,
+  "adalora_peak_physical_parameters_match_static": false,
+  "maximum_saved_vs_recomputed_metric_error": 0.0,
+  "test_split_used": false,
+  "paired_batch_traces_match": true
+}

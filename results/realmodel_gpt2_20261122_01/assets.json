@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "kind": "model",
+      "filename": "config.json",
+      "path": "data/raw/realmodel_gpt2_20261122/model/config.json",
+      "bytes": 665,
+      "sha256": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4"
+    },
+    {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "kind": "model",
+      "filename": "merges.txt",
+      "path": "data/raw/realmodel_gpt2_20261122/model/merges.txt",
+      "bytes": 456318,
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "kind": "model",
+      "filename": "tokenizer.json",
+      "path": "data/raw/realmodel_gpt2_20261122/model/tokenizer.json",
+      "bytes": 1355256,
+      "sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6"
+    },
+    {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "kind": "model",
+      "filename": "tokenizer_config.json",
+      "path": "data/raw/realmodel_gpt2_20261122/model/tokenizer_config.json",
+      "bytes": 26,
+      "sha256": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+    },
+    {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "kind": "model",
+      "filename": "vocab.json",
+      "path": "data/raw/realmodel_gpt2_20261122/model/vocab.json",
+      "bytes": 1042301,
+      "sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+    },
+    {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "kind": "model",
+      "filename": "model.safetensors",
+      "path": "data/raw/realmodel_gpt2_20261122/model/model.safetensors",
+      "bytes": 548105171,
+      "sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707"
+    },
+    {
+      "repo": "nyu-mll/glue",
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+      "kind": "dataset",
+      "filename": "sst2/train-00000-of-00001.parquet",
+      "path": "data/raw/realmodel_gpt2_20261122/dataset/sst2/train-00000-of-00001.parquet",
+      "bytes": 3110468,
+      "sha256": "66a253e67968acfabcbe49dbe9da964b42ac1c851c40ab760e8c8942efdb3229"
+    },
+    {
+      "repo": "nyu-mll/glue",
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+      "kind": "dataset",
+      "filename": "sst2/validation-00000-of-00001.parquet",
+      "path": "data/raw/realmodel_gpt2_20261122/dataset/sst2/validation-00000-of-00001.parquet",
+      "bytes": 72819,
+      "sha256": "a1371f3b3a7b0bcefa8388799a9359dc3ce76c349cc0079507a7991364fd2a9b"
+    },
+    {
+      "repo": "nyu-mll/glue",
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+      "kind": "dataset",
+      "filename": "mrpc/train-00000-of-00001.parquet",
+      "path": "data/raw/realmodel_gpt2_20261122/dataset/mrpc/train-00000-of-00001.parquet",
+      "bytes": 649281,
+      "sha256": "61fd41301e0e244b0420c4350a170c8e7cf64740335fc875a4af2d79af0df0af"
+    },
+    {
+      "repo": "nyu-mll/glue",
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+      "kind": "dataset",
+      "filename": "mrpc/validation-00000-of-00001.parquet",
+      "path": "data/raw/realmodel_gpt2_20261122/dataset/mrpc/validation-00000-of-00001.parquet",
+      "bytes": 75678,
+      "sha256": "33c007dbf5bfa8463d87a13e6226df8c0fcf2596c2cd39d0f3bb79754e00f50f"
+    }
+  ],
+  "test_downloaded": false
+}

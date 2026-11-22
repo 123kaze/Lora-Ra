@@ -27,3 +27,5 @@ PNG为450dpi，SVG为矢量；图中英文标注避免WSL缺失中文字体。�
 第0步主实验真实数据：`results/decisive_main_20261122_01/confidence_intervals.csv`和`summary.csv`。`figures/decisive_main/plot_decisive.py`生成joint_gate与comparison PNG450dpi/SVG。联合门图为预定8项配对边际95%区间；方法图SD跨10个基础均值。720逻辑/640实际轨迹，宽度别名不重复画；两图均已目视检查。
 
 第0步机制真实数据：`results/decisive_mechanism_20261122_01/single_group_results.csv`和`spearman_by_base.csv`。`figures/decisive_mechanism/plot_mechanism.py`生成prediction与sensitivity PNG450dpi/SVG。84条独立优化单元但仅3基础/宽度，192/416参数成本分层，非主检验、非14个独立基础；两图均已目视检查。
+
+GPT-2真实两任务补充已实际完成：`results/realmodel_gpt2_20261122_01/main.csv`、`summary.csv`、`confidence_intervals.csv`。脚本`figures/realmodel/plot_results.py`已生成`figures/realmodel_gpt2_20261122_01/`中的comparison、paired_nll、allocation的PNG450dpi/SVG，三幅PNG已逐一目视检查。40条正式训练，误差条跨5个adapter/data seed，只有1个预训练checkpoint。NLL与任务accuracy/F1均呈现；配对图是20万次共享seed索引的边际95% bootstrap CI。SST-2的Spectral/Floor同rank且独立重训，不重复计为机制证据；所有静态分配均覆盖12层，分配图不能单独证明集中程度的因果作用。24条调参与smoke不进入正式图。279个清单文件在无torch、无runs的干净副本复核通过，含谱、精确DP及全部绘图统计数据；篡改汇总并刷新哈希仍被拒绝。

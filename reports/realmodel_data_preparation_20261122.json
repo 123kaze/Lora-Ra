@@ -1,0 +1,55 @@
+{
+  "split_seed": 20261122,
+  "test_read": false,
+  "records": [
+    {
+      "task": "sst2",
+      "split": "train",
+      "examples": 4096,
+      "sha256": "7e864f457effdf3e780668ef7e00c2d324269f5e6927e47301b7016897cd9579",
+      "path": "data/processed/realmodel_gpt2_20261122/sst2_train.jsonl",
+      "positive_labels": 2302
+    },
+    {
+      "task": "sst2",
+      "split": "tune",
+      "examples": 256,
+      "sha256": "31ed5f26a20df3d0da399f2339d32d6e359990303a22d5e61c98d70a2ef8a2e2",
+      "path": "data/processed/realmodel_gpt2_20261122/sst2_tune.jsonl",
+      "positive_labels": 157
+    },
+    {
+      "task": "sst2",
+      "split": "validation",
+      "examples": 872,
+      "sha256": "47f81360e0bb70ff50b91ee317a7a61f8c12ab32ce8e861c828002bc8fb492c4",
+      "path": "data/processed/realmodel_gpt2_20261122/sst2_validation.jsonl",
+      "positive_labels": 444
+    },
+    {
+      "task": "mrpc",
+      "split": "train",
+      "examples": 3412,
+      "sha256": "4631e7ae175490940aa804eb1c2a4c23b43472bce855cb6c17bdce81f9bd7690",
+      "path": "data/processed/realmodel_gpt2_20261122/mrpc_train.jsonl",
+      "positive_labels": 2298
+    },
+    {
+      "task": "mrpc",
+      "split": "tune",
+      "examples": 256,
+      "sha256": "7ebf8bb61fa7326ba1934c9b1b4d1157df6199673037f14d817db20264995a75",
+      "path": "data/processed/realmodel_gpt2_20261122/mrpc_tune.jsonl",
+      "positive_labels": 176
+    },
+    {
+      "task": "mrpc",
+      "split": "validation",
+      "examples": 408,
+      "sha256": "8a9390f9eea61adbc3721fc859e47fcc5fdee4bcd6145b90a1f3e25aaf4c8698",
+      "path": "data/processed/realmodel_gpt2_20261122/mrpc_validation.jsonl",
+      "positive_labels": 279
+    }
+  ],
+  "source_assets_sha256": "4ba7e9b082eb33dd3497bd87a63acaac6f3831c8ce379f9f0538849a84365724"
+}

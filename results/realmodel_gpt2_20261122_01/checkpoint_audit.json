@@ -1,0 +1,247 @@
+{
+  "records": [
+    {
+      "result_path": "units/main_mrpc_AdaLoRA_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "3e9b1df1a0038b8cc9777d26355d49e1c239067c4e98a19335d37c1b0ed16a16",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_AdaLoRA_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "4ea69b6eac6ae4b8e69d65a33bc8f94737691b2b3e73e2586584f0e1862b4b13",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_AdaLoRA_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "a098e03c15edb55d8552d9fe90034e0ff6e263eae62a303dbf2b97688d0c7b09",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_AdaLoRA_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "60e6f2a4415c1f2890ca4e710e42087de0fc69ec709139569510bdb16eea960d",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_AdaLoRA_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "46e7f0d59de74429555045c1fea8e944d3febfd6e8e66bb54d1ed19f93890471",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_CoverageFloor_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "5f9c427b0df74249ea273fe05b846cae986700bf7b9a966fd7b14ccc1dbd9cce",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_CoverageFloor_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "aa6308e414f8278ad4df2bc1f5900101f0f1f809619c959621948dc8d62c7c16",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_CoverageFloor_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "f86763814436486c06b690e176467e0ea5b05035b8b9f89dd1f6572f87cfb958",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_CoverageFloor_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "fc85650d9d6791f423d67693be9985f0401fd4303e05edc91d8338e4ec29929b",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_CoverageFloor_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "90a07cdcf920358a1bd3a93e3b3d8988e15a9ba45bef49fdc96a7c4654e0f0fd",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_TwoSidedSpectral_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "7abd2348fcf7b25b9038cdfd857d91332a13e3f8e00eb6070f50b807c46825be",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_TwoSidedSpectral_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "346ef0e7c6b7a3302307170f3146248a9c0f927de4e57e15824eb234ffc9f96b",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_TwoSidedSpectral_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "0d6bad44635647a870073cb41df824e5218829ec7c06f8df719526c528e117b0",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_TwoSidedSpectral_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "106a9016afae4fbb3618be8e145f1bdc2422f2e8759739d261e6620f5a1a7c84",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_TwoSidedSpectral_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "c92d7dc39c5878228dc9647bb6930d5723341ce7802d49c5088f67ae48de8b55",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_UniformLoRA_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "f4222271f573402e30cba281b9627252102df047a2a5b29193c4bc59701164b9",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_UniformLoRA_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "16691d73b4c910502635645b8ff89edfb74fac306c8a3ad73cca49562c6373c0",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_UniformLoRA_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "49abd79de3cdb878c433f9c3dd7716e630496a1d8342666b603d704b93f314f0",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_UniformLoRA_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "52f4e44d69349612688ad8ec1359ebc4faa45c8fb6706bf4e581ea4c0ef430e1",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_mrpc_UniformLoRA_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "ec592b81783c0d5b4c5e0c098d9ec5236f10c4a4b2223b1b90973ba7396dd770",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_AdaLoRA_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "8efc50cb6dfb961a4473193bd18539c296a6da8b2cc5c1497c25eee0c4b7623b",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_AdaLoRA_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "dd35730257af23f9103833905c77b182b0b937e872b34e6b1195308d49048cfc",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_AdaLoRA_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "891a433400665048c17b3eaaedd4d6944d62c95d200d2298a8275ccda2321e60",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_AdaLoRA_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "cc6795d9eede0ddd601a6a2aaf877fa877b5d04c957fcf47080679cd4a831ff6",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_AdaLoRA_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "7d4e1c11044a497e6ff0a1df9aab9fb1f09cec9f3ccad3ce8a5ba26622c85776",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_CoverageFloor_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "a1faff499f964041eeea8d228b45ba046d406a5c93e61beadc7dc9232f357d87",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_CoverageFloor_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "d1f8e95e4e8a791ed743d7a7468d4221d63f9d2cf9d2a9c4db2e16e524ee284a",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_CoverageFloor_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "674c165f4f914659bd54188c6ef7ed2f4db3338b5775c2ca3d59d3d753d3d0b6",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_CoverageFloor_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "cf952f7228b2453966e65e8ab2350397f289b1b1005ead910d0359d51c9f567c",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_CoverageFloor_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "a24d8b225d45969149301e892187c8e3329d832cdda92599a41addf02b138a0e",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_TwoSidedSpectral_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "30942f708cc8c6c642ec85fbdc3eb5f0e9016ce14ba50d85bdd6ae2b363af59a",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_TwoSidedSpectral_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "c10b52d92d1be308006a988a04dd455bf5d9ca985f9a56663e1dd6ce601b7aae",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_TwoSidedSpectral_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "ff5316e2248d28a2186597c1d8e9c0d1b140cb45efc7b4c5bdaa2d35c5878869",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_TwoSidedSpectral_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "d9795a8e1d2bc0489e0e52d8f1002d03cba77dbea1720f91c311075cb0308b80",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_TwoSidedSpectral_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "bb2351753d461e2f19b1a423f0a4475db6a526ce99bbace39b1e85cd8eaf7a2e",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_UniformLoRA_seed11_lr1e-03/result.json",
+      "checkpoint_sha256": "d26e570ceafa2a9193a27ea2028cf20b1574deccbe3ab98814d16315147f143c",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_UniformLoRA_seed22_lr1e-03/result.json",
+      "checkpoint_sha256": "fff5cccc573661c6fe5cd25ed5be879d53399c2441e4beef3ae27011fa21621b",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_UniformLoRA_seed33_lr1e-03/result.json",
+      "checkpoint_sha256": "b13748eb2fe8d98f3ceda10427fd4af8ed5c9ae8e5535a0ca48fab1f01f5fa6b",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_UniformLoRA_seed44_lr1e-03/result.json",
+      "checkpoint_sha256": "c9930ad2a590589344a0592a5e9a5433820890bd050d630b6cf986058d772558",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    },
+    {
+      "result_path": "units/main_sst2_UniformLoRA_seed55_lr1e-03/result.json",
+      "checkpoint_sha256": "5b08e6ecf129b932c20b86e89f3c1e10afc334ca3f1200eeae3c6a4ff8f7ce47",
+      "max_metric_reload_error": 0.0,
+      "pass": true
+    }
+  ],
+  "main_checkpoints_reloaded": 40,
+  "complete": true,
+  "pass": true
+}

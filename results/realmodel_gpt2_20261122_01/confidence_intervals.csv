@@ -1,0 +1,7 @@
+task,contrast,column,primary,mean,low,high,seed_pairs,positive_nll_delta_favors
+sst2,uniform_minus_spectral,sst2_uniform_minus_spectral,True,-0.006770560108010415,-0.011957339464204608,-0.0015163033937932835,5,TwoSidedSpectral
+sst2,spectral_minus_floor,sst2_spectral_minus_floor,False,0.0,0.0,0.0,5,CoverageFloor
+sst2,uniform_minus_adalora,sst2_uniform_minus_adalora,False,-0.2914509065094518,-0.29808747238837874,-0.28449435511299825,5,AdaLoRA
+mrpc,uniform_minus_spectral,mrpc_uniform_minus_spectral,True,0.0003344734865879717,-0.010846410045290699,0.01569275940293626,5,TwoSidedSpectral
+mrpc,spectral_minus_floor,mrpc_spectral_minus_floor,False,-0.011866352645972467,-0.021931494275728845,-0.0027079155741660753,5,CoverageFloor
+mrpc,uniform_minus_adalora,mrpc_uniform_minus_adalora,False,-0.061724693253271144,-0.08048867814827201,-0.03816801599391242,5,AdaLoRA

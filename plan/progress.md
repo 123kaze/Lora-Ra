@@ -109,3 +109,18 @@
 - B判定之后完成定向一手文献及官方代码初筛：AdaLoRA/EVA不能笼统作为该Q/K反例的受害者，LoRA-GA主要是初始化；GEAR候选评分可换序但接受rank/性能未验证。自然梯度及LoRA曲率已有近邻，不声称白化本身新颖。
 - 交付入口`reports/decisive_stage0_20261122.md`，B初筛`reports/b_route_literature_20261122.md`。当前选择负结果/方法论整理，不启动A扩模或付费资源。无commit/push。
 - 最终干净副本复核通过：无runs目录、无torch，2224个清单所需文件，4个新包全部独立重算；修改主汇总均值并同步修改哈希后仍被统计校验拒绝。记录`reports/decisive_clean_checkout_verification_20261122.json`。主实验另重算360个覆盖率记录、80个距离，最小TV=0.311688。所有7幅本轮正式PNG已目视检查；14个说明文档本地链接无缺失。
+
+## GPT-2两任务真实实验完成
+
+- 按用户“直接做实验”执行，不继续提纲/稿件工作。锁定`plan/realmodel-gpt2-protocol-v1.md`后运行`runs/realmodel_gpt2_20261122_01`；124439808参数公开GPT-2，固定模型及GLUE revision；SST-2/MRPC，各256条训练内tune，正式验证872/408条，测试未下载。
+- 24条独立调参和40条正式轨迹全部实际训练200步；一个预训练checkpoint，每任务5个配对adapter/data seed。12层同形状融合QKV，总rank48，静态147456参数；AdaLoRA物理295008、最终有效147504，仅匹配最终因子容量。全部选择LR为预设网格上界1e-3，未事后加网格或改主规则。
+- 主差Uniform−Spectral：SST-2 NLL -0.00677056，95% CI [-0.01195734,-0.00151630]；MRPC +0.00033447，CI [-0.01084641,+0.01569276]。预设“两任务均谱NLL劣势”为false。分类均值另报，不换主指标；本轮不重测C/R，原B结论保留。
+- CoverageFloor在SST-2与谱分配rank完全相同，8条调参/正式配置虽实际重训仍无新增干预证据；MRPC只重新分配一个rank，反而NLL更差。所有静态方法均覆盖12层，因此未确立“集中有害”的因果关系。AdaLoRA在本200步及LR网格下NLL较差，不外推其普遍性能。
+- 全部40个正式adapter独立GPU重载NLL/accuracy/F1误差0；冻结基础SHA一致，同seed批次顺序一致。完整/末位FP32前向最大logit误差0.00042725，CE误差0.00009727，在预定数值界内；旧失败smoke与成功smoke分别保留。3项真实tiny GPT-2 API/梯度测试和11项纯分析测试通过，实际日志在reports/。
+- 校准资源补测无optimizer、无训练并发，SST-2/MRPC为6.58/6.99秒、PyTorch峰值allocated约1026.77/1026.52MiB；16个模型/原始数据/切分文件重新校验SHA，冻结基线重载指标误差0，校准矩阵和原rank复现一致。
+- `results/realmodel_gpt2_20261122_01`包含真实CSV、逐样本预测、12800步日志、FP32校准矩阵、源码及哈希。纯NumPy重算40主/24调参、31744预测行、20万bootstrap、192谱前缀和4个精确DP目标通过；无torch且不含runs的干净副本复制280个文件（279项清单+清单本身）再次通过。篡改均值并刷新哈希仍被统计检查拒绝，记录`reports/realmodel_clean_checkout_20261122.json`。
+- 原始方案SHA保持`ef6fc54d197af6f3d3f9d612a40c843a90c9f8482362ef2008f270847d3e3cb2`，旧证据未改。新文本路径单独固定Git字节，避免core.autocrlf改变清单内容；权重与重复工作矩阵本地忽略，正式results矩阵/CSV及三幅PNG/SVG可见，已逐幅检查。未commit/push。
+
+能力使用审计：沿用using-research-writing/experiment-results-planning固定问题、主指标和边界；environment-setup先检查现有Conda并隔离PEFT，未升级原torch环境；paper-orchestration任务包仅完成独立分析/绘图/无torch核验，用户停止提纲后未继续写稿；statistical-analysis用于配对seed重采样，figures-python用于实测图，verification用于GPU重载、数值复算和干净副本篡改拒绝。输入为固定官方资产、训练校准及预留tune；输出为本节链接的实测证据。限制为一个预训练checkpoint、两个生成式分类任务、有限200步和LR网格、未隔离浓度因果机制。训练入口`scripts/run_realmodel.ps1`，最终导出/分析入口`scripts/finalize_realmodel.ps1`，读者复核入口`python scripts/verify_realmodel_evidence.py results/realmodel_gpt2_20261122_01`。
+
+交付约定更新：用户要求“以后做完实验记得push”，已明确授权完成核验后自动commit/push，并写入AGENTS.md。本轮代码、已封存的results证据包、图和报告一起交付；不提交大模型权重、检查点、重复runs工作文件。历史段落中的“未push”描述保留为当时状态，当前发布情况以Git提交与远端分支核对为准。

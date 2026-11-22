@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "requires_torch": false,
+  "runs_directory_present": false,
+  "git_transport_and_visibility": {
+    "git_repository_present": true,
+    "checked": true,
+    "exact_byte_samples": 3,
+    "review_files_not_ignored": true,
+    "tensor_checkpoint_ignored": true
+  },
+  "files_copied": 280,
+  "source_manifest_sha256": "cbda68241c03a9752186241e378a05c319651584fd58e2b0ea5da8c7b5de91a1",
+  "clean_stdout": "{\n  \"pass\": true,\n  \"requires_torch\": false,\n  \"files_verified\": 279,\n  \"main_units_recomputed\": 40,\n  \"tuning_units_recomputed\": 24,\n  \"prediction_rows_recomputed\": 31744,\n  \"paired_metric_contrasts_recomputed\": 30,\n  \"marginal_NLL_intervals_recomputed\": 6,\n  \"bootstrap_draws_recomputed\": 200000,\n  \"bootstrap_indices_sha256\": \"032ff321bdb696c371e8c6516b01a301f0d7de2e60c994012078d9a82fbb229a\",\n  \"paired_batch_traces_match\": true,\n  \"stored_GPU_checkpoint_audit_records_inspected\": 40,\n  \"checkpoint_tensors_reloaded_by_this_verifier\": false,\n  \"one_pretrained_checkpoint_only\": true,\n  \"two_task_spectral_NLL_disadvantage\": false,\n  \"maximum_saved_vs_recomputed_metric_error\": 0.0,\n  \"maximum_recorded_full_vs_compact_logit_error\": 0.00042724609375,\n  \"maximum_recorded_full_vs_compact_loss_error\": 9.72747802734375e-05,\n  \"training_curve_steps_recomputed\": 12800,\n  \"maximum_effective_factor_parameters_during_training\": 294912,\n  \"selection_lock_hash_verified\": true,\n  \"main_checkpoint_audit_paths_and_hashes_cross_matched\": 40,\n  \"rank_equivalent_static_method_pairs\": [\n    {\n      \"task\": \"sst2\",\n      \"first_method\": \"TwoSidedSpectral\",\n      \"second_method\": \"CoverageFloor\",\n      \"independently_retrained\": true,\n      \"additional_independent_mechanism_evidence\": false\n    }\n  ],\n  \"spectral_prefixes_recomputed\": 192,\n  \"max_prefix_absolute_error\": 9.313225746154785e-09,\n  \"adaptive_DP_objectives_recomputed\": 4,\n  \"numerically_equivalent_optima_with_different_rank_tuple\": 0\n}\n",
+  "clean_stderr": "",
+  "modified_summary_with_refreshed_checksum_rejected": true,
+  "rejection_stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\hsx1231ol\\AppData\\Local\\Temp\\lorara_realmodel_evidence_pkzci5lg\\scripts\\verify_realmodel_evidence.py\", line 452, in <module>\n    verify(parser.parse_args().bundle.resolve())\n    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hsx1231ol\\AppData\\Local\\Temp\\lorara_realmodel_evidence_pkzci5lg\\scripts\\verify_realmodel_evidence.py\", line 341, in verify\n    assert_close(row[metric+'_mean'], numbers.mean())\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hsx1231ol\\AppData\\Local\\Temp\\lorara_realmodel_evidence_pkzci5lg\\scripts\\verify_realmodel_evidence.py\", line 40, in assert_close\n    assert math.isclose(float(a), float(b), rel_tol=tolerance, abs_tol=tolerance), (a, b)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('0.45660479721894814', np.float64(0.33360479721894815))\n"
+}

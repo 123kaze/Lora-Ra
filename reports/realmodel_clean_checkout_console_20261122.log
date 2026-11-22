@@ -1,0 +1,2 @@
+Clean NumPy-only evidence verification passed
+{'pass': True, 'tamper_rejected': True}

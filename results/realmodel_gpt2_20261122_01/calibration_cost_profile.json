@@ -1,0 +1,47 @@
+{
+  "records": [
+    {
+      "task": "sst2",
+      "seconds": 6.577901299999212,
+      "including_array_recheck_seconds": 7.401212199998554,
+      "peak_cuda_allocated_bytes": 1076644864,
+      "forward_dtype": "float32",
+      "calibration_examples": 64,
+      "array_recheck_max_abs_error": {
+        "G": 0.0,
+        "Hin": 0.0,
+        "Hout": 0.0
+      },
+      "post_training_resource_probe": true,
+      "optimizer_steps": 0,
+      "same_static_allocations": true
+    },
+    {
+      "task": "mrpc",
+      "seconds": 6.988311999994039,
+      "including_array_recheck_seconds": 7.944101799999771,
+      "peak_cuda_allocated_bytes": 1076382720,
+      "forward_dtype": "float32",
+      "calibration_examples": 64,
+      "array_recheck_max_abs_error": {
+        "G": 0.0,
+        "Hin": 0.0,
+        "Hout": 0.0
+      },
+      "post_training_resource_probe": true,
+      "optimizer_steps": 0,
+      "same_static_allocations": true
+    }
+  ],
+  "used_for_hyperparameter_selection": false,
+  "same_GPU_training_concurrent": false,
+  "pinned_asset_and_data_files_rehashed": 16,
+  "frozen_baseline_max_metric_reload_error": 0.0,
+  "source_sha256": {
+    "scripts/realmodel_experiment.py": "60f972a0864f11d031fe59845cfeb07a042146b3b3a0c537285a3f3ce27c99ac",
+    "scripts/prepare_realmodel_assets.py": "7633f8f2de045c82402c2ebff18fafe3a42cf0d4e67ff993ce9e6853a503b670",
+    "scripts/prepare_realmodel_data.py": "56ea3cbe5a8d1d370a3ccce2abf8066d28fbb5147a0d992845e483946bb6e2de",
+    "configs/realmodel_gpt2.json": "6e1a752761e0a7a1d462196297aaa5a2aee29abaf087aa947a415bc8dbaf7dc3",
+    "plan/realmodel-gpt2-protocol-v1.md": "b59ce13a506df6632a2e578b6a83fe0237dc9e1c850aa74ffced1d43dec15d36"
+  }
+}

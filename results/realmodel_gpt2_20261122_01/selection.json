@@ -1,0 +1,182 @@
+{
+  "sst2": {
+    "UniformLoRA": {
+      "lr": 0.001,
+      "tuning_nll": 0.29474168186902716,
+      "unit_id": "tuning_sst2_UniformLoRA_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 0.6024224442080595,
+          "unit_id": "tuning_sst2_UniformLoRA_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 0.33686259911291927,
+          "unit_id": "tuning_sst2_UniformLoRA_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.29474168186902716,
+          "unit_id": "tuning_sst2_UniformLoRA_seed0_lr1e-03"
+        }
+      ]
+    },
+    "AdaLoRA": {
+      "lr": 0.001,
+      "tuning_nll": 0.5592435884755105,
+      "unit_id": "tuning_sst2_AdaLoRA_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 5.30571330524981,
+          "unit_id": "tuning_sst2_AdaLoRA_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 2.95244771707803,
+          "unit_id": "tuning_sst2_AdaLoRA_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.5592435884755105,
+          "unit_id": "tuning_sst2_AdaLoRA_seed0_lr1e-03"
+        }
+      ]
+    },
+    "TwoSidedSpectral": {
+      "lr": 0.001,
+      "tuning_nll": 0.2871037246375181,
+      "unit_id": "tuning_sst2_TwoSidedSpectral_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 0.6117805743706413,
+          "unit_id": "tuning_sst2_TwoSidedSpectral_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 0.33096103839488933,
+          "unit_id": "tuning_sst2_TwoSidedSpectral_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.2871037246375181,
+          "unit_id": "tuning_sst2_TwoSidedSpectral_seed0_lr1e-03"
+        }
+      ]
+    },
+    "CoverageFloor": {
+      "lr": 0.001,
+      "tuning_nll": 0.2871037246375181,
+      "unit_id": "tuning_sst2_CoverageFloor_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 0.6117805743706413,
+          "unit_id": "tuning_sst2_CoverageFloor_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 0.33096103839488933,
+          "unit_id": "tuning_sst2_CoverageFloor_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.2871037246375181,
+          "unit_id": "tuning_sst2_CoverageFloor_seed0_lr1e-03"
+        }
+      ]
+    }
+  },
+  "mrpc": {
+    "UniformLoRA": {
+      "lr": 0.001,
+      "tuning_nll": 0.5655546596026397,
+      "unit_id": "tuning_mrpc_UniformLoRA_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 2.696079509332776,
+          "unit_id": "tuning_mrpc_UniformLoRA_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 0.5739826447388623,
+          "unit_id": "tuning_mrpc_UniformLoRA_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.5655546596026397,
+          "unit_id": "tuning_mrpc_UniformLoRA_seed0_lr1e-03"
+        }
+      ]
+    },
+    "AdaLoRA": {
+      "lr": 0.001,
+      "tuning_nll": 0.6318418817245401,
+      "unit_id": "tuning_mrpc_AdaLoRA_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 9.296748738735914,
+          "unit_id": "tuning_mrpc_AdaLoRA_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 8.039489682763815,
+          "unit_id": "tuning_mrpc_AdaLoRA_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.6318418817245401,
+          "unit_id": "tuning_mrpc_AdaLoRA_seed0_lr1e-03"
+        }
+      ]
+    },
+    "TwoSidedSpectral": {
+      "lr": 0.001,
+      "tuning_nll": 0.5597021946741734,
+      "unit_id": "tuning_mrpc_TwoSidedSpectral_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 3.462208678945899,
+          "unit_id": "tuning_mrpc_TwoSidedSpectral_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 0.5852517399762291,
+          "unit_id": "tuning_mrpc_TwoSidedSpectral_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.5597021946741734,
+          "unit_id": "tuning_mrpc_TwoSidedSpectral_seed0_lr1e-03"
+        }
+      ]
+    },
+    "CoverageFloor": {
+      "lr": 0.001,
+      "tuning_nll": 0.561724656203296,
+      "unit_id": "tuning_mrpc_CoverageFloor_seed0_lr1e-03",
+      "candidates": [
+        {
+          "lr": 0.0001,
+          "tuning_nll": 3.532347062136978,
+          "unit_id": "tuning_mrpc_CoverageFloor_seed0_lr1e-04"
+        },
+        {
+          "lr": 0.0003,
+          "tuning_nll": 0.5777615409679129,
+          "unit_id": "tuning_mrpc_CoverageFloor_seed0_lr3e-04"
+        },
+        {
+          "lr": 0.001,
+          "tuning_nll": 0.561724656203296,
+          "unit_id": "tuning_mrpc_CoverageFloor_seed0_lr1e-03"
+        }
+      ]
+    }
+  }
+}

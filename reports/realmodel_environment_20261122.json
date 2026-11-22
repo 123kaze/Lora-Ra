@@ -1,0 +1,13 @@
+{
+  "python": "E:\\envs\\lorara_realmodel\\Scripts\\python.exe",
+  "torch": "2.14.1+cu126",
+  "transformers": "5.20.1",
+  "peft": "0.22.0",
+  "accelerate": "1.16.0",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "original_environment_dependencies_changed": false,
+  "isolation": "venv with system-site-packages; reused original torch and transformers; only peft/accelerate installed into new venv",
+  "training_environment": "E:/envs/lorara_realmodel",
+  "raw_data_test_split_downloaded": false,
+  "protocol_sha256": "b59ce13a506df6632a2e578b6a83fe0237dc9e1c850aa74ffced1d43dec15d36"
+}

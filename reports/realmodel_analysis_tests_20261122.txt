@@ -1,0 +1,16 @@
+test_argmax_and_duplicate_id_corruption_are_rejected (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_argmax_and_duplicate_id_corruption_are_rejected) ... ok
+test_bootstrap_shared_resampling_matches_independent_frequency_form (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_bootstrap_shared_resampling_matches_independent_frequency_form) ... ok
+test_bootstrap_zero_and_negative_constants_are_not_misclassified (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_bootstrap_zero_and_negative_constants_are_not_misclassified) ... ok
+test_budget_dynamic_program_and_floor_have_distinct_optima (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_budget_dynamic_program_and_floor_have_distinct_optima) ... ok
+test_checkpoint_record_set_hash_and_reload_error_cross_match (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_checkpoint_record_set_hash_and_reload_error_cross_match) ... ok
+test_concentration_and_uniform_distance_have_known_values (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_concentration_and_uniform_distance_have_known_values) ... ok
+test_duplicate_rank_alias_is_rejected_even_for_zero_rank (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_duplicate_rank_alias_is_rejected_even_for_zero_rank) ... ok
+test_full_vocabulary_nll_and_positive_class_f1 (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_full_vocabulary_nll_and_positive_class_f1) ... ok
+test_nonfinite_logprob_and_wrong_count_are_rejected (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_nonfinite_logprob_and_wrong_count_are_rejected) ... ok
+test_selection_lock_rejects_modified_selection_bytes (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_selection_lock_rejects_modified_selection_bytes) ... ok
+test_ties_use_label_zero_and_zero_denominator_f1_is_zero (test_realmodel_analysis.SyntheticRealModelAnalysisTests.test_ties_use_label_zero_and_zero_denominator_f1_is_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.159s
+
+OK

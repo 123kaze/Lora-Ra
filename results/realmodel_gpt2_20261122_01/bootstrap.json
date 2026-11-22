@@ -1,0 +1,41 @@
+{
+  "seed_pairs": 5,
+  "draws": 200000,
+  "seed": 95531,
+  "confidence": 0.95,
+  "method": "paired adapter/data-seed percentile; NumPy linear quantiles",
+  "scope": "conditional on one pretrained checkpoint; marginal intervals",
+  "resample_index_sha256": "032ff321bdb696c371e8c6516b01a301f0d7de2e60c994012078d9a82fbb229a",
+  "mean": [
+    -0.006770560108010415,
+    0.0,
+    -0.2914509065094518,
+    0.0003344734865879717,
+    -0.011866352645972467,
+    -0.061724693253271144
+  ],
+  "low": [
+    -0.011957339464204608,
+    0.0,
+    -0.29808747238837874,
+    -0.010846410045290699,
+    -0.021931494275728845,
+    -0.08048867814827201
+  ],
+  "high": [
+    -0.0015163033937932835,
+    0.0,
+    -0.28449435511299825,
+    0.01569275940293626,
+    -0.0027079155741660753,
+    -0.03816801599391242
+  ],
+  "columns": [
+    "sst2_uniform_minus_spectral",
+    "sst2_spectral_minus_floor",
+    "sst2_uniform_minus_adalora",
+    "mrpc_uniform_minus_spectral",
+    "mrpc_spectral_minus_floor",
+    "mrpc_uniform_minus_adalora"
+  ]
+}

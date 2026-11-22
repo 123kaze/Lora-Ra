@@ -1,0 +1,29 @@
+
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]
+Loading weights:  36%|��������      | 53/148 [00:00<00:00, 438.16it/s]
+Loading weights:  66%|��������������   | 97/148 [00:00<00:00, 403.96it/s]
+Loading weights:  93%|��������������������| 138/148 [00:00<00:00, 401.56it/s]
+Loading weights: 100%|��������������������| 148/148 [00:00<00:00, 288.42it/s]
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+{"unit": "tuning_sst2_UniformLoRA_seed0_lr1e-04", "metrics": {"nll": 5.342127298004925, "accuracy": 0.703125, "f1": 0.7978723404255319, "examples": 256}, "seconds": 0.59207559999777, "physical": 147456, "rank": 48}
+{"unit": "tuning_sst2_AdaLoRA_seed0_lr1e-04", "metrics": {"nll": 5.3539120350033045, "accuracy": 0.6953125, "f1": 0.7914438502673797, "examples": 256}, "seconds": 0.5760911999968812, "physical": 295008, "rank": 48}
+{"unit": "tuning_sst2_TwoSidedSpectral_seed0_lr1e-04", "metrics": {"nll": 5.345797158777714, "accuracy": 0.69921875, "f1": 0.7935656836461126, "examples": 256}, "seconds": 0.3758546000026399, "physical": 147456, "rank": 48}
+{"unit": "tuning_sst2_CoverageFloor_seed0_lr1e-04", "metrics": {"nll": 5.345797158777714, "accuracy": 0.69921875, "f1": 0.7935656836461126, "examples": 256}, "seconds": 0.4419837000023108, "physical": 147456, "rank": 48}
+{"unit": "tuning_mrpc_UniformLoRA_seed0_lr1e-04", "metrics": {"nll": 9.322084764018655, "accuracy": 0.32421875, "f1": 0.0335195530726257, "examples": 256}, "seconds": 0.3443853999997373, "physical": 147456, "rank": 48}
+{"unit": "tuning_mrpc_AdaLoRA_seed0_lr1e-04", "metrics": {"nll": 9.324530977755785, "accuracy": 0.3203125, "f1": 0.03333333333333333, "examples": 256}, "seconds": 0.5587648000000627, "physical": 295008, "rank": 48}
+Traceback (most recent call last):
+  File "E:\Projects\Lora\scripts\realmodel_experiment.py", line 495, in <module>
+    main()
+  File "E:\Projects\Lora\scripts\realmodel_experiment.py", line 465, in main
+    result, base = train_unit(base, datasets[task]['train'], datasets[task]['tune'], cfg, run,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Projects\Lora\scripts\realmodel_experiment.py", line 375, in train_unit
+    proof = numerical_proof(model, probe)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\envs\LangChain_agent\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Projects\Lora\scripts\realmodel_experiment.py", line 304, in numerical_proof
+    assert error < 5e-4 and loss_error < 5e-5 and merge_error < 5e-4, (error, loss_error, merge_error)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (0.00019073486328125, 5.817413330078125e-05, 1.1593103408813477e-05)

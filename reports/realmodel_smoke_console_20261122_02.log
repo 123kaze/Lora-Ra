@@ -1,0 +1,17 @@
+
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]
+Loading weights:  24%|������       | 36/148 [00:00<00:00, 357.20it/s]
+Loading weights:  49%|����������     | 72/148 [00:00<00:00, 221.08it/s]
+Loading weights:  66%|��������������   | 97/148 [00:00<00:00, 190.93it/s]
+Loading weights:  80%|����������������  | 118/148 [00:00<00:00, 145.94it/s]
+Loading weights:  91%|������������������ | 135/148 [00:00<00:00, 148.63it/s]
+Loading weights: 100%|��������������������| 148/148 [00:01<00:00, 113.91it/s]
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+{"unit": "tuning_sst2_UniformLoRA_seed0_lr1e-04", "metrics": {"nll": 5.342127298004925, "accuracy": 0.703125, "f1": 0.7978723404255319, "examples": 256}, "seconds": 2.390661599994928, "physical": 147456, "rank": 48}
+{"unit": "tuning_sst2_AdaLoRA_seed0_lr1e-04", "metrics": {"nll": 5.3539120350033045, "accuracy": 0.6953125, "f1": 0.7914438502673797, "examples": 256}, "seconds": 4.572014500001387, "physical": 295008, "rank": 48}
+{"unit": "tuning_sst2_TwoSidedSpectral_seed0_lr1e-04", "metrics": {"nll": 5.345797158777714, "accuracy": 0.69921875, "f1": 0.7935656836461126, "examples": 256}, "seconds": 2.7833679000032134, "physical": 147456, "rank": 48}
+{"unit": "tuning_sst2_CoverageFloor_seed0_lr1e-04", "metrics": {"nll": 5.345797158777714, "accuracy": 0.69921875, "f1": 0.7935656836461126, "examples": 256}, "seconds": 2.2849516999995103, "physical": 147456, "rank": 48}
+{"unit": "tuning_mrpc_UniformLoRA_seed0_lr1e-04", "metrics": {"nll": 9.322084764018655, "accuracy": 0.32421875, "f1": 0.0335195530726257, "examples": 256}, "seconds": 1.1540368999994826, "physical": 147456, "rank": 48}
+{"unit": "tuning_mrpc_AdaLoRA_seed0_lr1e-04", "metrics": {"nll": 9.324530977755785, "accuracy": 0.3203125, "f1": 0.03333333333333333, "examples": 256}, "seconds": 1.7731466999975964, "physical": 295008, "rank": 48}
+{"unit": "tuning_mrpc_TwoSidedSpectral_seed0_lr1e-04", "metrics": {"nll": 9.320644797757268, "accuracy": 0.32421875, "f1": 0.0335195530726257, "examples": 256}, "seconds": 1.07232010000007, "physical": 147456, "rank": 48}
+{"unit": "tuning_mrpc_CoverageFloor_seed0_lr1e-04", "metrics": {"nll": 9.29999427497387, "accuracy": 0.32421875, "f1": 0.0335195530726257, "examples": 256}, "seconds": 0.5451410000023316, "physical": 147456, "rank": 48}

@@ -1,0 +1,9 @@
+test_adalora_orthogonal_regularizer_is_included (test_realmodel_forward.RealModelForwardTests.test_adalora_orthogonal_regularizer_is_included) ... [transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+ok
+test_last_position_loss_and_adapter_gradients_match_full_forward (test_realmodel_forward.RealModelForwardTests.test_last_position_loss_and_adapter_gradients_match_full_forward) ... ok
+test_left_padding_positions_preserve_last_token_prediction (test_realmodel_forward.RealModelForwardTests.test_left_padding_positions_preserve_last_token_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.138s
+
+OK

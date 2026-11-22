@@ -1,0 +1,12 @@
+# Preserve exact bytes of the new real-model evidence and its hashed sources.
+# Do not renormalize historical experiment files.
+results/realmodel_*/** -text
+runs/realmodel_*/** -text
+figures/realmodel/** -text
+figures/realmodel_*/** -text
+scripts/*realmodel* -text
+configs/realmodel_*.json -text
+plan/realmodel-*.md -text
+reports/realmodel_* -text
+tables/realmodel-*.md -text
+tests/test_realmodel_*.py -text

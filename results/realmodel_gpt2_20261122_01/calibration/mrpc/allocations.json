@@ -1,0 +1,62 @@
+{
+  "methods": {
+    "UniformLoRA": {
+      "ranks": {
+        "transformer.h.0.attn.c_attn": 4,
+        "transformer.h.1.attn.c_attn": 4,
+        "transformer.h.2.attn.c_attn": 4,
+        "transformer.h.3.attn.c_attn": 4,
+        "transformer.h.4.attn.c_attn": 4,
+        "transformer.h.5.attn.c_attn": 4,
+        "transformer.h.6.attn.c_attn": 4,
+        "transformer.h.7.attn.c_attn": 4,
+        "transformer.h.8.attn.c_attn": 4,
+        "transformer.h.9.attn.c_attn": 4,
+        "transformer.h.10.attn.c_attn": 4,
+        "transformer.h.11.attn.c_attn": 4
+      }
+    },
+    "TwoSidedSpectral": {
+      "ranks": {
+        "transformer.h.0.attn.c_attn": 7,
+        "transformer.h.1.attn.c_attn": 8,
+        "transformer.h.2.attn.c_attn": 7,
+        "transformer.h.3.attn.c_attn": 6,
+        "transformer.h.4.attn.c_attn": 5,
+        "transformer.h.5.attn.c_attn": 4,
+        "transformer.h.6.attn.c_attn": 2,
+        "transformer.h.7.attn.c_attn": 2,
+        "transformer.h.8.attn.c_attn": 2,
+        "transformer.h.9.attn.c_attn": 1,
+        "transformer.h.10.attn.c_attn": 2,
+        "transformer.h.11.attn.c_attn": 2
+      },
+      "predicted_utility": 111622874.36148499
+    },
+    "CoverageFloor": {
+      "ranks": {
+        "transformer.h.0.attn.c_attn": 7,
+        "transformer.h.1.attn.c_attn": 8,
+        "transformer.h.2.attn.c_attn": 7,
+        "transformer.h.3.attn.c_attn": 6,
+        "transformer.h.4.attn.c_attn": 4,
+        "transformer.h.5.attn.c_attn": 4,
+        "transformer.h.6.attn.c_attn": 2,
+        "transformer.h.7.attn.c_attn": 2,
+        "transformer.h.8.attn.c_attn": 2,
+        "transformer.h.9.attn.c_attn": 2,
+        "transformer.h.10.attn.c_attn": 2,
+        "transformer.h.11.attn.c_attn": 2
+      },
+      "predicted_utility": 111492845.64546716
+    }
+  },
+  "total_rank_budget": 48,
+  "factor_budget": 147456,
+  "module_parameter_tv_vs_uniform": 0.2708333333333333,
+  "near_degenerate": false,
+  "calibration_seconds": 10.893206500004453,
+  "calibration_examples": 64,
+  "forward_dtype": "float32",
+  "SVD_dtype": "float64_numpy_cpu"
+}

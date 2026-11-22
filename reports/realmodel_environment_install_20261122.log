@@ -1,0 +1,10 @@
+Collecting peft==0.22.0
+  Downloading peft-0.22.0-py3-none-any.whl.metadata (15 kB)
+Collecting accelerate==1.16.0
+  Downloading accelerate-1.16.0-py3-none-any.whl.metadata (19 kB)
+Downloading peft-0.22.0-py3-none-any.whl (886 kB)
+   -------------------------------------- 886.7/886.7 kB 475.6 kB/s eta 0:00:00
+Downloading accelerate-1.16.0-py3-none-any.whl (389 kB)
+   -------------------------------------- 389.4/389.4 kB 972.2 kB/s eta 0:00:00
+Installing collected packages: peft, accelerate
+Successfully installed accelerate-1.16.0 peft-0.22.0

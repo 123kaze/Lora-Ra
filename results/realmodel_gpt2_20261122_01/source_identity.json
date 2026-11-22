@@ -1,0 +1,20 @@
+{
+  "source_sha256": {
+    "scripts/realmodel_experiment.py": "60f972a0864f11d031fe59845cfeb07a042146b3b3a0c537285a3f3ce27c99ac",
+    "scripts/prepare_realmodel_assets.py": "7633f8f2de045c82402c2ebff18fafe3a42cf0d4e67ff993ce9e6853a503b670",
+    "scripts/prepare_realmodel_data.py": "56ea3cbe5a8d1d370a3ccce2abf8066d28fbb5147a0d992845e483946bb6e2de",
+    "configs/realmodel_gpt2.json": "6e1a752761e0a7a1d462196297aaa5a2aee29abaf087aa947a415bc8dbaf7dc3",
+    "plan/realmodel-gpt2-protocol-v1.md": "b59ce13a506df6632a2e578b6a83fe0237dc9e1c850aa74ffced1d43dec15d36"
+  },
+  "assets_sha256": "4ba7e9b082eb33dd3497bd87a63acaac6f3831c8ce379f9f0538849a84365724",
+  "data_manifest_sha256": "0324f51528cd4dee3831f6bac430c41e96075782ac48b6ae09edc5b10f63b236",
+  "smoke": false,
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.14.1+cu126",
+  "transformers": "5.20.1",
+  "peft": "0.22.0",
+  "accelerate": "1.16.0",
+  "numpy": "1.26.4",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "platform": "Windows-10-10.0.26300-SP0"
+}
