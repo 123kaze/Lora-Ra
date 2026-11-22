@@ -1,0 +1,5 @@
+decisive_preflight_20261122_01: clean NumPy-only verification passed
+decisive_capacity_20261122_01: clean NumPy-only verification passed
+decisive_main_20261122_01: clean NumPy-only verification passed
+decisive_mechanism_20261122_01: clean NumPy-only verification passed
+{"clean_packages_passed": 4, "tamper_rejected": true, "pass": true}

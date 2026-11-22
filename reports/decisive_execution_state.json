@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "protocol": "plan/decisive-stage0-protocol-v1.md",
+  "master_config": "configs/decisive_stage0.json",
+  "preflight_run": "runs/decisive_preflight_20261122_01",
+  "preflight_bundle": "results/decisive_preflight_20261122_01",
+  "preflight_numpy_verified": true,
+  "capacity_run": "runs/decisive_capacity_20261122_01",
+  "capacity_gate_pass": true,
+  "capacity_audit_complete": true,
+  "capacity_gain_long": [
+    0.09373775372902553,
+    0.04468269397815069
+  ],
+  "capacity_gain_short": [
+    0.090694734826684,
+    0.050994103153546654
+  ],
+  "main_workers": {
+    "long": {
+      "run": "runs/decisive_main_long_20261122_01",
+      "complete": true
+    },
+    "short": {
+      "run": "runs/decisive_main_short_20261122_01",
+      "complete": true
+    }
+  },
+  "remaining": [],
+  "warnings": [
+    "Negative result is conditional on this task, calibration and validation sample, not an equivalence theorem",
+    "1216 FullBudgetBalanced is a sparse integer baseline; only 2464 is all-seven rank-one standard LoRA",
+    "10 bases per width, not 20 independent adapter replications",
+    "Secondary old-base single-group probes do not override the locked main joint gate",
+    "No commit or push requested or performed"
+  ],
+  "route": "B",
+  "route_A_gate_pass": false,
+  "main_run": "runs/decisive_main_20261122_01",
+  "main_bundle": "results/decisive_main_20261122_01",
+  "main_actual_optimizer_trajectories": 640,
+  "main_logical_conditions": 720,
+  "main_alias_conditions": 80,
+  "main_validation_rows": 1440,
+  "main_checkpoint_audit_complete": true,
+  "mechanism_run": "runs/decisive_mechanism_20261122_01",
+  "mechanism_actual_optimizer_trajectories": 84,
+  "mechanism_checkpoint_audit_complete": true,
+  "capacity_actual_optimizer_trajectories": 36,
+  "clean_numpy_only_packages_verified": 4,
+  "tamper_with_refreshed_checksum_rejected": true,
+  "report": "reports/decisive_stage0_20261122.md",
+  "B_literature_review": "reports/b_route_literature_20261122.md",
+  "clean_checkout_proof": "reports/decisive_clean_checkout_verification_20261122.json",
+  "A_scale_up_started": false,
+  "external_model_training_started": false,
+  "committed_or_pushed": false
+}

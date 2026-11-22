@@ -1,0 +1,25 @@
+{
+  "route": "B",
+  "route_A_gate_pass": false,
+  "rule": "Both budgets: positive lower CI for long-vs-full, long-vs-shuffled and both long-minus-short interactions",
+  "required_contrasts": [
+    "B1216_long_full",
+    "B1216_long_shuffle",
+    "B1216_age_full",
+    "B1216_age_shuffle",
+    "B2464_long_full",
+    "B2464_long_shuffle",
+    "B2464_age_full",
+    "B2464_age_shuffle"
+  ],
+  "all_required_lower_bounds_positive": false,
+  "independent_bases_per_width": 10,
+  "logical_conditions": 720,
+  "actual_optimizer_trajectories": 640,
+  "validation_rows": 1440,
+  "test_split_used": false,
+  "paired_traces_match": true,
+  "all_shard_checkpoint_audits_pass": true,
+  "not_an_equivalence_test": true,
+  "B_next_action_if_applicable": "Literature/code audit before choosing invariance or negative-results direction"
+}

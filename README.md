@@ -1,6 +1,16 @@
 # CarryRank-LoRA 最小机制实验
 
-最新跨域标签筛查已完成：[完整结论](reports/crossdomain_labels_20261122.md)、[84条正式轨迹/168行CSV与审计](results/crossdomain_labels_20261122_01/README.md)。3基础、5随机分组、长短旁路：真实C/R对随机分组平均改善仅0.003208/0.000613，未过0.01门；真实代理6/6退化为同一个VBalanced配置，不能把相同适配器的打平解释为有区分力的方法比较。
+第0步决定性实验已完成，**按训练前锁定规则选择B路线**：[完整报告](reports/decisive_stage0_20261122.md)、[主实验真实证据](results/decisive_main_20261122_01/README.md)、[全部配对95% CI](results/decisive_main_20261122_01/confidence_intervals.csv)。长短各10个新基础、每基础2个adapter、2预算、5随机分组；720逻辑条件含80个公开标记的别名，640条实际训练及其检查点重载全部完成。
+
+1216预算下真实双侧分配优于稀疏整矩阵均衡，但对随机分组的CI包含0；2464预算下七矩阵全rank1标准LoRA更好，长短交互也未过门。新容量响应明显、分配未退化，因此本轮提供了比旧轮更有区分力的负结果，仍不外推为所有任务/规模上C/R无用。
+
+补充：[离线预算与旧2026反向诊断](reports/decisive_preflight_20261122.md)、[36条容量轨迹](reports/decisive_capacity_20261122.md)、[84条单组机制探针](reports/decisive_mechanism_20261122.md)、[B路线文献与代码初筛](reports/b_route_literature_20261122.md)。主图：[联合门](figures/decisive_main_20261122_01/joint_gate.png)、[方法比较](figures/decisive_main_20261122_01/comparison.png)。原始方案、旧数据与旧门槛保留，未提交或推送。
+
+纯NumPy复核主实验：`python scripts/verify_decisive_main.py results/decisive_main_20261122_01`。机制复核：`python scripts/verify_decisive_mechanism.py results/decisive_mechanism_20261122_01`。严格全组统一rank无法在这些低预算上匹配，用户选择的整数均衡规格及准确命名见[锁定协议](plan/decisive-stage0-protocol-v1.md)，不把1216基线冒称Uniform。
+
+四个新证据包已在不含runs/、无torch的干净副本中复核，复制2224个清单所需文件；篡改汇总值并刷新哈希仍被统计重算拒绝。[完整复核记录](reports/decisive_clean_checkout_verification_20261122.json)。
+
+此前跨域标签筛查已完成：[完整结论](reports/crossdomain_labels_20261122.md)、[84条正式轨迹/168行CSV与审计](results/crossdomain_labels_20261122_01/README.md)。3基础、5随机分组、长短旁路：真实C/R对随机分组平均改善仅0.003208/0.000613，未过0.01门；真实代理6/6退化为同一个VBalanced配置，不能把相同适配器的打平解释为有区分力的方法比较。
 
 跨域容量筛查已完成：[24条轨迹的结果](reports/crossdomain_capacity_20261122.md)、[实测CSV与独立重载](results/crossdomain_capacity_20261122_01/README.md)。长短旁路均通过预定rank1/rank4容量门；这不等于C/R标签或方法优势成立。
 

@@ -1,0 +1,58 @@
+{
+  "pass": true,
+  "outcomes": [
+    {
+      "profile": "long",
+      "low_budget": 1216,
+      "high_budget": 2464,
+      "paired_base_mean_gains": [
+        0.08463307283818722,
+        0.10841233283281326,
+        0.08816785551607609
+      ],
+      "mean": 0.09373775372902553,
+      "pass": true
+    },
+    {
+      "profile": "long",
+      "low_budget": 2464,
+      "high_budget": 4928,
+      "paired_base_mean_gains": [
+        0.04140561260282993,
+        0.04355514794588089,
+        0.049087321385741234
+      ],
+      "mean": 0.04468269397815069,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "low_budget": 1216,
+      "high_budget": 2464,
+      "paired_base_mean_gains": [
+        0.09599949046969414,
+        0.09118021093308926,
+        0.0849045030772686
+      ],
+      "mean": 0.090694734826684,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "low_budget": 2464,
+      "high_budget": 4928,
+      "paired_base_mean_gains": [
+        0.047103723511099815,
+        0.05057458579540253,
+        0.05530400015413761
+      ],
+      "mean": 0.050994103153546654,
+      "pass": true
+    }
+  ],
+  "scope": "matched_final_seven_types",
+  "rule": {
+    "minimum_mean_gain_each_interval": 0.01,
+    "all_three_paired_base_means_positive": true
+  }
+}

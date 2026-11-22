@@ -1,0 +1,7 @@
+test_one_failed_required_contrast_prevents_A (test_decisive_analysis.JointRouteTests.test_one_failed_required_contrast_prevents_A) ... ok
+test_short_effect_need_not_be_positive_for_long_interaction (test_decisive_analysis.JointRouteTests.test_short_effect_need_not_be_positive_for_long_interaction) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+OK

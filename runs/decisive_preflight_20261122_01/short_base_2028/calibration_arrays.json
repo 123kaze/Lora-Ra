@@ -1,0 +1,72 @@
+{
+  "blocks.5.attn.q_proj": {
+    "G": "m0_G",
+    "Hin": "m0_Hin",
+    "Hout": "m0_Hout"
+  },
+  "blocks.5.attn.k_proj": {
+    "G": "m1_G",
+    "Hin": "m1_Hin",
+    "Hout": "m1_Hout"
+  },
+  "blocks.5.attn.v_proj": {
+    "G": "m2_G",
+    "Hin": "m2_Hin",
+    "Hout": "m2_Hout"
+  },
+  "blocks.5.attn.o_proj": {
+    "G": "m3_G",
+    "Hin": "m3_Hin",
+    "Hout": "m3_Hout"
+  },
+  "blocks.5.up": {
+    "G": "m4_G",
+    "Hin": "m4_Hin",
+    "Hout": "m4_Hout"
+  },
+  "blocks.5.gate": {
+    "G": "m5_G",
+    "Hin": "m5_Hin",
+    "Hout": "m5_Hout"
+  },
+  "blocks.5.down": {
+    "G": "m6_G",
+    "Hin": "m6_Hin",
+    "Hout": "m6_Hout"
+  },
+  "blocks.7.attn.q_proj": {
+    "G": "m7_G",
+    "Hin": "m7_Hin",
+    "Hout": "m7_Hout"
+  },
+  "blocks.7.attn.k_proj": {
+    "G": "m8_G",
+    "Hin": "m8_Hin",
+    "Hout": "m8_Hout"
+  },
+  "blocks.7.attn.v_proj": {
+    "G": "m9_G",
+    "Hin": "m9_Hin",
+    "Hout": "m9_Hout"
+  },
+  "blocks.7.attn.o_proj": {
+    "G": "m10_G",
+    "Hin": "m10_Hin",
+    "Hout": "m10_Hout"
+  },
+  "blocks.7.up": {
+    "G": "m11_G",
+    "Hin": "m11_Hin",
+    "Hout": "m11_Hout"
+  },
+  "blocks.7.gate": {
+    "G": "m12_G",
+    "Hin": "m12_Hin",
+    "Hout": "m12_Hout"
+  },
+  "blocks.7.down": {
+    "G": "m13_G",
+    "Hin": "m13_Hin",
+    "Hout": "m13_Hout"
+  }
+}

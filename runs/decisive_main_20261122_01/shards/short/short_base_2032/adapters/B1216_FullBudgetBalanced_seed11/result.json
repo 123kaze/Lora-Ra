@@ -1,0 +1,115 @@
+{
+  "evaluations": [
+    {
+      "profile": "short",
+      "base_seed": 2032,
+      "adapter_seed": 11,
+      "budget": 1216,
+      "method": "FullBudgetBalanced",
+      "step": 180,
+      "parameters": 1216,
+      "val_loss": 2.3772473111748695,
+      "val_accuracy": 0.4170684814453125,
+      "val_bytes": 65536,
+      "base_val_loss": 3.2108854725956917,
+      "improvement": 0.8336381614208221,
+      "data_trace_sha256": "723451652704092b6a31ef93ddbd9592c99e1f47d10fdc4ecffc87cc60c591a7",
+      "base_sha256": "f599e66c526fc73bb70ec3be79eaf7c57ae8b5df26ad26620fb3d94af30f8075",
+      "reused_from": ""
+    },
+    {
+      "profile": "short",
+      "base_seed": 2032,
+      "adapter_seed": 11,
+      "budget": 1216,
+      "method": "FullBudgetBalanced",
+      "step": 600,
+      "parameters": 1216,
+      "val_loss": 2.1971763521432877,
+      "val_accuracy": 0.4231414794921875,
+      "val_bytes": 65536,
+      "base_val_loss": 3.2108854725956917,
+      "improvement": 1.013709120452404,
+      "data_trace_sha256": "966883ede63f310a87a85d80328ec818d451ca1c46a7c486bb2cfb2442267388",
+      "base_sha256": "f599e66c526fc73bb70ec3be79eaf7c57ae8b5df26ad26620fb3d94af30f8075",
+      "reused_from": ""
+    }
+  ],
+  "groups": [
+    {
+      "id": "blocks.7.attn.q_proj",
+      "module": "blocks.7.attn.q_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.attn.k_proj",
+      "module": "blocks.7.attn.k_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.attn.v_proj",
+      "module": "blocks.7.attn.v_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.attn.o_proj",
+      "module": "blocks.7.attn.o_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.up",
+      "module": "blocks.7.up",
+      "m": 352,
+      "n": 128,
+      "cost": 480,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.gate",
+      "module": "blocks.7.gate",
+      "m": 352,
+      "n": 128,
+      "cost": 480,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.down",
+      "module": "blocks.7.down",
+      "m": 128,
+      "n": 352,
+      "cost": 480,
+      "residual_width": 128
+    }
+  ],
+  "ranks": {
+    "blocks.7.attn.q_proj": 0,
+    "blocks.7.attn.k_proj": 1,
+    "blocks.7.attn.v_proj": 0,
+    "blocks.7.attn.o_proj": 0,
+    "blocks.7.up": 0,
+    "blocks.7.gate": 1,
+    "blocks.7.down": 1
+  },
+  "configuration_sha256": "1f60ca75f050176e8e772bc65b699f8bb29e629890ca4688e21fbf084b6632ee",
+  "reused_from": "",
+  "zero_initial_error": 0.0,
+  "base_frozen": true,
+  "cache_full_max_error": 0.0,
+  "merge_max_error": 4.76837158203125e-06,
+  "time_s": 4.98058299999866,
+  "peak_allocated_mb_including_cache": 686.517578125,
+  "adapter_file_sha256": "9c1743f8a4fbb27badd36f56b02f6deb971e2601e0dd4cd64c67432192de47d7",
+  "log_path": "E:\\Projects\\Lora\\runs\\decisive_main_short_20261122_01\\short_base_2032\\logs\\B1216_FullBudgetBalanced_seed11\\attempt_000.jsonl"
+}

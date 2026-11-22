@@ -1,0 +1,60 @@
+{
+  "long": {
+    "source_run": "runs/decisive_main_long_20261122_01",
+    "packaged_path": "shards/long",
+    "completion": {
+      "phase": "main",
+      "smoke": false,
+      "logical_conditions": 360,
+      "actual_optimizer_trajectories": 320,
+      "validation_rows": 720,
+      "old_artifacts_verified": 1062,
+      "old_artifacts_unchanged": true,
+      "max_merge_error": 6.4373016357421875e-06,
+      "max_cache_full_error": 0,
+      "complete": true,
+      "test_split_used": false
+    },
+    "audit_summary": {
+      "logical_conditions_verified": 360,
+      "actual_checkpoints_reloaded": 320,
+      "new_checkpoints_this_invocation": 128,
+      "max_validation_reload_error": 0.0,
+      "max_merge_error": 1.0251998901367188e-05,
+      "paired_data_traces_match": true,
+      "old_artifacts_verified": 1062,
+      "old_artifacts_unchanged": true,
+      "complete_run": true,
+      "pass": true
+    }
+  },
+  "short": {
+    "source_run": "runs/decisive_main_short_20261122_01",
+    "packaged_path": "shards/short",
+    "completion": {
+      "phase": "main",
+      "smoke": false,
+      "logical_conditions": 360,
+      "actual_optimizer_trajectories": 320,
+      "validation_rows": 720,
+      "old_artifacts_verified": 1062,
+      "old_artifacts_unchanged": true,
+      "max_merge_error": 8.58306884765625e-06,
+      "max_cache_full_error": 0,
+      "complete": true,
+      "test_split_used": false
+    },
+    "audit_summary": {
+      "logical_conditions_verified": 360,
+      "actual_checkpoints_reloaded": 320,
+      "new_checkpoints_this_invocation": 110,
+      "max_validation_reload_error": 0.0,
+      "max_merge_error": 7.62939453125e-06,
+      "paired_data_traces_match": true,
+      "old_artifacts_verified": 1062,
+      "old_artifacts_unchanged": true,
+      "complete_run": true,
+      "pass": true
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "evaluations": [
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "adapter_seed": 11,
+      "budget": 1216,
+      "method": "FullBudgetBalanced",
+      "step": 3,
+      "parameters": 1216,
+      "val_loss": 4.090397357940674,
+      "val_accuracy": 0.2734375,
+      "val_bytes": 512,
+      "base_val_loss": 3.2288184240460396,
+      "improvement": -0.8615789338946342,
+      "data_trace_sha256": "a9760dfdcec585024bbf804aba7f7ee53f956abb37d60292da33c9328ff45deb",
+      "base_sha256": "37a3cb2f7cbd638e4c982d49f8ded1f8956d13a472444c66b482a58fb0f7e599",
+      "reused_from": ""
+    }
+  ],
+  "groups": [
+    {
+      "id": "blocks.7.attn.q_proj",
+      "module": "blocks.7.attn.q_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.attn.k_proj",
+      "module": "blocks.7.attn.k_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.attn.v_proj",
+      "module": "blocks.7.attn.v_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.attn.o_proj",
+      "module": "blocks.7.attn.o_proj",
+      "m": 128,
+      "n": 128,
+      "cost": 256,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.up",
+      "module": "blocks.7.up",
+      "m": 352,
+      "n": 128,
+      "cost": 480,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.gate",
+      "module": "blocks.7.gate",
+      "m": 352,
+      "n": 128,
+      "cost": 480,
+      "residual_width": 128
+    },
+    {
+      "id": "blocks.7.down",
+      "module": "blocks.7.down",
+      "m": 128,
+      "n": 352,
+      "cost": 480,
+      "residual_width": 128
+    }
+  ],
+  "ranks": {
+    "blocks.7.attn.q_proj": 0,
+    "blocks.7.attn.k_proj": 1,
+    "blocks.7.attn.v_proj": 0,
+    "blocks.7.attn.o_proj": 0,
+    "blocks.7.up": 0,
+    "blocks.7.gate": 1,
+    "blocks.7.down": 1
+  },
+  "configuration_sha256": "1f60ca75f050176e8e772bc65b699f8bb29e629890ca4688e21fbf084b6632ee",
+  "reused_from": "",
+  "zero_initial_error": 0.0,
+  "base_frozen": true,
+  "cache_full_max_error": 0.0,
+  "merge_max_error": 9.5367431640625e-06,
+  "time_s": 0.06953269999939948,
+  "peak_allocated_mb_including_cache": 47.55322265625,
+  "adapter_file_sha256": "527379459d3aab5d9c3bd3196cca2ba8f9ee6f90183f6dc8b0851b5677d3d980",
+  "log_path": "E:\\Projects\\Lora\\runs\\decisive_smoke_20261122_01\\short_base_2026\\logs\\B1216_FullBudgetBalanced_seed11\\attempt_000.jsonl"
+}

@@ -1,0 +1,624 @@
+{
+  "files": [
+    {
+      "path": "configs/decisive_preflight.json",
+      "bytes": 804,
+      "sha256": "9fbd0abac2ec4e1580806450984abae0d27d523d9579641b9ede2b4cfad7c192"
+    },
+    {
+      "path": "configs/decisive_stage0.json",
+      "bytes": 1442,
+      "sha256": "a24fa5744868fc08388e8237b94d455ca8c3fc935e25bbd3cf34b47fb761987f"
+    },
+    {
+      "path": "figures/decisive_preflight/plot_preflight.py",
+      "bytes": 4268,
+      "sha256": "303afff0f0b5bb2c4c01df3f7fe9217be96b36516987b28994e49ba7837bde42"
+    },
+    {
+      "path": "figures/decisive_preflight_20261122_01/budget_screen.png",
+      "bytes": 435987,
+      "sha256": "a2d74efc8c58ef11c6c4752117d2956a610a734b28e4834f2eea345fff91e548"
+    },
+    {
+      "path": "figures/decisive_preflight_20261122_01/budget_screen.svg",
+      "bytes": 43201,
+      "sha256": "b2e3eea8a598ea531ad69d1cc0d183cd17b3923a2deef3d0eff324048ac1ce43"
+    },
+    {
+      "path": "figures/decisive_preflight_20261122_01/old_reversal.png",
+      "bytes": 253098,
+      "sha256": "540ba104490a18494e4953a037aa0ed77c857c865e6a8fac187574aff52ba9d4"
+    },
+    {
+      "path": "figures/decisive_preflight_20261122_01/old_reversal.svg",
+      "bytes": 20647,
+      "sha256": "a9c52ca03ed66158dc3d9c082e7bc6c7b30f6508fcfdf693ceca395eac2a6369"
+    },
+    {
+      "path": "plan/decisive-stage0-protocol-v1.md",
+      "bytes": 7355,
+      "sha256": "e9ff3c68b35b3a8f4b2f278c92d43df82e0ee4db3fd47751858e500839d8610d"
+    },
+    {
+      "path": "plan/decisive-stage0-roadmap.md",
+      "bytes": 6746,
+      "sha256": "3b8fbca5e49dbfb70b66be66fcdc7eb9f30ae295d9fbfe5b4126d381c0975350"
+    },
+    {
+      "path": "reports/decisive_prefix_equivalence.json",
+      "bytes": 784,
+      "sha256": "7779c1b77d446c41ee9473d2c5037cb89a8603feb210b17e7a9c1b1da0765dc9"
+    },
+    {
+      "path": "reports/decisive_preflight_20261122.md",
+      "bytes": 6089,
+      "sha256": "c159bb26aeca3d27f65f59fc3a24958d0b55ee2d54c04f51c26bbafb4c7d0bdf"
+    },
+    {
+      "path": "reports/decisive_stage0_tests.txt",
+      "bytes": 4911,
+      "sha256": "903b315517a36f55fd809e6e9b342e5a95d3fa3892ecf42aedbaa05f92209a49"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/allocation_scan.csv",
+      "bytes": 262932,
+      "sha256": "4be5e16a157829048fc602bb9244cdfa4c1efc8465f8a6e4a28243e743073c09"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/allocations.json",
+      "bytes": 2429264,
+      "sha256": "1b93e54e6a86a0e8b1432269d9f5589544a0ab4df08688bc5983c868fc1add76"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/alternative_budget_candidates.json",
+      "bytes": 1187,
+      "sha256": "0c89651e7fba1734fb5a34aee5193b1d81b873473023dfbfda7c7161b07120be"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/budget_feasibility.csv",
+      "bytes": 15351,
+      "sha256": "4440dd57e0cf0ecc28704a7615bce93060746dc98075104e4cdbb214a834b600"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/config.json",
+      "bytes": 1010,
+      "sha256": "b89b7370fdf7523138a1665374f8fbdfc35907c8153e2ddf87b03a4739618361"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/data_manifest.json",
+      "bytes": 657,
+      "sha256": "68a8b940c80f619b9a3e15082f40b48b2a7118e97f8867c156d3b478fa63df19"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/identity.json",
+      "bytes": 2735,
+      "sha256": "d83adea255f9adf7a2950c7046ddc83456b051372d4c7620b48926ff5692cc63"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2026/allocations.json",
+      "bytes": 1926,
+      "sha256": "435a143b46f90b0c7695399c6b669afe0dd020a745f7a1c04f3b074c715d0b5a"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2026/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2026/calibration_arrays.npz",
+      "bytes": 187912,
+      "sha256": "82d5cb452f32303300adcb453423c1c30e0944233253a48a26cf6707a9dd6bed"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2026/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2027/allocations.json",
+      "bytes": 1932,
+      "sha256": "a22b648f91500f68a4bb05ec050a20488b449cc81c9bdff35059c9be6b4042b9"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2027/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2027/calibration_arrays.npz",
+      "bytes": 187762,
+      "sha256": "6735cb04c3dec178d6aa96c4219f28db6363cd56db0656d5e41e4a6558ec9bf4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2027/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2028/allocations.json",
+      "bytes": 1932,
+      "sha256": "81ccd8007dcdf92799cc860f10926bcc7943eb2ccd9651222afbc8ad355a0cca"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2028/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2028/calibration_arrays.npz",
+      "bytes": 187609,
+      "sha256": "e0ae5fae6c80d96b3a293e0d0df12d02ed86d0554250500df018c33223fc80ce"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/long_base_2028/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/main.csv",
+      "bytes": 44468,
+      "sha256": "318120ca208b115ea1013915751d31e443fd2f495236f2f3479b63b4174f4efa"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2026/allocations.json",
+      "bytes": 1929,
+      "sha256": "e92908f01fc077a3631492b7940653a0b8d206abd8078124bf302ec7f48e79eb"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2026/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2026/calibration_arrays.npz",
+      "bytes": 188234,
+      "sha256": "cf0c33eda777845882a58073aaf02885779cb03b5dccdde8e86f20424b9f8b9e"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2026/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2027/allocations.json",
+      "bytes": 1932,
+      "sha256": "9fe0a670c77774f9113f3d546519ce7fe8aedbd515f1708d0ded05c28b561e18"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2027/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2027/calibration_arrays.npz",
+      "bytes": 187810,
+      "sha256": "d5cccd1a9c0da05845bf19b59750e609c1001940379081746186bdc8b95ba137"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2027/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2028/allocations.json",
+      "bytes": 1931,
+      "sha256": "848cd7472bdf3892041c9d8c03405f083a6d91a272f269a09c528956a74fbcec"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2028/calibration_arrays.json",
+      "bytes": 199,
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2028/calibration_arrays.npz",
+      "bytes": 187315,
+      "sha256": "d8b4cd393bd63964dec5d290d3fb944a8000595ec02d22668f324309c2384334"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/legacy_inputs/short_base_2028/groups.json",
+      "bytes": 25053,
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/calibration_arrays.json",
+      "bytes": 666,
+      "sha256": "a358698d553e4c4aa6710d10c3a398bf7d08656f731f1f1b6248253654cc873c"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/calibration_arrays.npz",
+      "bytes": 1136894,
+      "sha256": "6e661997ed4610833c44490c50de10d05ee91eaf5d3ebe3c978e1ef24632990d"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/calibration_audit.json",
+      "bytes": 623,
+      "sha256": "94cbd89891f122a88188792f3cd65222c33b2eefa812f1215ec129a7d0ba8ebe"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/groups_all_expansions.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/groups_matched_final.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/targets_all_expansions.json",
+      "bytes": 11489,
+      "sha256": "857356f772e9b4aa9fcd50e9dd484cd95c8b72171b5528448672366e70567474"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2026/targets_matched_final.json",
+      "bytes": 11489,
+      "sha256": "857356f772e9b4aa9fcd50e9dd484cd95c8b72171b5528448672366e70567474"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/calibration_arrays.json",
+      "bytes": 666,
+      "sha256": "a358698d553e4c4aa6710d10c3a398bf7d08656f731f1f1b6248253654cc873c"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/calibration_arrays.npz",
+      "bytes": 1136635,
+      "sha256": "2b16ec48a45489a16adec16ec7da86a17845d6bed005af3df03622a3bcaa8fa6"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/calibration_audit.json",
+      "bytes": 620,
+      "sha256": "2c4b9486eb2da7d0fa8d12684881f1949b11a23dba0b9cca73f832148977138e"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/groups_all_expansions.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/groups_matched_final.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/targets_all_expansions.json",
+      "bytes": 11489,
+      "sha256": "857356f772e9b4aa9fcd50e9dd484cd95c8b72171b5528448672366e70567474"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2027/targets_matched_final.json",
+      "bytes": 11489,
+      "sha256": "857356f772e9b4aa9fcd50e9dd484cd95c8b72171b5528448672366e70567474"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/calibration_arrays.json",
+      "bytes": 666,
+      "sha256": "a358698d553e4c4aa6710d10c3a398bf7d08656f731f1f1b6248253654cc873c"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/calibration_arrays.npz",
+      "bytes": 1136439,
+      "sha256": "0d0180133c5e235cfc4eda822dc440e7402d7e3489fa68adbd974e4583086797"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/calibration_audit.json",
+      "bytes": 624,
+      "sha256": "70ea30d57290eb6b8cae7c11ba418b3039c218194528f8a743ec88056e989e24"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/groups_all_expansions.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/groups_matched_final.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/targets_all_expansions.json",
+      "bytes": 11489,
+      "sha256": "857356f772e9b4aa9fcd50e9dd484cd95c8b72171b5528448672366e70567474"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/long_base_2028/targets_matched_final.json",
+      "bytes": 11489,
+      "sha256": "857356f772e9b4aa9fcd50e9dd484cd95c8b72171b5528448672366e70567474"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/nondegeneracy_summary.csv",
+      "bytes": 9016,
+      "sha256": "56cd1de83af8a3a35b8fcd788f96f8c82f306d07c12bf6f7c2c9d358ebd75958"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/power_reference.json",
+      "bytes": 456,
+      "sha256": "6c9153612df5f0e3020dbe63f9dbff8686b26febcf9f38b7c5f3fcb89f478f33"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/previous_reversal_diagnostic/adapter_paired_differences.csv",
+      "bytes": 998,
+      "sha256": "8459ae0b2b7d86d47ac78373c87e64575a845c4f30eb7b915e2a1a90e8179945"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/previous_reversal_diagnostic/case_summary.csv",
+      "bytes": 2174,
+      "sha256": "04b10d4d7d4d11828bb7345f15ee365e7d2f45f40113441ef76b3e644275a2ab"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/previous_reversal_diagnostic/full_spectra.csv",
+      "bytes": 393163,
+      "sha256": "a02f2008aa1344951e11e70d2a1630287395d0f219b762bf505e93def7f3f020"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/previous_reversal_diagnostic/input_manifest.json",
+      "bytes": 4954,
+      "sha256": "c05f857a960ea4289ba1b186941e2c990987e1326b4b9c624a4744ab032251ab"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/previous_reversal_diagnostic/moments_and_decay.csv",
+      "bytes": 9865,
+      "sha256": "a1590b6a9963dadf6992a01a5664957d4742f3accbdc84da10bccb3caf20d214"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/prior_artifacts.json",
+      "bytes": 181794,
+      "sha256": "2a5e85b90146d4b020edc866709d5d66e737e7692d275dfbe589242e0212d92e"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/protocol-draft.md",
+      "bytes": 6746,
+      "sha256": "3b8fbca5e49dbfb70b66be66fcdc7eb9f30ae295d9fbfe5b4126d381c0975350"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/README.md",
+      "bytes": 1089,
+      "sha256": "e0bcfcca363b29b954d355738bb7be93d5913ffcaddd2db8ec8276e9bd322706"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/report.md",
+      "bytes": 6119,
+      "sha256": "3a79880767269b6d4e22aea741ce37b3f310579527968a92253ee2c39d2640cd"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/resolved_specification.json",
+      "bytes": 731,
+      "sha256": "8346bd7ca626a027316a63530d19f065b3694ff1158a34c7cc6c1db69b16e81b"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/selection.json",
+      "bytes": 558,
+      "sha256": "16e47d6ec4e30e0329196f74a0d698c30e2606275e36c8917c6ca6bff5deee48"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/shapes.csv",
+      "bytes": 403,
+      "sha256": "45bf672e9bc2fa775b142eac88efef026ed8a9779945b0ed116b5bceaff5cd04"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/calibration_arrays.json",
+      "bytes": 1341,
+      "sha256": "3b7ee27e8d0343c40e85e8bb7b6b91bdce51ab530f3e39d03ef22e2bdb48f3f8"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/calibration_arrays.npz",
+      "bytes": 2273842,
+      "sha256": "751696c324085ced57e3d5e7b012eea35063e8702e6e9b62790f2c96c6b62d34"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/calibration_audit.json",
+      "bytes": 625,
+      "sha256": "5703d4a4b18df6ba21f5dd5c452e2a7fabf52c3f2c2487e21c2f9f2174ea8668"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/groups_all_expansions.json",
+      "bytes": 185709,
+      "sha256": "aded215701587fceeae0ad97e2333144ae3bd9b9e45a67fa35d09391856a0c74"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/groups_matched_final.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/targets_all_expansions.json",
+      "bytes": 22975,
+      "sha256": "2d5ecf936acbe7971241379b014cc93a4fd06dd4efa0c924eea491924dad23eb"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2026/targets_matched_final.json",
+      "bytes": 11489,
+      "sha256": "1474cc768c1f0dd45b2a209f26e10c35bf6ec395a84d1c58907a80e9b50a14ce"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/calibration_arrays.json",
+      "bytes": 1341,
+      "sha256": "3b7ee27e8d0343c40e85e8bb7b6b91bdce51ab530f3e39d03ef22e2bdb48f3f8"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/calibration_arrays.npz",
+      "bytes": 2273325,
+      "sha256": "a1866d14a25a4f1d36b046f0030be77d22bc51f51b69324a499d027e3565e14c"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/calibration_audit.json",
+      "bytes": 623,
+      "sha256": "660940a0180d1fcdee6b7cd9e6cdbbd753a6c48db115e88ebc721b5d17f85138"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/groups_all_expansions.json",
+      "bytes": 185709,
+      "sha256": "aded215701587fceeae0ad97e2333144ae3bd9b9e45a67fa35d09391856a0c74"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/groups_matched_final.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/targets_all_expansions.json",
+      "bytes": 22975,
+      "sha256": "2d5ecf936acbe7971241379b014cc93a4fd06dd4efa0c924eea491924dad23eb"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2027/targets_matched_final.json",
+      "bytes": 11489,
+      "sha256": "1474cc768c1f0dd45b2a209f26e10c35bf6ec395a84d1c58907a80e9b50a14ce"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/calibration_arrays.json",
+      "bytes": 1341,
+      "sha256": "3b7ee27e8d0343c40e85e8bb7b6b91bdce51ab530f3e39d03ef22e2bdb48f3f8"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/calibration_arrays.npz",
+      "bytes": 2272282,
+      "sha256": "06636edeecdcf8e643e3442c14a57a80f9a34c8b39e5550e6191531b33188b16"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/calibration_audit.json",
+      "bytes": 620,
+      "sha256": "60abfd666b9f88e466864a884266d912a4873555056ceebef81ffb2852d28ddf"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/groups_all_expansions.json",
+      "bytes": 185709,
+      "sha256": "aded215701587fceeae0ad97e2333144ae3bd9b9e45a67fa35d09391856a0c74"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/groups_matched_final.json",
+      "bytes": 92925,
+      "sha256": "cf885dcd8169a9653d3481dfd52cf7be7dcb4bfc3d3f4f62002af681e355ded4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/targets_all_expansions.json",
+      "bytes": 22975,
+      "sha256": "2d5ecf936acbe7971241379b014cc93a4fd06dd4efa0c924eea491924dad23eb"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/short_base_2028/targets_matched_final.json",
+      "bytes": 11489,
+      "sha256": "1474cc768c1f0dd45b2a209f26e10c35bf6ec395a84d1c58907a80e9b50a14ce"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/scripts/decisive_preflight.py",
+      "bytes": 13198,
+      "sha256": "a51db411c312a485a2538118b02ae3d8dd98c0773f95dcfc08879d3f226f84b4"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/__init__.py",
+      "bytes": 61,
+      "sha256": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/activation_stats.py",
+      "bytes": 3245,
+      "sha256": "f590811adc26440250234a72d9133e2d9d47ce215a4acd24db54a6203eab3149"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/allocation.py",
+      "bytes": 1558,
+      "sha256": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/capacity.py",
+      "bytes": 15796,
+      "sha256": "53685c08247fd24ab7e778316792337a5d9e82878202d00063a4932a447ed268"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/curvature.py",
+      "bytes": 1610,
+      "sha256": "a808ce777a12ac96e12b56fa91b10f7df4f5d75a98fd65abbb3ce77846eea76d"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/data.py",
+      "bytes": 2789,
+      "sha256": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/diagnostic.py",
+      "bytes": 16407,
+      "sha256": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/diagnostic_report.py",
+      "bytes": 10001,
+      "sha256": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/diagnostics.py",
+      "bytes": 397,
+      "sha256": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/experiment.py",
+      "bytes": 27098,
+      "sha256": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/labels.py",
+      "bytes": 10428,
+      "sha256": "431c2315b48fc927cbf82f4040a41cdb7ef2e688b70f106532ef68388b580398"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/lora.py",
+      "bytes": 2732,
+      "sha256": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/model.py",
+      "bytes": 4792,
+      "sha256": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/preflight.py",
+      "bytes": 4764,
+      "sha256": "a569a5b3979e95295519c17c7bdcb907ce95fa7a5bbe38139c6d6ceb4f97c82f"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/source_snapshot/src/carryrank/report.py",
+      "bytes": 10614,
+      "sha256": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/spectra.csv",
+      "bytes": 2139794,
+      "sha256": "9f36bcd9333ec00df1cccbf98e4f93b9d7861613865016fd567cc5eea69ccec9"
+    },
+    {
+      "path": "results/decisive_preflight_20261122_01/verification.json",
+      "bytes": 475,
+      "sha256": "359dc8e2e1092c375bff669ab6aa0c4759abfec81e9ec12d8f8051083253c6ad"
+    },
+    {
+      "path": "scripts/analyze_2026_reversal.py",
+      "bytes": 7317,
+      "sha256": "4f96cacab0c390a66abc060ccbc29f5f9a1ae34df8023d84f9b7c03a3e080063"
+    },
+    {
+      "path": "scripts/export_decisive_preflight.py",
+      "bytes": 3987,
+      "sha256": "672855003761f00cc4f9e9a139ae382e90a0b8dd3ba74fa0910ddc7e80fec078"
+    },
+    {
+      "path": "scripts/summarize_preflight.py",
+      "bytes": 3321,
+      "sha256": "6c006efcf1a28522c4a34964f15cd3a3fb04ef3cd6cb6a5b033cbed6c2163051"
+    },
+    {
+      "path": "scripts/verify_decisive_preflight.py",
+      "bytes": 7271,
+      "sha256": "cd40219e3948ee43bf4967340b8a7cfa8963679d6e088708c23dcd4c274c2f70"
+    },
+    {
+      "path": "scripts/verify_output_diagonal.py",
+      "bytes": 4618,
+      "sha256": "e6e7538929237e81f2b5c5dbca6b4a507c994f80da8249c0e9231cc0db38b630"
+    },
+    {
+      "path": "tables/decisive-preflight-schema.md",
+      "bytes": 1426,
+      "sha256": "ddd98d6a5bbebc5095dd2a0f4ab3fe97f3f0536178289e738e07de2b1c49f47b"
+    }
+  ]
+}

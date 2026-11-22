@@ -1,0 +1,15 @@
+{
+  "used_split": {
+    "split": "train",
+    "url": "https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/train-00000-of-00001.parquet",
+    "rows": 36718,
+    "parquet_sha256": "e83889baabc497075506f91975be5fac0d45c5290b6b20582c8cd1e853d0c9f7",
+    "parquet_bytes": 6357543,
+    "bin_path": "data/processed/wikitext-2-raw-v1/train.bin",
+    "bin_bytes": 10914845,
+    "bin_sha256": "fc1dd2874bf42e945db9bd38e856ae18010f5c088e7446c706c5ba2f39310ee3"
+  },
+  "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "validation_read_by_allocator": false,
+  "test_read": false
+}

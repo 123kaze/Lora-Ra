@@ -1,0 +1,10 @@
+{
+  "phase": "main",
+  "completed_logical_conditions": 360,
+  "actual_optimizer_trajectories": 320,
+  "current_profile": "short",
+  "current_base": 2038,
+  "current_adapter": 22,
+  "current_method": "WidthRankProportional",
+  "current_budget": 2464
+}

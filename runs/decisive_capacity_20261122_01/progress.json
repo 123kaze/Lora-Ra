@@ -1,0 +1,10 @@
+{
+  "phase": "capacity",
+  "completed_logical_conditions": 36,
+  "actual_optimizer_trajectories": 36,
+  "current_profile": "short",
+  "current_base": 2028,
+  "current_adapter": 22,
+  "current_method": "FullBudgetBalanced",
+  "current_budget": 4928
+}

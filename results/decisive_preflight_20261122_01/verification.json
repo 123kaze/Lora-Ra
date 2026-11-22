@@ -1,0 +1,14 @@
+{
+  "calibrated_bases": 6,
+  "optimizer_steps": 0,
+  "training_performed": false,
+  "calibration_forward_backward_batches": 72,
+  "source_weights_unchanged": true,
+  "prior_artifact_count": 1062,
+  "prior_artifacts_unchanged": true,
+  "allocation_scan_rows": 2160,
+  "spectra_rows": 20160,
+  "formal_training_authorized_by_locked_protocol": false,
+  "blocker": "Strict uniform/grouped uniform equal-budget infeasibility; scope decision pending",
+  "pass": true
+}

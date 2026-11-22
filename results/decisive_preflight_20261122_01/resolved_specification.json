@@ -1,0 +1,25 @@
+{
+  "user_selected_baselines": "explicit integer budget balanced",
+  "user_selected_primary_scope": "matched_final_seven_types",
+  "main_budgets": [
+    1216,
+    2464
+  ],
+  "formal_protocol": "plan/decisive-stage0-protocol-v1.md",
+  "formal_protocol_sha256": "e9ff3c68b35b3a8f4b2f278c92d43df82e0ee4db3fd47751858e500839d8610d",
+  "config_sha256": "a24fa5744868fc08388e8237b94d455ca8c3fc935e25bbd3cf34b47fb761987f",
+  "capacity_gate_passed": true,
+  "independent_main_base_seeds": [
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038
+  ],
+  "execution": "two independent GPU worker processes, one width profile each; timing is descriptive under concurrency"
+}

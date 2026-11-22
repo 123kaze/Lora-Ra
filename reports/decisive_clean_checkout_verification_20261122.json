@@ -1,0 +1,41 @@
+{
+  "requires_torch": false,
+  "torch_installed": false,
+  "runs_directory_present": false,
+  "copied_manifest_files_including_manifests": 2224,
+  "source_manifest_sha256": {
+    "decisive_preflight_20261122_01": "f0c96e74ad597b2516ae03bf82d2ee0bdbedf2149417ef0c8ed26506bb0125b3",
+    "decisive_capacity_20261122_01": "4769436c58efbc9911dcc72aa6cb289fa7d536aa1659e941ecc0d9b0d4476719",
+    "decisive_main_20261122_01": "ed826d2d83f95ea2db30c7977bb1bb7dd5d32700e7b50b491557eaa904b10f35",
+    "decisive_mechanism_20261122_01": "a68337910ec94f7e1e0b7c1c7b362b33b25f98aa7f9d30db0ddcbe0f764ad2ae"
+  },
+  "clean_verifications": [
+    {
+      "package": "decisive_preflight_20261122_01",
+      "exit_code": 0,
+      "stdout": "{\n  \"files_verified\": 124,\n  \"prefix_utilities_recomputed\": 20160,\n  \"max_numpy_prefix_error\": 1.7763568394002505e-14,\n  \"exact_allocations_and_distances_recomputed\": 2160,\n  \"old_case_paired_differences_recomputed\": 6,\n  \"requires_torch\": false,\n  \"new_adapter_training_steps\": 0,\n  \"pass\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "package": "decisive_capacity_20261122_01",
+      "exit_code": 0,
+      "stdout": "{\n  \"files_verified\": 159,\n  \"validation_rows_recomputed\": 72,\n  \"phase\": \"capacity\",\n  \"independent_checkpoint_audit_pass\": true,\n  \"requires_torch\": false,\n  \"pass\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "package": "decisive_main_20261122_01",
+      "exit_code": 0,
+      "stdout": "{\n  \"files_verified\": 1680,\n  \"logical_conditions\": 720,\n  \"actual_optimizer_trajectories\": 640,\n  \"explicit_alias_conditions\": 80,\n  \"logical_validation_rows_recomputed\": 1440,\n  \"physical_validation_logs_matched\": 1280,\n  \"bootstrap_draws_recomputed\": 200000,\n  \"bootstrap_indices_sha256\": \"a956a9eec1b3887fb4b6e72d3c48c96aa99484345e1e23f038cf76d751960d5c\",\n  \"prefix_utilities_recomputed\": 26880,\n  \"max_numpy_prefix_error\": 2.1316282072803006e-14,\n  \"adaptive_allocations_recomputed\": 240,\n  \"baseline_allocations_recomputed\": 120,\n  \"random_partitions_reconstructed\": true,\n  \"route\": \"B\",\n  \"allocation_coverage_rows_recomputed\": 360,\n  \"allocation_distance_rows_recomputed\": 80,\n  \"minimum_true_vs_balanced_module_parameter_tv\": 0.3116883116883117,\n  \"requires_torch\": false,\n  \"pass\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "package": "decisive_mechanism_20261122_01",
+      "exit_code": 0,
+      "stdout": "{\n  \"files_verified\": 284,\n  \"validation_rows_recomputed\": 168,\n  \"phase\": \"mechanism\",\n  \"independent_checkpoint_audit_pass\": true,\n  \"requires_torch\": false,\n  \"pass\": true\n}\n{'single_group_proxies_recomputed': 84, 'max_numpy_prediction_error': np.float64(8.881784197001252e-15), 'stratified_spearman_recomputed': 18, 'requires_torch': False, 'pass': True}\n",
+      "stderr": ""
+    }
+  ],
+  "modified_mean_with_refreshed_checksum_rejected": true,
+  "tamper_rejection_stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\hsx1231ol\\AppData\\Local\\Temp\\lorara_decisive_evidence_y4ojpgpl\\scripts\\verify_decisive_main.py\", line 234, in <module>\n    verify(parser.parse_args().bundle.resolve())\n    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hsx1231ol\\AppData\\Local\\Temp\\lorara_decisive_evidence_y4ojpgpl\\scripts\\verify_decisive_main.py\", line 64, in verify\n    close(row['val_loss_mean'], statistics.mean(values))\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hsx1231ol\\AppData\\Local\\Temp\\lorara_decisive_evidence_y4ojpgpl\\scripts\\verify_decisive_main.py\", line 28, in close\n    assert math.isclose(float(a), float(b), abs_tol=1e-12, rel_tol=1e-12), (a, b)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('2.5139186288714406', 2.390918628871441)\n",
+  "pass": true
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "mechanism",
+  "completed_logical_conditions": 84,
+  "actual_optimizer_trajectories": 84,
+  "current_profile": "short",
+  "current_base": 2028,
+  "current_adapter": 11,
+  "current_method": "probe_blocks_7_down_R",
+  "current_budget": 416
+}

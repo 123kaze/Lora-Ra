@@ -1,0 +1,13 @@
+{
+  "phase": "capacity",
+  "smoke": false,
+  "logical_conditions": 36,
+  "actual_optimizer_trajectories": 36,
+  "validation_rows": 72,
+  "old_artifacts_verified": 1062,
+  "old_artifacts_unchanged": true,
+  "max_merge_error": 7.62939453125e-06,
+  "max_cache_full_error": 0,
+  "complete": true,
+  "test_split_used": false
+}

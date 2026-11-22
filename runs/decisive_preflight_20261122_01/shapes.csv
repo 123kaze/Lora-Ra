@@ -1,0 +1,5 @@
+profile,scope,modules,groups,expansion_layers,strict_uniform_rank1_cost,strict_grouped_uniform_rank1_cost,first_common_strict_budget_ignoring_cap,width_proportional_rank_equals_uniform_target
+long,all_expansions,7,14,[7],2464,4032,44352,True
+long,matched_final,7,14,[7],2464,4032,44352,True
+short,all_expansions,14,28,"[5, 7]",4928,8064,88704,True
+short,matched_final,7,14,[7],2464,4032,44352,True

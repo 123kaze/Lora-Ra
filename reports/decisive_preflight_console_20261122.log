@@ -1,0 +1,7 @@
+{"stage": "preflight_base_complete", "profile": "long", "base_seed": 2026, "modules_calibrated": 7, "optimizer_steps": 0}
+{"stage": "preflight_base_complete", "profile": "long", "base_seed": 2027, "modules_calibrated": 7, "optimizer_steps": 0}
+{"stage": "preflight_base_complete", "profile": "long", "base_seed": 2028, "modules_calibrated": 7, "optimizer_steps": 0}
+{"stage": "preflight_base_complete", "profile": "short", "base_seed": 2026, "modules_calibrated": 14, "optimizer_steps": 0}
+{"stage": "preflight_base_complete", "profile": "short", "base_seed": 2027, "modules_calibrated": 14, "optimizer_steps": 0}
+{"stage": "preflight_base_complete", "profile": "short", "base_seed": 2028, "modules_calibrated": 14, "optimizer_steps": 0}
+{"calibrated_bases": 6, "optimizer_steps": 0, "training_performed": false, "calibration_forward_backward_batches": 72, "source_weights_unchanged": true, "prior_artifact_count": 1062, "prior_artifacts_unchanged": true, "allocation_scan_rows": 2160, "spectra_rows": 20160, "formal_training_authorized_by_locked_protocol": false, "blocker": "Strict uniform/grouped uniform equal-budget infeasibility; scope decision pending", "pass": true}

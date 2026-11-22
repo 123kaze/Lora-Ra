@@ -1,0 +1,21 @@
+{
+  "files_verified": 1680,
+  "logical_conditions": 720,
+  "actual_optimizer_trajectories": 640,
+  "explicit_alias_conditions": 80,
+  "logical_validation_rows_recomputed": 1440,
+  "physical_validation_logs_matched": 1280,
+  "bootstrap_draws_recomputed": 200000,
+  "bootstrap_indices_sha256": "a956a9eec1b3887fb4b6e72d3c48c96aa99484345e1e23f038cf76d751960d5c",
+  "prefix_utilities_recomputed": 26880,
+  "max_numpy_prefix_error": 2.1316282072803006e-14,
+  "adaptive_allocations_recomputed": 240,
+  "baseline_allocations_recomputed": 120,
+  "random_partitions_reconstructed": true,
+  "route": "B",
+  "allocation_coverage_rows_recomputed": 360,
+  "allocation_distance_rows_recomputed": 80,
+  "minimum_true_vs_balanced_module_parameter_tv": 0.3116883116883117,
+  "requires_torch": false,
+  "pass": true
+}

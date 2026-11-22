@@ -1,0 +1,19 @@
+{
+  "name": "decisive_stage0_offline_preflight",
+  "training_performed": false,
+  "parent_run": "runs/crossdomain_labels_20261122_01",
+  "profiles": ["long", "short"],
+  "discovery_base_seeds": [2026, 2027, 2028],
+  "shuffle_seeds": [11, 22, 33, 44, 55],
+  "scopes": ["all_expansions", "matched_final"],
+  "requested_budgets": [384, 768, 1152, 1536, 2304, 3072],
+  "max_alternative_budget": 3072,
+  "alternative_budget_quantum": 32,
+  "max_rank": 16,
+  "calibration": {"seed": 31415, "batches": 12, "batch_size": 16},
+  "input_damping": 0.01,
+  "output_damping": 0.01,
+  "nondegeneracy_parameter_tv_threshold": 0.30,
+  "new_confirmatory_base_seeds_proposed": [2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038],
+  "formal_protocol_status": "draft_pending_baseline_budget_and_scope_resolution"
+}

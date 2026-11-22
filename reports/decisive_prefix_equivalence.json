@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "profile": "long",
+      "base_seed": 2026,
+      "optimizer_steps_for_test": 3,
+      "not_research_data": true,
+      "logits": 0.0,
+      "gradients": 0.0,
+      "parameters": 0.0,
+      "pass": true
+    },
+    {
+      "profile": "short",
+      "base_seed": 2026,
+      "optimizer_steps_for_test": 3,
+      "not_research_data": true,
+      "logits": 0.0,
+      "gradients": 0.0,
+      "parameters": 0.0,
+      "pass": true
+    }
+  ],
+  "torch": "2.14.1+cu126",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "prefix_cache_source_sha256": "faf61cbc66d33ea6c44815f9c919aaa40200d5249a99e5ad52f927e90f56b881",
+  "axis_lora_source_sha256": "60c8e812eaaa0c8b1df912dafeffd409bd5a67f96fe1de97c6c49a5b5474072e",
+  "pass": true
+}

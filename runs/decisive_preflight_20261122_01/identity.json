@@ -1,0 +1,33 @@
+{
+  "source": {
+    "src/carryrank/__init__.py": "78835d7fa00a264269b03f67ce683ce6f4ec52bbf11ac89763d2e8b973ba3859",
+    "src/carryrank/activation_stats.py": "f590811adc26440250234a72d9133e2d9d47ce215a4acd24db54a6203eab3149",
+    "src/carryrank/allocation.py": "c2be069c5ced28a93ef8b004394b13c5d1da600d7f7095c3d48336496f910d31",
+    "src/carryrank/capacity.py": "53685c08247fd24ab7e778316792337a5d9e82878202d00063a4932a447ed268",
+    "src/carryrank/curvature.py": "a808ce777a12ac96e12b56fa91b10f7df4f5d75a98fd65abbb3ce77846eea76d",
+    "src/carryrank/data.py": "de8366595731172a8713c86c4f9be1e6ae2fc88e70801a5bceea20b6c7966ee2",
+    "src/carryrank/diagnostic.py": "8591c58317cbba92a28332ab8f097ae2a55586e1d97ea1ce2f54333ef81b6e5f",
+    "src/carryrank/diagnostic_report.py": "78818d5a170d0d58882e3a29bf1c5958e157dcc8d0f3fb1c5eadcdb0a543e9c5",
+    "src/carryrank/diagnostics.py": "70697ae3da9a02ab95c8bf05e226cd2494ad40180577c0169e98f7bfba188afe",
+    "src/carryrank/experiment.py": "04a8b8ac2cdaa063dc0adc3286bd4f75f4864c5869188157ea55f3b7601784d2",
+    "src/carryrank/labels.py": "431c2315b48fc927cbf82f4040a41cdb7ef2e688b70f106532ef68388b580398",
+    "src/carryrank/lora.py": "26fb44f32e6a518216a7fb93bed2b3c9f279cad8dc4bec13aa7e1cc047efa933",
+    "src/carryrank/model.py": "d7a512e8ed77346fa61a0c67dc3612703cc01e9cad5ae3c312a685f1408feaf2",
+    "src/carryrank/preflight.py": "a569a5b3979e95295519c17c7bdcb907ce95fa7a5bbe38139c6d6ceb4f97c82f",
+    "src/carryrank/report.py": "e82c4941e4fb20eb12ec163b55ec8b91c4f6cac4c8456936d8e9d3f4def2fe0c",
+    "scripts/decisive_preflight.py": "a51db411c312a485a2538118b02ae3d8dd98c0773f95dcfc08879d3f226f84b4"
+  },
+  "training_performed": false,
+  "torch": "2.14.1+cu126",
+  "numpy": "1.26.4",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "base_files": {
+    "runs/crossdomain_labels_20261122_01/long_base_2026/base.pt": "729d7ff52b9db8592583a117795c0f3a469f3c5ce80e65a844e8f4e4d0a0510a",
+    "runs/crossdomain_labels_20261122_01/long_base_2027/base.pt": "eab82c211159602a33d2cbd7ef9a4e218a4e9b37936557b974fb7d847506f97e",
+    "runs/crossdomain_labels_20261122_01/long_base_2028/base.pt": "3e977396514325a56cf4f89a18195feb2245c8c9aff6a75c86c9f32c8c623145",
+    "runs/crossdomain_labels_20261122_01/short_base_2026/base.pt": "b15b45295b33b411c51ba0d71bb9aebae2154f6d380ff4fc1252128dd2c05637",
+    "runs/crossdomain_labels_20261122_01/short_base_2027/base.pt": "6a22f9a6f48b6116972213cc2fc7f571e643da113fae530682b5816e4efd6a94",
+    "runs/crossdomain_labels_20261122_01/short_base_2028/base.pt": "ef89a9934810c98c2a96d53d38812c5be2c3e0dda3a76926b8948bfac7eeddf0"
+  },
+  "protocol_draft_sha256": "3b8fbca5e49dbfb70b66be66fcdc7eb9f30ae295d9fbfe5b4126d381c0975350"
+}

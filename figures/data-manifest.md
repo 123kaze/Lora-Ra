@@ -19,3 +19,11 @@ PNG为450dpi，SVG为矢量；图中英文标注避免WSL缺失中文字体。�
 跨域容量真实数据：`results/crossdomain_capacity_20261122_01/main.csv`与`summary.csv`，24条轨迹、72条定步记录。脚本`figures/crossdomain_capacity/plot_capacity.py`生成`figures/crossdomain_capacity_20261122_01/capacity.png,svg`及`paired_gate.png,svg`。均值和样本SD仅跨3个adapter seed，基础seed2026，每宽度1个基础；图不证明C/R方法优势。
 
 跨域标签真实数据：`results/crossdomain_labels_20261122_01/main.csv`、`summary.csv`、`base_comparisons.csv`。84条轨迹、168行，3基础×2adapter、5随机分组。脚本`figures/crossdomain_labels/plot_labels.py`生成`figures/crossdomain_labels_20261122_01/comparison.png,svg`和`paired_differences.png,svg`。均值图SD跨基础均值，配对图展示3个基础原始差；非独立确认性测试。
+
+第0步离线真实校准：`results/decisive_preflight_20261122_01/nondegeneracy_summary.csv`和`previous_reversal_diagnostic/full_spectra.csv`。脚本`figures/decisive_preflight/plot_preflight.py`输出budget_screen与old_reversal的PNG450dpi/SVG；无微调性能新证据，旧反向点仅事后诊断。
+
+第0步扩大范围容量实测：`results/decisive_capacity_20261122_01/summary.csv`，3个基础均值的样本SD；`figures/decisive_aux/plot_aux.py`生成同run-id的capacity PNG450dpi/SVG。36条轨迹，独立于10新基础主试验。
+
+第0步主实验真实数据：`results/decisive_main_20261122_01/confidence_intervals.csv`和`summary.csv`。`figures/decisive_main/plot_decisive.py`生成joint_gate与comparison PNG450dpi/SVG。联合门图为预定8项配对边际95%区间；方法图SD跨10个基础均值。720逻辑/640实际轨迹，宽度别名不重复画；两图均已目视检查。
+
+第0步机制真实数据：`results/decisive_mechanism_20261122_01/single_group_results.csv`和`spearman_by_base.csv`。`figures/decisive_mechanism/plot_mechanism.py`生成prediction与sensitivity PNG450dpi/SVG。84条独立优化单元但仅3基础/宽度，192/416参数成本分层，非主检验、非14个独立基础；两图均已目视检查。

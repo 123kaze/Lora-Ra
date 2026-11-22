@@ -1,0 +1,10 @@
+{
+  "trace_by_step": {
+    "3": "a9760dfdcec585024bbf804aba7f7ee53f956abb37d60292da33c9328ff45deb"
+  },
+  "adapter_seed": 11,
+  "steps": 3,
+  "bytes_allocated": 3194880,
+  "prefix_dtype": "torch.float32",
+  "base_sha256": "37a3cb2f7cbd638e4c982d49f8ded1f8956d13a472444c66b482a58fb0f7e599"
+}

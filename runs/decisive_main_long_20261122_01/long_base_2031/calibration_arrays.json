@@ -1,0 +1,37 @@
+{
+  "blocks.7.attn.q_proj": {
+    "G": "m0_G",
+    "Hin": "m0_Hin",
+    "Hout": "m0_Hout"
+  },
+  "blocks.7.attn.k_proj": {
+    "G": "m1_G",
+    "Hin": "m1_Hin",
+    "Hout": "m1_Hout"
+  },
+  "blocks.7.attn.v_proj": {
+    "G": "m2_G",
+    "Hin": "m2_Hin",
+    "Hout": "m2_Hout"
+  },
+  "blocks.7.attn.o_proj": {
+    "G": "m3_G",
+    "Hin": "m3_Hin",
+    "Hout": "m3_Hout"
+  },
+  "blocks.7.up": {
+    "G": "m4_G",
+    "Hin": "m4_Hin",
+    "Hout": "m4_Hout"
+  },
+  "blocks.7.gate": {
+    "G": "m5_G",
+    "Hin": "m5_Hin",
+    "Hout": "m5_Hout"
+  },
+  "blocks.7.down": {
+    "G": "m6_G",
+    "Hin": "m6_Hin",
+    "Hout": "m6_Hout"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "formal_budgets_locked": [],
+  "formal_protocol_locked": false,
+  "requested_strict_specification_feasible": false,
+  "route_A_or_B_decided": false,
+  "provisional_integer_balanced_candidates": {
+    "all_expansions": [
+      1216,
+      2464
+    ],
+    "matched_final": [
+      1216,
+      2464
+    ]
+  },
+  "requires_baseline_definition_and_scope_resolution": true,
+  "V_budget_reference_at_provisional_candidates_is_not_a_trainable_VBalanced_control": true,
+  "selection_uses_validation_loss": false,
+  "training_performed": false
+}

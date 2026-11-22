@@ -1,0 +1,215 @@
+{
+  "1216": {
+    "FullBudgetBalanced": {
+      "groups": [
+        {
+          "id": "blocks.7.attn.q_proj",
+          "module": "blocks.7.attn.q_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.k_proj",
+          "module": "blocks.7.attn.k_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.v_proj",
+          "module": "blocks.7.attn.v_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.o_proj",
+          "module": "blocks.7.attn.o_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.up",
+          "module": "blocks.7.up",
+          "m": 352,
+          "n": 128,
+          "cost": 480,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.gate",
+          "module": "blocks.7.gate",
+          "m": 352,
+          "n": 128,
+          "cost": 480,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.down",
+          "module": "blocks.7.down",
+          "m": 128,
+          "n": 352,
+          "cost": 480,
+          "residual_width": 128
+        }
+      ],
+      "ranks": {
+        "blocks.7.attn.q_proj": 0,
+        "blocks.7.attn.k_proj": 1,
+        "blocks.7.attn.v_proj": 0,
+        "blocks.7.attn.o_proj": 0,
+        "blocks.7.up": 0,
+        "blocks.7.gate": 1,
+        "blocks.7.down": 1
+      }
+    }
+  },
+  "2464": {
+    "FullBudgetBalanced": {
+      "groups": [
+        {
+          "id": "blocks.7.attn.q_proj",
+          "module": "blocks.7.attn.q_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.k_proj",
+          "module": "blocks.7.attn.k_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.v_proj",
+          "module": "blocks.7.attn.v_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.o_proj",
+          "module": "blocks.7.attn.o_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.up",
+          "module": "blocks.7.up",
+          "m": 352,
+          "n": 128,
+          "cost": 480,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.gate",
+          "module": "blocks.7.gate",
+          "m": 352,
+          "n": 128,
+          "cost": 480,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.down",
+          "module": "blocks.7.down",
+          "m": 128,
+          "n": 352,
+          "cost": 480,
+          "residual_width": 128
+        }
+      ],
+      "ranks": {
+        "blocks.7.attn.q_proj": 1,
+        "blocks.7.attn.k_proj": 1,
+        "blocks.7.attn.v_proj": 1,
+        "blocks.7.attn.o_proj": 1,
+        "blocks.7.up": 1,
+        "blocks.7.gate": 1,
+        "blocks.7.down": 1
+      }
+    }
+  },
+  "4928": {
+    "FullBudgetBalanced": {
+      "groups": [
+        {
+          "id": "blocks.7.attn.q_proj",
+          "module": "blocks.7.attn.q_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.k_proj",
+          "module": "blocks.7.attn.k_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.v_proj",
+          "module": "blocks.7.attn.v_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.attn.o_proj",
+          "module": "blocks.7.attn.o_proj",
+          "m": 128,
+          "n": 128,
+          "cost": 256,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.up",
+          "module": "blocks.7.up",
+          "m": 352,
+          "n": 128,
+          "cost": 480,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.gate",
+          "module": "blocks.7.gate",
+          "m": 352,
+          "n": 128,
+          "cost": 480,
+          "residual_width": 128
+        },
+        {
+          "id": "blocks.7.down",
+          "module": "blocks.7.down",
+          "m": 128,
+          "n": 352,
+          "cost": 480,
+          "residual_width": 128
+        }
+      ],
+      "ranks": {
+        "blocks.7.attn.q_proj": 2,
+        "blocks.7.attn.k_proj": 2,
+        "blocks.7.attn.v_proj": 2,
+        "blocks.7.attn.o_proj": 2,
+        "blocks.7.up": 2,
+        "blocks.7.gate": 2,
+        "blocks.7.down": 2
+      }
+    }
+  }
+}

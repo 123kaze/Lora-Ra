@@ -1,0 +1,12 @@
+{
+  "type": "planning_reference_only",
+  "assumption": "paired normal difference; two-sided t; not exact power for bootstrap or joint gate",
+  "mean_difference": 0.01,
+  "paired_sd_assumed": 0.013,
+  "alpha": 0.05,
+  "n10_power": 0.5830349554733923,
+  "n_for_80_percent": 16,
+  "statsmodels_version": "0.14.5",
+  "numpy_version": "2.1.3",
+  "source": "https://www.statsmodels.org/stable/generated/statsmodels.stats.power.TTestPower.power.html"
+}

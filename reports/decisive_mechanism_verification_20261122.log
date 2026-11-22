@@ -1,0 +1,9 @@
+{
+  "files_verified": 284,
+  "validation_rows_recomputed": 168,
+  "phase": "mechanism",
+  "independent_checkpoint_audit_pass": true,
+  "requires_torch": false,
+  "pass": true
+}
+{'single_group_proxies_recomputed': 84, 'max_numpy_prediction_error': np.float64(8.881784197001252e-15), 'stratified_spearman_recomputed': 18, 'requires_torch': False, 'pass': True}

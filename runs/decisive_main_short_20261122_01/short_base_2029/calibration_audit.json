@@ -1,0 +1,23 @@
+{
+  "batch_losses": [
+    3.6264700889587402,
+    2.9457850456237793,
+    3.075528144836426,
+    2.9939091205596924,
+    3.296598434448242,
+    3.859837532043457,
+    3.225790023803711,
+    3.092768669128418,
+    3.000972032546997,
+    3.2350478172302246,
+    3.146543502807617,
+    3.4268462657928467
+  ],
+  "data_trace_sha256": "241c3035357a34392f6032f87a9a6303353b939a094d7dabd6300decaca6b7bf",
+  "predicted_tokens": 24576,
+  "base_unchanged": true,
+  "optimizer_steps": 0,
+  "validation_accessed": false,
+  "test_accessed": false,
+  "precision": "float32; moment/gradient accumulation float64"
+}

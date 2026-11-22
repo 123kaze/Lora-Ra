@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/allocations.json",
+      "sha256": "435a143b46f90b0c7695399c6b669afe0dd020a745f7a1c04f3b074c715d0b5a"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/calibration_arrays.json",
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/calibration_arrays.npz",
+      "sha256": "82d5cb452f32303300adcb453423c1c30e0944233253a48a26cf6707a9dd6bed"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2026/groups.json",
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/allocations.json",
+      "sha256": "a22b648f91500f68a4bb05ec050a20488b449cc81c9bdff35059c9be6b4042b9"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/calibration_arrays.json",
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/calibration_arrays.npz",
+      "sha256": "6735cb04c3dec178d6aa96c4219f28db6363cd56db0656d5e41e4a6558ec9bf4"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2027/groups.json",
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/allocations.json",
+      "sha256": "81ccd8007dcdf92799cc860f10926bcc7943eb2ccd9651222afbc8ad355a0cca"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/calibration_arrays.json",
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/calibration_arrays.npz",
+      "sha256": "e0ae5fae6c80d96b3a293e0d0df12d02ed86d0554250500df018c33223fc80ce"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/long_base_2028/groups.json",
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/main.csv",
+      "sha256": "318120ca208b115ea1013915751d31e443fd2f495236f2f3479b63b4174f4efa"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/allocations.json",
+      "sha256": "e92908f01fc077a3631492b7940653a0b8d206abd8078124bf302ec7f48e79eb"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/calibration_arrays.json",
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/calibration_arrays.npz",
+      "sha256": "cf0c33eda777845882a58073aaf02885779cb03b5dccdde8e86f20424b9f8b9e"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2026/groups.json",
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/allocations.json",
+      "sha256": "9fe0a670c77774f9113f3d546519ce7fe8aedbd515f1708d0ded05c28b561e18"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/calibration_arrays.json",
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/calibration_arrays.npz",
+      "sha256": "d5cccd1a9c0da05845bf19b59750e609c1001940379081746186bdc8b95ba137"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2027/groups.json",
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/allocations.json",
+      "sha256": "848cd7472bdf3892041c9d8c03405f083a6d91a272f269a09c528956a74fbcec"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/calibration_arrays.json",
+      "sha256": "aa3bbe5096cfdb1212ce112a950f9031cb4598ad8d1333fb08616b1cf98ec546"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/calibration_arrays.npz",
+      "sha256": "d8b4cd393bd63964dec5d290d3fb944a8000595ec02d22668f324309c2384334"
+    },
+    {
+      "path": "results/crossdomain_labels_20261122_01/short_base_2028/groups.json",
+      "sha256": "16f4b226469c7c455167b723144251758597791ae00ad323cd6d98deaa007cf0"
+    }
+  ],
+  "new_training_performed": false,
+  "analysis_type": "post_hoc_descriptive; no causal or predictive rule established",
+  "primary_future_training_budget_selection_uses_this_analysis": false
+}

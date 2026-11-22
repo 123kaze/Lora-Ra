@@ -1,0 +1,78 @@
+{
+  "name": "decisive_long_2030",
+  "model": {
+    "widths": [
+      128,
+      128,
+      64,
+      64,
+      64,
+      64,
+      64,
+      128
+    ],
+    "head_dim": 32,
+    "seq_len": 128,
+    "vocab_size": 256
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/karpathy/char-rnn/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare/input.txt",
+    "fractions": [
+      0.0,
+      0.6,
+      0.7,
+      0.85,
+      0.925,
+      1.0
+    ]
+  },
+  "pretrain": {
+    "seed": 2030,
+    "steps": 1200,
+    "batch_size": 32,
+    "lr": 0.001,
+    "eval_every": 200
+  },
+  "calibration": {
+    "seed": 31415,
+    "batches": 12,
+    "batch_size": 16,
+    "shuffle_seed": 2718
+  },
+  "adapter": {
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "steps": 180,
+    "batch_size": 16,
+    "lr": 0.003,
+    "budget": 3840,
+    "max_rank": 16,
+    "uniform_rank": 3,
+    "scaling": 1.0
+  },
+  "sweep": {
+    "seed": 11,
+    "steps": 180,
+    "layer": 4,
+    "projection": "v_proj",
+    "ranks": [
+      0,
+      2,
+      4,
+      8
+    ]
+  },
+  "evaluation": {
+    "batch_size": 16,
+    "max_blocks": 512
+  },
+  "runtime": {
+    "device": "cuda",
+    "precision": "bfloat16",
+    "threads": 4,
+    "log_every": 120
+  }
+}

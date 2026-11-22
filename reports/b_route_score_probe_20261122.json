@@ -1,0 +1,33 @@
+{
+  "kind": "synthetic_algebra_only",
+  "language_model_trained": false,
+  "external_implementation_executed": false,
+  "AdaLoRA_elementwise_product_max_error": 0.0,
+  "positive_scalar_gradient_SVD_subspace_error": 0.0,
+  "GEAR_candidate_score_cases": [
+    {
+      "c": 0.125,
+      "GEAR_eq5_Q_normal_score": 10.666666666666666,
+      "GEAR_eq5_K_normal_score": 0.010416666666666666,
+      "top_equal_cost_candidate": "Q",
+      "relative_damped_two_sided_max_abs_error": 0.0
+    },
+    {
+      "c": 1.0,
+      "GEAR_eq5_Q_normal_score": 0.16666666666666666,
+      "GEAR_eq5_K_normal_score": 0.6666666666666666,
+      "top_equal_cost_candidate": "K",
+      "relative_damped_two_sided_max_abs_error": 0.0
+    },
+    {
+      "c": 8.0,
+      "GEAR_eq5_Q_normal_score": 0.0026041666666666665,
+      "GEAR_eq5_K_normal_score": 42.666666666666664,
+      "top_equal_cost_candidate": "K",
+      "relative_damped_two_sided_max_abs_error": 0.0
+    }
+  ],
+  "GEAR_final_accepted_rank_or_loss_tested": false,
+  "general_coordinate_invariance_proved": false,
+  "pass": true
+}

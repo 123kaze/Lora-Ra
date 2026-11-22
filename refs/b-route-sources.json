@@ -1,0 +1,78 @@
+{
+  "retrieved_date": "2026-11-22",
+  "review_type": "bounded_primary_source_screening",
+  "systematic_review_complete": false,
+  "external_algorithms_reproduced": false,
+  "sources": [
+    {
+      "id": "AD",
+      "title": "AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning",
+      "url": "https://arxiv.org/abs/2303.10512",
+      "read_depth": "abstract_and_author_code",
+      "code": {
+        "repository": "QingruZhang/AdaLoRA",
+        "commit": "d10f5ebee16c478fa2f41a44a237b38e8c9b0338",
+        "path": "loralib/loralib/adalora.py",
+        "function": "RankAllocator.update_ipt"
+      }
+    },
+    {
+      "id": "EV",
+      "title": "Parameter Efficient Fine-tuning via Explained Variance Adaptation",
+      "url": "https://arxiv.org/abs/2410.07170v5",
+      "read_depth": "abstract_author_readme_official_peft_code",
+      "code": {
+        "repository": "huggingface/peft",
+        "commit": "af1ccdf262b9fe1ad8f0861ae10113a851ee5cbd",
+        "path": "src/peft/tuners/lora/eva.py",
+        "function": "_get_rank_distribution"
+      },
+      "author_repository_commit": "5cf4a6c31669aafdc33568a7618161bc329a0800"
+    },
+    {
+      "id": "GA",
+      "title": "LoRA-GA: Low-Rank Adaptation with Gradient Approximation",
+      "url": "https://arxiv.org/abs/2407.05000v2",
+      "read_depth": "abstract_and_author_code",
+      "code": {
+        "repository": "Outsider565/LoRA-GA",
+        "commit": "c4cd5372c75b290924214b348008891f744512ef",
+        "path": "peft/src/peft/tuners/lora/layer.py",
+        "function": "lora_ga_init"
+      }
+    },
+    {
+      "id": "GE",
+      "title": "From What Is Used to What Is Missing: Rethinking Dynamic Rank in LoRA",
+      "url": "https://arxiv.org/html/2611.07349v1",
+      "read_depth": "full_text_method_section",
+      "specific_evidence": "Section 3.3 equations 5 and 6 plus candidate validation; no author code located in this bounded search"
+    },
+    {
+      "id": "KF",
+      "title": "Optimizing Neural Networks with Kronecker-factored Approximate Curvature",
+      "url": "https://proceedings.mlr.press/v37/martens15.pdf",
+      "read_depth": "full_text_section_4",
+      "specific_evidence": "Theorem 1 and Corollaries 2-3, absent/negligible damping and equivalent initialization"
+    },
+    {
+      "id": "LR",
+      "title": "Beyond SGD, Without SVD: Proximal Subspace Iteration LoRA with Diagonal Fractional K-FAC",
+      "url": "https://arxiv.org/abs/2602.16456v1",
+      "read_depth": "abstract_only"
+    },
+    {
+      "id": "UL",
+      "title": "Between Gradient and Natural Gradient: A Continuum of LoRA Initializations",
+      "url": "https://arxiv.org/abs/2607.26247v1",
+      "read_depth": "abstract_only"
+    },
+    {
+      "id": "NR",
+      "title": "When Gradient Importance Lies: Adaptive LoRA Rank Allocation Fails Under GRPO",
+      "url": "https://arxiv.org/abs/2605.07366v2",
+      "read_depth": "abstract_only",
+      "specific_evidence": "Different task, single seed; contextual negative result only"
+    }
+  ]
+}
